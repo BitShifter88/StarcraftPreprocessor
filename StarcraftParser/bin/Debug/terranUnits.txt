@@ -1,0 +1,32 @@
+Terran SCV
+Terran Supply Depot
+Terran Barracks
+Terran Refinery
+Terran Factory
+Terran Machine Shop
+Terran Marine
+Terran Siege Tank Tank Mode
+Terran Vulture
+Terran Vulture Spider Mine
+Terran Command Center
+Terran Engineering Bay
+Terran Missile Turret
+Terran Academy
+Terran Bunker
+Terran Medic
+Terran Comsat Station
+Spell Scanner Sweep
+Terran Starport
+Terran Control Tower
+Terran Science Facility
+Terran Science Vessel
+Terran Firebat
+Terran Dropship
+Terran Armory
+Terran Goliath
+Terran Wraith
+Terran Covert Ops
+Terran Nuclear Silo
+Terran Ghost
+Terran Nuclear Missile
+Terran Valkyrie

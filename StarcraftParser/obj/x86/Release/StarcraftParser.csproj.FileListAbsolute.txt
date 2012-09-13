@@ -1,0 +1,8 @@
+C:\Users\Steffan\Dropbox\Programming\C#\Projects\StarcraftParser\StarcraftParser\bin\Release\StarcraftParser.exe
+C:\Users\Steffan\Dropbox\Programming\C#\Projects\StarcraftParser\StarcraftParser\bin\Release\StarcraftParser.pdb
+C:\Users\Steffan\Dropbox\Programming\C#\Projects\StarcraftParser\StarcraftParser\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\Steffan\Dropbox\Programming\C#\Projects\StarcraftParser\StarcraftParser\obj\x86\Release\StarcraftParser.Properties.Resources.resources
+C:\Users\Steffan\Dropbox\Programming\C#\Projects\StarcraftParser\StarcraftParser\obj\x86\Release\GenerateResource.read.1.tlog
+C:\Users\Steffan\Dropbox\Programming\C#\Projects\StarcraftParser\StarcraftParser\obj\x86\Release\GenerateResource.write.1.tlog
+C:\Users\Steffan\Dropbox\Programming\C#\Projects\StarcraftParser\StarcraftParser\obj\x86\Release\StarcraftParser.exe
+C:\Users\Steffan\Dropbox\Programming\C#\Projects\StarcraftParser\StarcraftParser\obj\x86\Release\StarcraftParser.pdb
