@@ -66,7 +66,7 @@ namespace StarcraftParser
                         race = Race.Zerg;
                         break;
                     default:
-                        throw new Exception("Yo, den race findes ikke");
+                        throw new Exception(raceStr + "is not a race in Starcraft");
                 }
 
                 time = int.Parse(timeStr);
@@ -96,11 +96,6 @@ namespace StarcraftParser
                         terranUnits.Add(unit, 0);
                 }
             }
-
-            //            1347392075,0,1,"Protoss",200,"Protoss Probe",3808,3856,50,0,5
-            //1347392075,0,0,"Terran",200,"Terran SCV",288,3856,50,0,5
-            //1347392075,15,1,"Protoss",250,"Protoss Probe",3808,3856,106,0,6
-            //1347392075,18,0,"Terran",250,"Terran SCV",288,3856,106,0,6
 
             List<ScGame> gamesList = new List<ScGame>();
 

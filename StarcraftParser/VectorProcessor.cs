@@ -5,8 +5,6 @@ using System.Text;
 
 namespace StarcraftParser
 {
-
-
     class VectorProcessor
     {
         private List<string> _terrainUnits;
@@ -23,6 +21,7 @@ namespace StarcraftParser
 
                 Dictionary<string, int> unitCounter = new Dictionary<string,int>();
                 IniUnitCounter(unitCounter, game.Race);
+
                 foreach (ScEvent scEvent in events)
                 {
                     if (unitCounter.ContainsKey(scEvent.Unit))
@@ -42,6 +41,11 @@ namespace StarcraftParser
             return gameStateVectors;
         }
 
+        /// <summary>
+        /// Fills the unitCounter with unit entries
+        /// </summary>
+        /// <param name="unitCounter"></param>
+        /// <param name="race"></param>
         private void IniUnitCounter(Dictionary<string, int> unitCounter, Race race)
         {
             if (race == Race.Terran)
@@ -67,6 +71,10 @@ namespace StarcraftParser
             }
         }
 
+        /// <summary>
+        /// Builds a list of all known units, based on the units that appears in all game logs
+        /// </summary>
+        /// <param name="games"></param>
         public void BuildUnitList(List<ScGame> games)
         {
             _terrainUnits = new List<string>();
