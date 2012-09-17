@@ -5,22 +5,13 @@ using System.Text;
 
 namespace StarcraftParser
 {
-    class GameStateVector
-    {
-        public Dictionary<string, int> UnitCounter { get; set; }
 
-        public GameStateVector()
-        {
-            UnitCounter = new Dictionary<string, int>();
-        }
-    }
 
     class VectorProcessor
     {
         private List<string> _terrainUnits;
         private List<string> _zergUnits;
         private List<string> _protossUnits;
-
 
         public List<GameStateVector> GenerateGameStateVectors(ScGame game, int timeGranularity, int timeSlices)
         {

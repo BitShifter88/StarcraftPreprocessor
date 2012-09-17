@@ -13,56 +13,6 @@ namespace StarcraftParser
         Zerg,
     }
 
-    enum Unit
-    {
-        TerranSCV,
-        TerranSupplyDepot,
-        TerranBarracks,
-        TerranFactory,
-        TerranMachineShop,
-        TerranMarine,
-        TerranGateway,
-        TerranSiegeTank,
-        TerranVulture,
-        TerranVultureSpiderMine, // Måske skal denne ikke med
-        TerranAcademy,
-        TerranBunker,
-        TerranEngineeringBay,
-        TerranMissileTurret,
-        TerranMedic,
-        TerranControlTower,
-        TerranScienceFacility,
-        TerranRefinery,
-        TerranSiegeTankTankMode, // Måske skal denne ikke med
-        TerranCommandCenter,
-        TerranComsatStation,
-        SpellScannerSweep,
-    }
-
-    class ScEvent
-    {
-        public int Time { get; set; }
-        public Race Race { get; set; }
-        public int Score { get; set; }
-        public string Unit { get; set; }
-        public int X { get; set; }
-        public int Y { get; set; }
-        public int Minerals { get; set; }
-        public int Gas { get; set; }
-        public int WorkerCount { get; set; }
-    }
-
-    class ScGame
-    {
-        public List<ScEvent> Events { get; set; }
-        public Race Race { get; set; }
-
-        public ScGame()
-        {
-            Events = new List<ScEvent>();
-        }
-    }
-
     class Parser
     {
         public List<ScGame> Parse(string file)
@@ -160,81 +110,6 @@ namespace StarcraftParser
             }
 
             return gamesList;
-        }
-
-        private Unit GetUnit(string unit)
-        {
-                switch (unit)
-                {
-                    case " Terran SCV ":
-                        return Unit.TerranSCV;
-                        break;
-                    case " Terran Supply Depot ":
-                        return Unit.TerranSupplyDepot;
-                        break;
-                    case " Terran Barracks ":
-                        return Unit.TerranBarracks;
-                        break;
-                    case " Terran Factory ":
-                        return Unit.TerranFactory;
-                        break;
-                    case " Terran Machine Shop ":
-                        return Unit.TerranMachineShop;
-                        break;
-                    case " Terran Marine ":
-                        return Unit.TerranMarine;
-                        break;
-                    case " Terran Gateway ":
-                        return Unit.TerranGateway;
-                        break;
-                    case " Terran Siege Tank ":
-                        return Unit.TerranSiegeTank;
-                        break;
-                    case " Terran Vulture ":
-                        return Unit.TerranVulture;
-                        break;
-                    case " Terran Vulture Spider Mine ":
-                        return Unit.TerranVultureSpiderMine;
-                        break;
-                    case " Terran Academy ":
-                        return Unit.TerranAcademy;
-                        break;
-                    case " Terran Bunker ":
-                        return Unit.TerranBunker;
-                        break;
-                    case " Terran Engineering Bay ":
-                        return Unit.TerranEngineeringBay;
-                        break;
-                    case " Terran Missile Turret ":
-                        return Unit.TerranMissileTurret;
-                        break;
-                    case " Terran Medic ":
-                        return Unit.TerranMedic;
-                        break;
-                    case " Terran Control Tower ":
-                        return Unit.TerranControlTower;
-                        break;
-                    case " Terran Science Facility ":
-                        return Unit.TerranScienceFacility;
-                        break;
-                    case " Terran Refinery ":
-                        return Unit.TerranRefinery;
-                        break;
-                    case " Terran Siege Tank Tank Mode ":
-                        return Unit.TerranSiegeTankTankMode;
-                        break;
-                    case " Terran Command Center ":
-                        return Unit.TerranCommandCenter;
-                        break;
-                    case " Terran Comsat Station ":
-                        return Unit.TerranComsatStation;
-                        break;
-                    case " Spell Scanner Sweep ":
-                        return Unit.SpellScannerSweep;
-                        break;
-                    default:
-                        throw new Exception(unit);
-                }
         }
     }
 }
