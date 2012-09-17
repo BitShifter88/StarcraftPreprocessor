@@ -2,16 +2,18 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.IO;
 
 namespace StarcraftParser
 {
     class VectorProcessor
     {
+        private const string SEPERATION_SYMBOL = ",";
         private List<string> _terrainUnits;
         private List<string> _zergUnits;
         private List<string> _protossUnits;
 
-        public List<GameStateVector> GenerateGameStateVectors(ScGame game, int timeGranularity, int timeSlices)
+        public ProcessedGame GenerateGameStateVectors(ScGame game, int timeGranularity, int timeSlices)
         {
             List<GameStateVector> gameStateVectors = new List<GameStateVector>();
 
@@ -19,7 +21,7 @@ namespace StarcraftParser
             {
                 List<ScEvent> events = game.Events.Where(e => e.Time < timeGranularity * (i + 1)).ToList();
 
-                Dictionary<string, int> unitCounter = new Dictionary<string,int>();
+                Dictionary<string, int> unitCounter = new Dictionary<string, int>();
                 IniUnitCounter(unitCounter, game.Race);
 
                 foreach (ScEvent scEvent in events)
@@ -38,7 +40,7 @@ namespace StarcraftParser
                 gameStateVectors.Add(gsv);
             }
 
-            return gameStateVectors;
+            return new ProcessedGame() { GameStateVectors = gameStateVectors, Race = game.Race };
         }
 
         /// <summary>
@@ -109,5 +111,55 @@ namespace StarcraftParser
                 }
             }
         }
+
+        /// <summary>
+        /// Assumes that all games are of the same sc race
+        /// </summary>
+        /// <param name="games"></param>
+        /// <param name="file"></param>
+        public void WriteGamesToCsv(List<ProcessedGame> games, string file)
+        {
+            using (StreamWriter sw = new StreamWriter(new FileStream(file, FileMode.Create)))
+            {
+                // Writes the CSV Header
+                sw.Write("id" + SEPERATION_SYMBOL + "vector" + SEPERATION_SYMBOL);
+
+                int counter = 0;
+                foreach (KeyValuePair<string, int> unit in games[0].GameStateVectors[0].UnitCounter)
+                {
+                    sw.Write(unit.Key);
+                    if (counter != games[0].GameStateVectors[0].UnitCounter.Count - 1)
+                        sw.Write(SEPERATION_SYMBOL);
+                    counter++;
+                }
+                sw.WriteLine("");
+
+                // Writes the CSV body
+                for (int i = 0; i < games.Count; i++)
+                {
+                    WriteGameToCsv(games[i], i, sw);
+                }
+            }
+        }
+
+        private void WriteGameToCsv(ProcessedGame game, int gameId, StreamWriter sw)
+        {
+            for (int i = 0; i < game.GameStateVectors.Count; i++)
+            {
+                sw.Write(gameId + SEPERATION_SYMBOL + i + SEPERATION_SYMBOL);
+
+                int counter = 0;
+                foreach (KeyValuePair<string, int> unit in game.GameStateVectors[i].UnitCounter)
+                {
+                    sw.Write(unit.Value);
+                    if (counter != game.GameStateVectors[i].UnitCounter.Count - 1)
+                        sw.Write(SEPERATION_SYMBOL);
+                    counter++;
+                }
+
+                sw.WriteLine("");
+            }
+        }
+
     }
 }

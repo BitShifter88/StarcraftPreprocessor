@@ -24,10 +24,19 @@ namespace StarcraftParser
             // This will produce 4 game state vectors, each with a length of 30 seconds
             VectorProcessor vp = new VectorProcessor();
             vp.BuildUnitList(games);
+
+            List<ProcessedGame> pGames = new List<ProcessedGame>();
+
             foreach (ScGame game in games)
             {
-                vp.GenerateGameStateVectors(game, 30, 4);
+                pGames.Add(vp.GenerateGameStateVectors(game, 30, 10));
             }
+
+           vp.WriteGamesToCsv(pGames.Where(i => i.Race == Race.Terran).ToList(), "terranGames.csv");
+           vp.WriteGamesToCsv(pGames.Where(i => i.Race == Race.Protoss).ToList(), "protossGames.csv");
+           vp.WriteGamesToCsv(pGames.Where(i => i.Race == Race.Zerg).ToList(), "zergGames.csv");
+
+            Console.WriteLine("Done!");
 
             Console.ReadLine();
         }

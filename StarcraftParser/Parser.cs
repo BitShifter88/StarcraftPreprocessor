@@ -6,11 +6,11 @@ using System.IO;
 
 namespace StarcraftParser
 {
-    enum Race
+    enum Race : int
     {
-        Protoss,
-        Terran,
-        Zerg,
+        Protoss = 0,
+        Terran = 1,
+        Zerg = 2,
     }
 
     class Parser
