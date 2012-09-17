@@ -7,7 +7,12 @@ namespace StarcraftParser
 {
     class GameStateVector
     {
-        //Dictionary<string, 
+        public Dictionary<string, int> UnitCounter { get; set; }
+
+        public GameStateVector()
+        {
+            UnitCounter = new Dictionary<string, int>();
+        }
     }
 
     class VectorProcessor
@@ -32,6 +37,9 @@ namespace StarcraftParser
                         unitCounter.Add(scEvent.Unit, 1);
                     }
                 }
+
+                GameStateVector gsv = new GameStateVector() { UnitCounter = unitCounter };
+                gameStateVectors.Add(gsv);
             }
 
             return gameStateVectors;

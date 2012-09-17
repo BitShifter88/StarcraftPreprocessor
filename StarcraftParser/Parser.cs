@@ -64,7 +64,7 @@ namespace StarcraftParser
 
     class Parser
     {
-        public Dictionary<long, ScGame> Parse(string file)
+        public List<ScGame> Parse(string file)
         {
             string[] raw = File.ReadAllLines(file);
             Dictionary<long, ScGame> games = new Dictionary<long, ScGame>();
@@ -151,16 +151,14 @@ namespace StarcraftParser
             //1347392075,15,1,"Protoss",250,"Protoss Probe",3808,3856,106,0,6
             //1347392075,18,0,"Terran",250,"Terran SCV",288,3856,106,0,6
 
-            List<string> lines = new List<string>();
-            
-            foreach (KeyValuePair<string, int> kv in terranUnits)
+            List<ScGame> gamesList = new List<ScGame>();
+
+            foreach (KeyValuePair<long, ScGame> game in games)
             {
-                lines.Add(kv.Key);
+                gamesList.Add(game.Value);
             }
 
-            File.WriteAllLines("terranUnits.txt", lines.ToArray());
-
-            return games;
+            return gamesList;
         }
 
         private Unit GetUnit(string unit)
