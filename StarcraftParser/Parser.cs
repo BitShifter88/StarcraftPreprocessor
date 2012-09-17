@@ -55,6 +55,7 @@ namespace StarcraftParser
     class ScGame
     {
         public List<ScEvent> Events { get; set; }
+        public Race Race { get; set; }
 
         public ScGame()
         {
@@ -135,7 +136,7 @@ namespace StarcraftParser
                 }
                 else
                 {
-                    games.Add(id, new ScGame());
+                    games.Add(id, new ScGame() { Race = race });
                     games[id].Events.Add(ev);
                 }
 

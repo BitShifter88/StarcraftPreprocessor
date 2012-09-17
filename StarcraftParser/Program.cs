@@ -23,6 +23,7 @@ namespace StarcraftParser
             // A game state vector will contain all events that has happend within a timeperiod. If timeGranularity is set to 30, and timeSlice is set to 4
             // This will produce 4 game state vectors, each with a length of 30 seconds
             VectorProcessor vp = new VectorProcessor();
+            vp.BuildUnitList(games);
             foreach (ScGame game in games)
             {
                 vp.GenerateGameStateVectors(game, 30, 4);
