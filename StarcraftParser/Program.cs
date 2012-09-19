@@ -29,7 +29,7 @@ namespace StarcraftParser
 
             foreach (ScGame game in games)
             {
-                pGames.Add(vp.GenerateGameStateVectors(game, 30, 10));
+                pGames.Add(vp.GenerateGameStateVectors(game, 90, 6));
             }
 
            vp.WriteGamesToCsv(pGames.Where(i => i.Race == Race.Terran).ToList(), "terranGames.csv");
