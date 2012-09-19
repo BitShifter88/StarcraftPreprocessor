@@ -7,11 +7,11 @@ namespace StarcraftParser
 {
     class GameStateVector
     {
-        public Dictionary<string, int> UnitCounter { get; set; }
+        public Dictionary<string, float> UnitCounter { get; set; }
 
         public GameStateVector()
         {
-            UnitCounter = new Dictionary<string, int>();
+            UnitCounter = new Dictionary<string, float>();
         }
     }
 }

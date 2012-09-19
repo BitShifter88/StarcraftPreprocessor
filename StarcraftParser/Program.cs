@@ -32,9 +32,11 @@ namespace StarcraftParser
                 pGames.Add(vp.GenerateGameStateVectors(game, 90, 6));
             }
 
-           vp.WriteGamesToCsv(pGames.Where(i => i.Race == Race.Terran).ToList(), "terranGames.csv");
-           vp.WriteGamesToCsv(pGames.Where(i => i.Race == Race.Protoss).ToList(), "protossGames.csv");
-           vp.WriteGamesToCsv(pGames.Where(i => i.Race == Race.Zerg).ToList(), "zergGames.csv");
+            //pGames =  vp.Normalize(pGames);
+
+           vp.WriteGamesToCsv(pGames.Where(i => i.Race == Race.Terran).ToList(), "terranGames.csv", true, CsvType.Excel);
+           vp.WriteGamesToCsv(pGames.Where(i => i.Race == Race.Protoss).ToList(), "protossGames.csv", true, CsvType.Excel);
+           vp.WriteGamesToCsv(pGames.Where(i => i.Race == Race.Zerg).ToList(), "zergGames.csv", true, CsvType.Excel);
 
             Console.WriteLine("Done!");
 

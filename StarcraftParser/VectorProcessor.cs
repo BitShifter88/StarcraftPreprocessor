@@ -3,12 +3,20 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.IO;
+using System.Globalization;
 
 namespace StarcraftParser
 {
+    enum CsvType
+    {
+        Weka,
+        Excel,
+    }
+
     class VectorProcessor
     {
-        private const string SEPERATION_SYMBOL = ",";
+        private string SEPERATION_SYMBOL = ";";
+        private string CULTURE = "en-US";
         private List<string> _terrainUnits;
         private List<string> _zergUnits;
         private List<string> _protossUnits;
@@ -21,7 +29,7 @@ namespace StarcraftParser
             {
                 List<ScEvent> events = game.Events.Where(e => e.Time < timeGranularity * (i + 1)).ToList();
 
-                Dictionary<string, int> unitCounter = new Dictionary<string, int>();
+                Dictionary<string, float> unitCounter = new Dictionary<string, float>();
                 IniUnitCounter(unitCounter, game.Race);
 
                 foreach (ScEvent scEvent in events)
@@ -48,7 +56,7 @@ namespace StarcraftParser
         /// </summary>
         /// <param name="unitCounter"></param>
         /// <param name="race"></param>
-        private void IniUnitCounter(Dictionary<string, int> unitCounter, Race race)
+        private void IniUnitCounter(Dictionary<string, float> unitCounter, Race race)
         {
             if (race == Race.Terran)
             {
@@ -117,15 +125,26 @@ namespace StarcraftParser
         /// </summary>
         /// <param name="games"></param>
         /// <param name="file"></param>
-        public void WriteGamesToCsv(List<ProcessedGame> games, string file)
+        public void WriteGamesToCsv(List<ProcessedGame> games, string file, bool onlyWriteLastVector, CsvType csvType)
         {
+            if (csvType == CsvType.Excel)
+            {
+                CULTURE = "da-DK";
+                SEPERATION_SYMBOL = ";";
+            }
+            else if (csvType == CsvType.Weka)
+            {
+                CULTURE = "en-US";
+                SEPERATION_SYMBOL = ",";
+            }
+
             using (StreamWriter sw = new StreamWriter(new FileStream(file, FileMode.Create)))
             {
                 // Writes the CSV Header
-                sw.Write("id" + SEPERATION_SYMBOL + "vector" + SEPERATION_SYMBOL);
+                sw.Write("id" + SEPERATION_SYMBOL + "time_slice" + SEPERATION_SYMBOL);
 
                 int counter = 0;
-                foreach (KeyValuePair<string, int> unit in games[0].GameStateVectors[0].UnitCounter)
+                foreach (KeyValuePair<string, float> unit in games[0].GameStateVectors[0].UnitCounter)
                 {
                     sw.Write(unit.Key);
                     if (counter != games[0].GameStateVectors[0].UnitCounter.Count - 1)
@@ -137,21 +156,24 @@ namespace StarcraftParser
                 // Writes the CSV body
                 for (int i = 0; i < games.Count; i++)
                 {
-                    WriteGameToCsv(games[i], i, sw);
+                    WriteGameToCsv(games[i], i, sw, onlyWriteLastVector);
                 }
             }
         }
 
-        private void WriteGameToCsv(ProcessedGame game, int gameId, StreamWriter sw)
+        private void WriteGameToCsv(ProcessedGame game, int gameId, StreamWriter sw, bool onlyWriteLastVector)
         {
             for (int i = 0; i < game.GameStateVectors.Count; i++)
             {
+                if (onlyWriteLastVector)
+                    if (i != game.GameStateVectors.Count - 1)
+                        continue;
                 sw.Write(gameId + SEPERATION_SYMBOL + i + SEPERATION_SYMBOL);
 
                 int counter = 0;
-                foreach (KeyValuePair<string, int> unit in game.GameStateVectors[i].UnitCounter)
+                foreach (KeyValuePair<string, float> unit in game.GameStateVectors[i].UnitCounter)
                 {
-                    sw.Write(unit.Value);
+                    sw.Write(unit.Value.ToString("F8", CultureInfo.CreateSpecificCulture(CULTURE)));
                     if (counter != game.GameStateVectors[i].UnitCounter.Count - 1)
                         sw.Write(SEPERATION_SYMBOL);
                     counter++;
@@ -159,6 +181,53 @@ namespace StarcraftParser
 
                 sw.WriteLine("");
             }
+        }
+
+        public List<ProcessedGame> Normalize(List<ProcessedGame> games)
+        {
+            Dictionary<string, float> maxUnitCounts = new Dictionary<string, float>();
+
+            foreach (ProcessedGame game in games)
+            {
+                foreach (GameStateVector vector in game.GameStateVectors)
+                {
+                    foreach (KeyValuePair<string, float> unit in vector.UnitCounter)
+                    {
+                        if (maxUnitCounts.ContainsKey(unit.Key) == false)
+                        {
+                            maxUnitCounts.Add(unit.Key, unit.Value);
+                        }
+                        else if (maxUnitCounts[unit.Key] < unit.Value)
+                        {
+                            maxUnitCounts.Remove(unit.Key);
+                            maxUnitCounts.Add(unit.Key, unit.Value);
+                        }
+                    }
+                }
+            }
+
+            List<ProcessedGame> newGames = new List<ProcessedGame>();
+            foreach (ProcessedGame game in games)
+            {
+                ProcessedGame newGame = new ProcessedGame();
+                newGame.Race = game.Race;
+                foreach (GameStateVector vector in game.GameStateVectors)
+                {
+                    Dictionary<string, float> newUnitCounter = new Dictionary<string, float>();
+                    foreach (KeyValuePair<string, float> unit in vector.UnitCounter)
+                    {
+                        float newValue = unit.Value / maxUnitCounts[unit.Key];
+                        newUnitCounter.Add(unit.Key, newValue);
+                    }
+                    GameStateVector gsv = new GameStateVector();
+                    gsv.UnitCounter = newUnitCounter;
+
+                    newGame.GameStateVectors.Add(gsv);
+                }
+                newGames.Add(newGame);
+            }
+
+            return newGames;
         }
 
     }
