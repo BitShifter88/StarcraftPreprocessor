@@ -107,7 +107,10 @@ namespace StarcraftParser
             int counter = 0;
             foreach (KeyValuePair<string, int> unit in game.Vector)
             {
-                sw.Write(unit.Value);
+                if (unit.Value == int.MaxValue)
+                    sw.Write(-1);
+                else
+                    sw.Write(unit.Value);
                 if (counter != game.Vector.Count - 1)
                     sw.Write(SEPERATION_SYMBOL);
                 counter++;
