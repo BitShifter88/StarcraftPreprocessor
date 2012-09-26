@@ -7,21 +7,12 @@ using System.Globalization;
 
 namespace StarcraftParser
 {
-    enum CsvType
-    {
-        Weka,
-        Excel,
-    }
-
-    class VectorProcessor
+    class TimeSliceProcessor : Processor
     {
         private string SEPERATION_SYMBOL = ";";
         private string CULTURE = "en-US";
-        private List<string> _terrainUnits;
-        private List<string> _zergUnits;
-        private List<string> _protossUnits;
 
-        public ProcessedGame GenerateGameStateVectors(ScGame game, int timeGranularity, int timeSlices)
+        public TimeSliceGame ProcessGame(ScGame game, int timeGranularity, int timeSlices)
         {
             List<GameStateVector> gameStateVectors = new List<GameStateVector>();
 
@@ -48,7 +39,7 @@ namespace StarcraftParser
                 gameStateVectors.Add(gsv);
             }
 
-            return new ProcessedGame() { GameStateVectors = gameStateVectors, Race = game.Race };
+            return new TimeSliceGame() { GameStateVectors = gameStateVectors, Race = game.Race };
         }
 
         /// <summary>
@@ -60,72 +51,33 @@ namespace StarcraftParser
         {
             if (race == Race.Terran)
             {
-                foreach (string unit in _terrainUnits)
+                foreach (string unit in TerrainUnits)
                 {
                     unitCounter.Add(unit, 0);
                 }
             }
             else if (race == Race.Protoss)
             {
-                foreach (string unit in _protossUnits)
+                foreach (string unit in ProtossUnits)
                 {
                     unitCounter.Add(unit, 0);
                 }
             }
             else if (race == Race.Zerg)
             {
-                foreach (string unit in _zergUnits)
+                foreach (string unit in ZergUnits)
                 {
                     unitCounter.Add(unit, 0);
                 }
             }
         }
-
-        /// <summary>
-        /// Builds a list of all known units, based on the units that appears in all game logs
-        /// </summary>
-        /// <param name="games"></param>
-        public void BuildUnitList(List<ScGame> games)
-        {
-            _terrainUnits = new List<string>();
-            _zergUnits = new List<string>();
-            _protossUnits = new List<string>();
-
-            foreach (ScGame game in games)
-            {
-                foreach (ScEvent scEvent in game.Events)
-                {
-                    if (game.Race == Race.Terran)
-                    {
-                        if (_terrainUnits.Contains(scEvent.Unit) == false)
-                        {
-                            _terrainUnits.Add(scEvent.Unit);
-                        }
-                    }
-                    else if (game.Race == Race.Protoss)
-                    {
-                        if (_protossUnits.Contains(scEvent.Unit) == false)
-                        {
-                            _protossUnits.Add(scEvent.Unit);
-                        }
-                    }
-                    else if (game.Race == Race.Zerg)
-                    {
-                        if (_zergUnits.Contains(scEvent.Unit) == false)
-                        {
-                            _zergUnits.Add(scEvent.Unit);
-                        }
-                    }
-                }
-            }
-        }
-
+       
         /// <summary>
         /// Assumes that all games are of the same sc race
         /// </summary>
         /// <param name="games"></param>
         /// <param name="file"></param>
-        public void WriteGamesToCsv(List<ProcessedGame> games, string file, bool onlyWriteLastVector, CsvType csvType)
+        public void WriteGamesToCsv(List<TimeSliceGame> games, string file, bool onlyWriteLastVector, CsvType csvType)
         {
             if (csvType == CsvType.Excel)
             {
@@ -161,7 +113,7 @@ namespace StarcraftParser
             }
         }
 
-        private void WriteGameToCsv(ProcessedGame game, int gameId, StreamWriter sw, bool onlyWriteLastVector)
+        private void WriteGameToCsv(TimeSliceGame game, int gameId, StreamWriter sw, bool onlyWriteLastVector)
         {
             for (int i = 0; i < game.GameStateVectors.Count; i++)
             {
@@ -183,11 +135,11 @@ namespace StarcraftParser
             }
         }
 
-        public List<ProcessedGame> Normalize(List<ProcessedGame> games)
+        public List<TimeSliceGame> Normalize(List<TimeSliceGame> games)
         {
             Dictionary<string, float> maxUnitCounts = new Dictionary<string, float>();
 
-            foreach (ProcessedGame game in games)
+            foreach (TimeSliceGame game in games)
             {
                 foreach (GameStateVector vector in game.GameStateVectors)
                 {
@@ -206,10 +158,10 @@ namespace StarcraftParser
                 }
             }
 
-            List<ProcessedGame> newGames = new List<ProcessedGame>();
-            foreach (ProcessedGame game in games)
+            List<TimeSliceGame> newGames = new List<TimeSliceGame>();
+            foreach (TimeSliceGame game in games)
             {
-                ProcessedGame newGame = new ProcessedGame();
+                TimeSliceGame newGame = new TimeSliceGame();
                 newGame.Race = game.Race;
                 foreach (GameStateVector vector in game.GameStateVectors)
                 {

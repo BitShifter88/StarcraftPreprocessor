@@ -5,12 +5,12 @@ using System.Text;
 
 namespace StarcraftParser
 {
-    class ProcessedGame
+    class TimeSliceGame
     {
         public List<GameStateVector> GameStateVectors { get; set; }
         public Race Race { get; set; }
 
-        public ProcessedGame()
+        public TimeSliceGame()
         {
             GameStateVectors = new List<GameStateVector>();
         }

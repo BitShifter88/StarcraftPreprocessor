@@ -6,6 +6,12 @@ using System.IO;
 
 namespace StarcraftParser
 {
+    enum CsvType : int
+    {
+        Weka = 2,
+        Excel = 1,
+    }
+
     static class Program
     {
         /// <summary>
@@ -14,6 +20,11 @@ namespace StarcraftParser
         [STAThread]
         static void Main()
         {
+            Console.WriteLine("Would you like to use the Time Slice Preprocessor (1), or the First Time Build Preprocessor (2)?");
+            int processor = int.Parse(Console.ReadLine());
+            Console.WriteLine("Should the result be saven in an Excel csv (1) or Weka csv (2)?");
+            int csv = int.Parse(Console.ReadLine());
+
             Parser p = new Parser();
             // Parses the raw log file from Mikkels replay parser. It returns a list of ScGames, which is simply a C# representation of a game event log.
             List<ScGame> games = p.Parse("output.txt");
@@ -22,21 +33,40 @@ namespace StarcraftParser
             // In this instance, the VectorProcessor class is used. It converts the game event log of a ScGame game, into a list of game state vectors.
             // A game state vector will contain a list of all units produced within a timeperiod. If timeGranularity is set to 30, and timeSlice is set to 4
             // This will produce 4 game state vectors, each with a length of 30 seconds
-            VectorProcessor vp = new VectorProcessor();
+            TimeSliceProcessor vp = new TimeSliceProcessor();
             vp.BuildUnitList(games);
+            FirstTimeBuildProcessor ftbp = new FirstTimeBuildProcessor();
+            ftbp.BuildUnitList(games);
 
-            List<ProcessedGame> pGames = new List<ProcessedGame>();
 
-            foreach (ScGame game in games)
+            if (processor == 1)
             {
-                pGames.Add(vp.GenerateGameStateVectors(game, 90, 6));
+                List<TimeSliceGame> pGames = new List<TimeSliceGame>();
+
+                foreach (ScGame game in games)
+                {
+                    pGames.Add(vp.ProcessGame(game, 90, 6));
+                }
+
+                //pGames =  vp.Normalize(pGames);
+
+                vp.WriteGamesToCsv(pGames.Where(i => i.Race == Race.Terran).ToList(), "terranGames.csv", false, (CsvType)csv);
+                vp.WriteGamesToCsv(pGames.Where(i => i.Race == Race.Protoss).ToList(), "protossGames.csv", false, (CsvType)csv);
+                vp.WriteGamesToCsv(pGames.Where(i => i.Race == Race.Zerg).ToList(), "zergGames.csv", false, (CsvType)csv);
             }
+            else if (processor == 2)
+            {
+                List<UnitTimeVector> pGames = new List<UnitTimeVector>();
 
-            //pGames =  vp.Normalize(pGames);
+                foreach (ScGame game in games)
+                {
+                    pGames.Add(ftbp.ProcessGame(game));
+                }
 
-           vp.WriteGamesToCsv(pGames.Where(i => i.Race == Race.Terran).ToList(), "terranGames.csv", true, CsvType.Excel);
-           vp.WriteGamesToCsv(pGames.Where(i => i.Race == Race.Protoss).ToList(), "protossGames.csv", true, CsvType.Excel);
-           vp.WriteGamesToCsv(pGames.Where(i => i.Race == Race.Zerg).ToList(), "zergGames.csv", true, CsvType.Excel);
+                ftbp.WriteGamesToCsv(pGames.Where(i => i.Race == Race.Terran).ToList(), "terranGames.csv",  (CsvType)csv);
+                ftbp.WriteGamesToCsv(pGames.Where(i => i.Race == Race.Protoss).ToList(), "protossGames.csv",  (CsvType)csv);
+                ftbp.WriteGamesToCsv(pGames.Where(i => i.Race == Race.Zerg).ToList(), "zergGames.csv", (CsvType)csv);
+            }
 
             Console.WriteLine("Done!");
 
