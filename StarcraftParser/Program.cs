@@ -27,7 +27,7 @@ namespace StarcraftParser
 
             Parser p = new Parser();
             // Parses the raw log file from Mikkels replay parser. It returns a list of ScGames, which is simply a C# representation of a game event log.
-            List<ScGame> games = p.Parse("output.txt");
+            List<ScGame> games = p.Parse("input.csv");
 
             // Because ScGame is just a C# representation of a game event log, we need to convert it to a more appropriate format in order to do data analysis.
             // In this instance, the VectorProcessor class is used. It converts the game event log of a ScGame game, into a list of game state vectors.
@@ -50,9 +50,9 @@ namespace StarcraftParser
 
                 //pGames =  vp.Normalize(pGames);
 
-                vp.WriteGamesToCsv(pGames.Where(i => i.Race == Race.Terran).ToList(), "terranGames.csv", false, (CsvType)csv);
-                vp.WriteGamesToCsv(pGames.Where(i => i.Race == Race.Protoss).ToList(), "protossGames.csv", false, (CsvType)csv);
-                vp.WriteGamesToCsv(pGames.Where(i => i.Race == Race.Zerg).ToList(), "zergGames.csv", false, (CsvType)csv);
+                vp.WriteGamesToCsv(pGames.Where(i => i.Race == Race.Terran).ToList(), "output/terranGames.csv", false, (CsvType)csv);
+                vp.WriteGamesToCsv(pGames.Where(i => i.Race == Race.Protoss).ToList(), "output/protossGames.csv", false, (CsvType)csv);
+                vp.WriteGamesToCsv(pGames.Where(i => i.Race == Race.Zerg).ToList(), "output/zergGames.csv", false, (CsvType)csv);
             }
             else if (processor == 2)
             {
@@ -63,9 +63,9 @@ namespace StarcraftParser
                     pGames.Add(ftbp.ProcessGame(game));
                 }
 
-                ftbp.WriteGamesToCsv(pGames.Where(i => i.Race == Race.Terran).ToList(), "terranGames.csv",  (CsvType)csv);
-                ftbp.WriteGamesToCsv(pGames.Where(i => i.Race == Race.Protoss).ToList(), "protossGames.csv",  (CsvType)csv);
-                ftbp.WriteGamesToCsv(pGames.Where(i => i.Race == Race.Zerg).ToList(), "zergGames.csv", (CsvType)csv);
+                ftbp.WriteGamesToCsv(pGames.Where(i => i.Race == Race.Terran).ToList(), "output/terranGames.csv", (CsvType)csv);
+                ftbp.WriteGamesToCsv(pGames.Where(i => i.Race == Race.Protoss).ToList(), "output/protossGames.csv", (CsvType)csv);
+                ftbp.WriteGamesToCsv(pGames.Where(i => i.Race == Race.Zerg).ToList(), "output/zergGames.csv", (CsvType)csv);
             }
 
             Console.WriteLine("Done!");

@@ -6,3 +6,10 @@ C:\Users\Steffan\Dropbox\Programming\C#\Projects\StarcraftParser\StarcraftParser
 C:\Users\Steffan\Dropbox\Programming\C#\Projects\StarcraftParser\StarcraftParser\obj\x86\Release\GenerateResource.write.1.tlog
 C:\Users\Steffan\Dropbox\Programming\C#\Projects\StarcraftParser\StarcraftParser\obj\x86\Release\StarcraftParser.exe
 C:\Users\Steffan\Dropbox\Programming\C#\Projects\StarcraftParser\StarcraftParser\obj\x86\Release\StarcraftParser.pdb
+C:\Users\Steffan\Desktop\StarcraftPreprocessor\StarcraftParser\obj\x86\Release\StarcraftParser.exe
+C:\Users\Steffan\Desktop\StarcraftPreprocessor\StarcraftParser\obj\x86\Release\StarcraftParser.pdb
+C:\Users\Steffan\Desktop\StarcraftPreprocessor\StarcraftParser\bin\Release\StarcraftParser.exe
+C:\Users\Steffan\Desktop\StarcraftPreprocessor\StarcraftParser\bin\Release\StarcraftParser.pdb
+C:\Users\Steffan\Desktop\StarcraftPreprocessor\StarcraftParser\obj\x86\Release\StarcraftParser.Properties.Resources.resources
+C:\Users\Steffan\Desktop\StarcraftPreprocessor\StarcraftParser\obj\x86\Release\StarcraftParser.csproj.GenerateResource.Cache
+C:\Users\Steffan\Desktop\StarcraftPreprocessor\StarcraftParser\obj\x86\Release\StarcraftParser.csprojResolveAssemblyReference.cache
