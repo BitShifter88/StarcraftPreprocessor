@@ -7,7 +7,7 @@ namespace StarcraftParser
 {
     abstract class Processor
     {
-        public List<string> TerrainUnits { get; set; }
+        public List<string> TerranUnits { get; set; }
         public List<string> ZergUnits { get; set; }
         public List<string> ProtossUnits { get; set; }
 
@@ -17,7 +17,7 @@ namespace StarcraftParser
         /// <param name="games"></param>
         public void BuildUnitList(List<ScGame> games)
         {
-            TerrainUnits = new List<string>();
+            TerranUnits = new List<string>();
             ZergUnits = new List<string>();
             ProtossUnits = new List<string>();
 
@@ -27,9 +27,9 @@ namespace StarcraftParser
                 {
                     if (game.Race == Race.Terran)
                     {
-                        if (TerrainUnits.Contains(scEvent.Unit) == false)
+                        if (TerranUnits.Contains(scEvent.Unit) == false)
                         {
-                            TerrainUnits.Add(scEvent.Unit);
+                            TerranUnits.Add(scEvent.Unit);
                         }
                     }
                     else if (game.Race == Race.Protoss)

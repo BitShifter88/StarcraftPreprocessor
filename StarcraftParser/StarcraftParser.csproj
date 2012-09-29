@@ -51,7 +51,9 @@
   <ItemGroup>
     <Compile Include="FirstTimeBuildProcessor.cs" />
     <Compile Include="GameStateVector.cs" />
+    <Compile Include="GraphProcessor.cs" />
     <Compile Include="Parser.cs" />
+    <Compile Include="ScGraph.cs" />
     <Compile Include="TimeSliceGame.cs" />
     <Compile Include="Processor.cs" />
     <Compile Include="Program.cs" />
