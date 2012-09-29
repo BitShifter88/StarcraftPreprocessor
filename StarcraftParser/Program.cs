@@ -30,19 +30,14 @@ namespace StarcraftParser
             Parser p = new Parser();
             // Parses the raw log file from Mikkels replay parser. It returns a list of ScGames, which is simply a C# representation of a game event log.
             List<ScGame> games = p.Parse("input.csv");
-            
-            List<ScEvent> possibleRoots = new List<ScEvent>();
-            foreach (ScGame game in games)
-            {
-                ScEvent r = game.Events[0];
-                if (r == null) continue;
-                IEnumerable<ScEvent> q = possibleRoots.Where(e => e.Unit == r.Unit);
-                if (q.Count() == 0) possibleRoots.Add(r);
-            }
 
-            NodeList<ScEvent> roots = new NodeList<ScEvent>(possibleRoots);
 
-            
+
+
+            NodeList<ScEvent> roots = new NodeList<ScEvent>();
+            GraphProcessor gp = new GraphProcessor();
+            roots = gp.ProcessGames(games);
+
 
 
             // Because ScGame is just a C# representation of a game event log, we need to convert it to a more appropriate format in order to do data analysis.
