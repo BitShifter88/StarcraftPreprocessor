@@ -29,19 +29,21 @@ namespace StarcraftParser
 
                 // Rå strings fra dette event, splittet op i de forskellige elementer
                 string idStr = split[0];
-                string timeStr = split[1];
-                string playerStr = split[2];
-                string raceStr = split[3];
-                string scoreStr = split[4];
-                string unitStr = split[5];
-                string xStr = split[6];
-                string yStr = split[7];
-                string mineralsStr = split[8];
+                string replayStr = split[1];
+                string timeStr = split[2];
+                string playerStr = split[3]; //player id
+                string raceStr = split[4];
+                string scoreStr = split[5];
+                string unitStr = split[6];
+                string xStr = split[7];
+                string yStr = split[8];
                 string gasStr = split[9];
-                string workerCountStr = split[10];
+                string mineralsStr = split[10];
+                string workerCountStr = split[11];
 
                 // De forskellige ting et event består af.
                 long id;
+                string replay;
                 int time;
                 Race race = Race.Protoss;
                 int score;
@@ -53,6 +55,8 @@ namespace StarcraftParser
                 int workerCount;
 
                 id = long.Parse(idStr) * 2 + long.Parse(playerStr);
+
+                replay = replayStr;
 
                 switch (raceStr)
                 {
@@ -78,7 +82,7 @@ namespace StarcraftParser
                 gas = int.Parse(gasStr);
                 workerCount = int.Parse(workerCountStr);
 
-                ScEvent ev = new ScEvent() { Gas = gas, Minerals = minerals, Race = race, Score = score, Time = time, Unit = unit, WorkerCount = workerCount, X = x, Y = y };
+                ScEvent ev = new ScEvent() { Gas = gas, Minerals = minerals, Race = race, Score = score, Time = time, Unit = unit, WorkerCount = workerCount, X = x, Y = y};
 
                 if (games.ContainsKey(id) == true)
                 {
@@ -86,7 +90,7 @@ namespace StarcraftParser
                 }
                 else
                 {
-                    games.Add(id, new ScGame() { Race = race });
+                    games.Add(id, new ScGame() { Race = race, ReplayFile = replay});
                     games[id].Events.Add(ev);
                 }
 

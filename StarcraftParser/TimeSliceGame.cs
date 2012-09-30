@@ -9,6 +9,7 @@ namespace StarcraftParser
     {
         public List<GameStateVector> GameStateVectors { get; set; }
         public Race Race { get; set; }
+        public string Replay { get; set; }
 
         public TimeSliceGame()
         {

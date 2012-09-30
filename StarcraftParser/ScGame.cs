@@ -9,6 +9,7 @@ namespace StarcraftParser
     {
         public List<ScEvent> Events { get; set; }
         public Race Race { get; set; }
+        public string ReplayFile { get; set; }
 
         public ScGame()
         {
