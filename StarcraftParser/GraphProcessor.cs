@@ -59,8 +59,8 @@ namespace StarcraftParser
                     {
                         result += "start -> " + "\"" + roots[i].Value.Unit + "\"" + "; \r\n";
                         result += "\"" + roots[i].Value.Unit + "\"" + " -> " + "\"" + roots[i].Neighbors[j].Value.Unit + "\"" + "; \r\n";
-                        string tmp = "";
-                        //result += ExportToGraphviz(tmp, roots[i].Neighbors);
+                        //string tmp = "";
+                        //result += ExportToGraphviz(result, roots[i].Neighbors);
                     }
 
                 }
