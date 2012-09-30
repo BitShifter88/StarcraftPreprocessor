@@ -32,7 +32,7 @@ namespace StarcraftParser
             }
         }
 
-        protected NodeList<T> Neighbors
+        public NodeList<T> Neighbors
         {
             get
             {

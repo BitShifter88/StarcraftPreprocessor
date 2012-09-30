@@ -19,6 +19,8 @@ namespace StarcraftParser
             return result;
         }
 
+
+
         public NodeList<ScEvent> ProcessGames(List<ScGame> games)
         {
             NodeList<ScEvent> roots = new NodeList<ScEvent>();
@@ -45,16 +47,48 @@ namespace StarcraftParser
                 //else roots.Add(new Node<ScEvent>(counter, game.Events[0], buildTree(0, game, games)));
             }
 
+            CountOccurances(roots, allgames);
+
+            return roots;
+        }
+
+        private static void CountOccurances(NodeList<ScEvent> roots, NodeList<ScEvent> allgames)
+        {
             foreach (Node<ScEvent> root in roots)
             {
                 foreach (Node<ScEvent> game in allgames)
                 {
                     if (root.Value.Unit == game.Value.Unit)
+                    {
                         root.occurances++;
+                        CountNeighbourOccurance(root.Neighbors, game.Neighbors);
+                    }
                 }
             }
-
-            return roots;
         }
+
+        private static void CountNeighbourOccurance(NodeList<ScEvent> rootNeighbors, NodeList<ScEvent> gameNeighbors)
+        {
+            foreach (Node<ScEvent> root in rootNeighbors)
+            {
+                foreach (Node<ScEvent> game in gameNeighbors)
+                {
+                    if (root.Value.Unit == game.Value.Unit)
+                    {
+                        root.occurances++;
+                        CountNeighbourOccurance(root.Neighbors, game.Neighbors);
+                    }
+                }
+            }
+            //for (int i = 0; i < rootNeighbors.Count; i++)
+            //{
+            //    for (int j = 0; j < gameNeighbors.Count; j++)
+            //    {
+            //        if(
+            //    }
+            //}
+        }
+
+        
     }
 }
