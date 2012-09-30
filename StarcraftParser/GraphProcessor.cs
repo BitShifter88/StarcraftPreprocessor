@@ -13,7 +13,7 @@ namespace StarcraftParser
             if (++counter < game.Events.Count)
             {
                 ScEvent r = game.Events[counter];
-                result.Add(new Node<ScEvent>(r, buildTree(counter, game, games)));
+                result.Add(new Node<ScEvent>(1, r, buildTree(counter, game, games)));
             }
 
             return result;
@@ -21,29 +21,40 @@ namespace StarcraftParser
 
         public NodeList<ScEvent> ProcessGames(List<ScGame> games)
         {
-            List<ScEvent> possibleRoots = new List<ScEvent>();
+            NodeList<ScEvent> roots = new NodeList<ScEvent>();
             NodeList<ScEvent> allgames = new NodeList<ScEvent>();
             foreach (ScGame game in games)
             {
-                allgames.Add(new Node<ScEvent>(game.Events[0], buildTree(0, game, games)));
+                Node<ScEvent> node = new Node<ScEvent>(1, game.Events[0], buildTree(0, game, games));
+                allgames.Add(node);
+
+                long counter = 0;
+                foreach (Node<ScEvent> root in roots)
+                {
+                    if (root.Value.Unit == node.Value.Unit)
+                    {
+                        counter++;
+                    }
+                }
+                if (roots.Count == 0 || counter == 0) roots.Add(node);
+                else
+                {
+                    //Node<ScEvent> tmp = roots.FindByUnit(node.Value.Unit);
+                    //tmp.occurances++;
+                }
+                //else roots.Add(new Node<ScEvent>(counter, game.Events[0], buildTree(0, game, games)));
             }
-            //}
-            //    for (int i = 0; i < game.Events.Count; i++)
-            //    {
-            //        ScEvent r = game.Events[i];
-            //        if (r == null) continue;
-            //        IEnumerable<ScEvent> q = possibleRoots.Where(e => e.Unit == r.Unit);
-            //        if (q.Count() == 0)
-            //        {
-            //            possibleRoots.Add(r);
-            //            //roots.Add(new Node<ScEvent>(r, buildTree(r, game, games)));
-            //        }
-            //    }
-            //}
 
-            return allgames;
-            //return roots;
+            foreach (Node<ScEvent> root in roots)
+            {
+                foreach (Node<ScEvent> game in allgames)
+                {
+                    if (root.Value.Unit == game.Value.Unit)
+                        root.occurances++;
+                }
+            }
+
+            return roots;
         }
-
     }
 }

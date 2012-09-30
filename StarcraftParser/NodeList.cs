@@ -28,5 +28,18 @@ namespace StarcraftParser
             // if we reached here, we didn't find a matching node
             return null;
         }
+
+        //public Node<ScEvent> FindByUnit(string p)
+        //{
+        //    // search the list for the value
+        //    foreach (Node<ScEvent> node in Items)
+        //    {
+        //        node
+        //        if (node.Value. equals(p))
+        //            return node;
+        //    }
+        //    // if we reached here, we didn't find a matching node
+        //    return null;
+        //}
     }
 }
