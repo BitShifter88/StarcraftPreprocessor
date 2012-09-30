@@ -34,9 +34,9 @@ namespace StarcraftParser
 
 
 
-            NodeList<ScEvent> roots = new NodeList<ScEvent>();
+            
             GraphProcessor gp = new GraphProcessor();
-            roots = gp.ProcessGames(games);
+            var roots = gp.ProcessGames(games);
 
 
 
