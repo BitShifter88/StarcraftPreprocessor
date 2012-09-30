@@ -8,9 +8,9 @@ namespace StarcraftParser
     public class Node<T>
     {
         private T data;
+        private long occurances = 0;
         private NodeList<T> neighbors = null;
-        public long occurances {get;set;}
-
+        
         public Node() { }
         public Node(T data) : this(0, data, null) { }
         public Node(long occurances, T data, NodeList<T> neighbors)
@@ -29,6 +29,18 @@ namespace StarcraftParser
             set
             {
                 data = value;
+            }
+        }
+
+        public long Occurances
+        {
+            get
+            {
+                return occurances;
+            }
+            set
+            {
+                occurances = value;
             }
         }
 

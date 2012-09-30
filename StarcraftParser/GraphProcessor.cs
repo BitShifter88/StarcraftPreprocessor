@@ -19,8 +19,6 @@ namespace StarcraftParser
             return result;
         }
 
-
-
         public NodeList<ScEvent> ProcessGames(List<ScGame> games)
         {
             NodeList<ScEvent> roots = new NodeList<ScEvent>();
@@ -58,7 +56,7 @@ namespace StarcraftParser
                 {
                     if (root.Value.Unit == game.Value.Unit)
                     {
-                        root.occurances++;
+                        root.Occurances++;
                         CountOccurances(root.Neighbors, game.Neighbors);
                     }
                 }
