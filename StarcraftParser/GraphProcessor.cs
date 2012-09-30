@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.IO;
 
 namespace StarcraftParser
 {
@@ -17,6 +18,56 @@ namespace StarcraftParser
             }
 
             return result;
+        }
+
+        public string ExportToGraphviz(string result, NodeList<ScEvent> roots)
+        {
+            //digraph G {
+
+            //    subgraph cluster_0 {
+            //        style=filled;
+            //        color=lightgrey;
+            //        node [style=filled,color=white];
+            //        a0 -> a1 -> a2 -> a3;
+            //        label = "process #1";
+            //    }
+
+            //    subgraph cluster_1 {
+            //        node [style=filled];
+            //        b0 -> b1 -> b2 -> b3;
+            //        label = "process #2";
+            //        color=blue
+            //    }
+            //    start -> a0;
+            //    start -> b0;
+            //    a1 -> b3;
+            //    b2 -> a3;
+            //    a3 -> a0;
+            //    a3 -> end;
+            //    b3 -> end;
+
+            //    start [shape=Mdiamond];
+            //    end [shape=Msquare];
+            //}
+
+                // Writes the CSV Header
+                //result += "digraph G {" + " \r\n";
+            result = "";
+                for(int i=0;i<roots.Count;i++)
+                {
+                    for (int j = 0; j < roots[i].Neighbors.Count; j++)
+                    {
+                        result += "start -> " + "\"" + roots[i].Value.Unit + "\"" + "; \r\n";
+                        result += "\"" + roots[i].Value.Unit + "\"" + " -> " + "\"" + roots[i].Neighbors[j].Value.Unit + "\"" + "; \r\n";
+                        string tmp = "";
+                        //result += ExportToGraphviz(tmp, roots[i].Neighbors);
+                    }
+
+                }
+                //result += "start [shape=Mdiamond];" + "\r\n" + "}" + " \r\n";
+                return result;
+            
+        
         }
 
         public NodeList<ScEvent> ProcessGames(List<ScGame> games)
@@ -48,7 +99,7 @@ namespace StarcraftParser
             return roots;
         }
 
-        public void CountOccurances(NodeList<ScEvent> roots, NodeList<ScEvent> allgames)
+        private void CountOccurances(NodeList<ScEvent> roots, NodeList<ScEvent> allgames)
         {
             foreach (Node<ScEvent> root in roots)
             {

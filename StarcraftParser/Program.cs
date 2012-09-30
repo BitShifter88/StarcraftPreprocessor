@@ -46,6 +46,18 @@ namespace StarcraftParser
             GraphProcessor gp = new GraphProcessor();
             NodeList<ScEvent> roots = gp.ProcessGames(games);
             roots.Traverse(e => e.Occurances++);    // Debug example
+            string result = "";
+            result = gp.ExportToGraphviz(result, roots);
+            using (StreamWriter sw = new StreamWriter(new FileStream("graphviz.txt", FileMode.Create)))
+            {
+                foreach (Node<ScEvent> root in roots)
+                {
+                    sw.Write("digraph G {" + " \r\n" +
+                        result + 
+                        "start [shape=Mdiamond];" +
+                        "}\r\n");
+                }
+            }
 
 
             // Because ScGame is just a C# representation of a game event log, we need to convert it to a more appropriate format in order to do data analysis.
