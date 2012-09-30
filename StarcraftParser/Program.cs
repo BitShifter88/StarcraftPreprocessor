@@ -30,6 +30,7 @@ namespace StarcraftParser
             Parser p = new Parser();
             // Parses the raw log file from Mikkels replay parser. It returns a list of ScGames, which is simply a C# representation of a game event log.
             List<ScGame> games = p.Parse("input.csv");
+            games = games.Distinct().ToList();
             
             // Generates a "Strategy tree", in which the root node is the first
             // building made, its children (or neighbors) are the second building made, and so forth
