@@ -29,6 +29,14 @@ namespace StarcraftParser
             return null;
         }
 
+        public void Traverse(Action<Node<T>> v)
+        {
+            foreach (Node<T> i in Items)
+            {
+                i.Visit(v);
+            }
+        }
+
         //public Node<ScEvent> FindByUnit(string p)
         //{
         //    // search the list for the value

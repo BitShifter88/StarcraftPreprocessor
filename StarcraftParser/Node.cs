@@ -43,5 +43,14 @@ namespace StarcraftParser
                 neighbors = value;
             }
         }
+
+        public void Visit(Action<Node<T>> v)
+        {
+            v(this);
+            foreach (Node<T> n in Neighbors)
+            {
+                n.Visit(v);
+            }
+        }
     }
 }

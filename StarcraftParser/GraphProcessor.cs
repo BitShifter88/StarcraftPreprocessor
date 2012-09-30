@@ -36,17 +36,21 @@ namespace StarcraftParser
                     if (root.Value.Unit == node.Value.Unit)
                     {
                         counter++;
+                        foreach (Node<ScEvent> n in node.Neighbors)
+                        {
+                            List<Node<ScEvent>> q = root.Neighbors.Where(e => e.Value.Unit == n.Value.Unit).ToList();
+                            if (q.Count == 0) root.Neighbors.Add(n);
+                        }
                     }
                 }
                 if (roots.Count == 0 || counter == 0) roots.Add(node);
             }
 
-            NodeList<ScEvent> result = roots;
-            CountOccurances(result, allgames);
-            return result;
+            CountOccurances(roots, allgames);
+            return roots;
         }
 
-        private void CountOccurances(NodeList<ScEvent> roots, NodeList<ScEvent> allgames)
+        public void CountOccurances(NodeList<ScEvent> roots, NodeList<ScEvent> allgames)
         {
             foreach (Node<ScEvent> root in roots)
             {
@@ -55,46 +59,10 @@ namespace StarcraftParser
                     if (root.Value.Unit == game.Value.Unit)
                     {
                         root.occurances++;
-                        //NodeList<ScEvent> tmp = (Node<ScEvent>)allgames.Skip(allgames.IndexOf(game));
                         CountOccurances(root.Neighbors, game.Neighbors);
-                        //CountNeighbourOccurance(root, game.Neighbors);
                     }
                 }
             }
         }
-
-        private void CountNeighbourOccurance(Node<ScEvent> root, NodeList<ScEvent> gameNeighbors)
-        {
-            if (root.Neighbors == null || gameNeighbors == null) return;
-
-            Node<ScEvent> notFoundGame = new Node<ScEvent>();
-            Node<ScEvent> notFoundRoot = new Node<ScEvent>();
-            bool found = false;
-            foreach (Node<ScEvent> r in root.Neighbors)
-            {                
-                foreach (Node<ScEvent> game in gameNeighbors)
-                {
-                    if (root.Value.Unit == game.Value.Unit)
-                    {
-                        found = true;
-                        root.occurances++;
-                        CountNeighbourOccurance(r, game.Neighbors);
-                    }
-                    else
-                    {
-                        notFoundGame = game;
-                        notFoundRoot = r;
-                    }
-                }
-                
-            }
-            if (!found)
-            {
-                root.Neighbors.Add(notFoundGame);
-                //CountNeighbourOccurance(root, gameNeighbors);
-            }
-        }
-
-        
     }
 }

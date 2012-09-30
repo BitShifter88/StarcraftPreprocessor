@@ -34,10 +34,21 @@ namespace StarcraftParser
 
 
 
-            
-            GraphProcessor gp = new GraphProcessor();
-            var roots = gp.ProcessGames(games);
+            // Generates a "Strategy tree", in which the root node is the first
+            // building made, its children (or neighbors) are the second building made, and so forth
+            // Node data is of the type "ScEvent"
+            // The frequency of a path through the tree, is given by the node property "occurances"
+            // Example:
+            //        Protoss Pylon (450 occurances)
+            //              |
+            //         /         \
+            //  Forge (50)      Gateway (400)
+            //    /|\               /|\
+            //
 
+            GraphProcessor gp = new GraphProcessor();
+            NodeList<ScEvent> roots = gp.ProcessGames(games);
+            roots.Traverse(e => e.occurances++);
 
 
             // Because ScGame is just a C# representation of a game event log, we need to convert it to a more appropriate format in order to do data analysis.
