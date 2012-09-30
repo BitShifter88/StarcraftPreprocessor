@@ -50,13 +50,13 @@ namespace StarcraftParser
             result = gp.ExportToGraphviz(result, roots);
             using (StreamWriter sw = new StreamWriter(new FileStream("graphviz.txt", FileMode.Create)))
             {
-                foreach (Node<ScEvent> root in roots)
-                {
+                foreach (Node<ScEvent> r in roots) result += "start -> " + "\"" + r.Value.Unit + "\"" + "; \r\n";
+
                     sw.Write("digraph G {" + " \r\n" +
                         result + 
                         "start [shape=Mdiamond];" +
                         "}\r\n");
-                }
+                
             }
 
 

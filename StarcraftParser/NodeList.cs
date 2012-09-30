@@ -29,7 +29,7 @@ namespace StarcraftParser
             return null;
         }
 
-        // Visit everu node in graph
+        // Visit every node in graph
         public void Traverse(Action<Node<T>> v)
         {
             foreach (Node<T> i in Items)
