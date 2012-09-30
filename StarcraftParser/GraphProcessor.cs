@@ -26,7 +26,6 @@ namespace StarcraftParser
             result = "";
             foreach (Node<ScEvent> root in roots)
             {
-                //result += "start -> " + "\"" + root.Value.Unit + "\"" + "; \r\n";
                 counter++;
                 foreach (Node<ScEvent> node in root.Neighbors)
                 {
@@ -35,8 +34,6 @@ namespace StarcraftParser
                 }
             }
             return result;
-
-
         }
 
         public NodeList<ScEvent> ProcessGames(List<ScGame> games)
