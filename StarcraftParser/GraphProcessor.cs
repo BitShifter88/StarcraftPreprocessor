@@ -36,6 +36,35 @@ namespace StarcraftParser
             return result;
         }
 
+        public string ExportToGraphvizSimple(string result, NodeList<ScEvent> roots)
+        {
+            result = "";
+            foreach (Node<ScEvent> root in roots)
+            {
+                foreach (Node<ScEvent> node in root.Neighbors)
+                {
+                    result += "\"" + root.Value.Unit + "\"" + " -> " + "\"" + node.Value.Unit + "\"" + "; \r\n";
+                }
+            }
+            return result;
+        }
+
+        public string ExportToGraphvizAlt(string result, NodeList<ScEvent> roots)
+        {
+            result = "";
+            for(int i=0;i<roots.Count;i++)
+            //foreach (Node<ScEvent> root in roots)
+            {
+                for(int j=0;j<roots[i].Neighbors.Count; j++)
+                //foreach (Node<ScEvent> node in root.Neighbors)
+                {
+                    result += i + " -> " + i.ToString() + j.ToString() + "; \r\n";
+                    result += ExportToGraphvizAlt(result, roots[i].Neighbors);
+                }
+            }
+            return result;
+        }
+
         public NodeList<ScEvent> ProcessGames(List<ScGame> games)
         {
             NodeList<ScEvent> roots = new NodeList<ScEvent>();

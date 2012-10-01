@@ -47,7 +47,8 @@ namespace StarcraftParser
             NodeList<ScEvent> roots = gp.ProcessGames(games);
             roots.Traverse(e => e.Occurances++);    // Debug example
             string result = "";
-            result = gp.ExportToGraphviz(result, roots);
+            //result = gp.ExportToGraphviz(result, roots);
+            result = gp.ExportToGraphvizAlt(result, roots);
             using (StreamWriter sw = new StreamWriter(new FileStream("graphviz.txt", FileMode.Create)))
             {
                 foreach (Node<ScEvent> r in roots) result += "start -> " + "\"" + r.Value.Unit + "\"" + "; \r\n";
