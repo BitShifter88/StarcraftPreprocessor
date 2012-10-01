@@ -23,9 +23,9 @@ namespace StarcraftParser
             Console.WriteLine("Would you like to remove game dublicates from the input file? (1) yes (2) no");
             int removeDub = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("Would you like to use the Time Slice Preprocessor (1), or the First Time Build Preprocessor (2)?");
+            Console.WriteLine("Choose processor:\nTime Slice Preprocessor (1)\nFirst Time Build Preprocessor (2)");
             int processor = int.Parse(Console.ReadLine());
-            Console.WriteLine("Should the result be saven in an Excel csv (1) or Weka csv (2)?");
+            Console.WriteLine("Choose CSV format:\nExcel csv (1)\nWeka csv (2)");
             int csv = int.Parse(Console.ReadLine());
 
             Parser p = new Parser();
