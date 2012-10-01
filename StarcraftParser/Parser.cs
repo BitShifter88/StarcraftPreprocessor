@@ -110,5 +110,44 @@ namespace StarcraftParser
 
             return gamesList;
         }
+
+        public void RemoveDublicates(List<ScGame> games)
+        {
+            for (int j = 0; j < 10; j++)
+            {
+                List<string> toRemove = new List<string>();
+
+                foreach (ScGame game1 in games)
+                {
+                    foreach (ScGame game2 in games)
+                    {
+                        if (game1.Events.Count != game2.Events.Count ||
+                            toRemove.Contains(game1.ReplayFile) ||
+                            game1 == game2)
+                            continue;
+
+                        int identicalEvents = 0;
+
+                        for (int i = 0; i < game1.Events.Count; i++)
+                        {
+                            if (game1.Events[i].Equals(game2.Events[i]))
+                            {
+                                identicalEvents++;
+                            }
+                        }
+
+                        if (identicalEvents == game1.Events.Count)
+                        {
+                            toRemove.Add(game2.ReplayFile);
+                        }
+                    }
+                }
+
+                foreach (string str in toRemove)
+                {
+                    games.Remove(games.First(i => i.ReplayFile == str));
+                }
+            }
+        }
     }
 }

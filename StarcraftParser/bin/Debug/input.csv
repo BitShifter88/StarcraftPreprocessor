@@ -1,32 +1,1120 @@
-0,0188 HardTerranT TSLRedeemP.rep,59,1,"Protoss",400,"Protoss Pylon",3712,3840,0,394,9
-0,0188 HardTerranT TSLRedeemP.rep,63,0,"Terran",400,"Terran Supply Depot",48,3584,0,402,9
-0,0188 HardTerranT TSLRedeemP.rep,84,1,"Protoss",450,"Protoss Gateway",3616,3824,0,642,10
-0,0188 HardTerranT TSLRedeemP.rep,93,0,"Terran",500,"Terran Barracks",384,3344,0,642,11
-0,0188 HardTerranT TSLRedeemP.rep,95,1,"Protoss",500,"Protoss Assimilator",3808,4032,0,738,11
-0,0188 HardTerranT TSLRedeemP.rep,106,0,"Terran",550,"Terran Refinery",288,3680,0,754,12
-0,0188 HardTerranT TSLRedeemP.rep,126,1,"Protoss",600,"Protoss Cybernetics Core",3664,3936,0,1058,13
-0,0188 HardTerranT TSLRedeemP.rep,141,1,"Protoss",650,"Protoss Pylon",4064,4000,64,1170,14
-0,0188 HardTerranT TSLRedeemP.rep,156,0,"Terran",750,"Terran Factory",480,3536,112,1218,16
-0,0188 HardTerranT TSLRedeemP.rep,163,0,"Terran",750,"Terran Supply Depot",432,3968,152,1290,16
-0,0188 HardTerranT TSLRedeemP.rep,189,0,"Terran",850,"Terran Factory",544,3632,280,1578,18
-0,0188 HardTerranT TSLRedeemP.rep,189,1,"Protoss",800,"Protoss Pylon",3680,3584,296,1714,17
-0,0188 HardTerranT TSLRedeemP.rep,207,0,"Terran",900,"Terran Machine Shop",576,3552,376,1762,19
-0,0188 HardTerranT TSLRedeemP.rep,216,1,"Protoss",1150,"Protoss Gateway",3616,3728,416,2042,18
-0,0188 HardTerranT TSLRedeemP.rep,222,0,"Terran",950,"Terran Supply Depot",144,3584,456,1962,20
-0,0188 HardTerranT TSLRedeemP.rep,226,1,"Protoss",1150,"Protoss Pylon",3936,3584,464,2170,19
-0,0188 HardTerranT TSLRedeemP.rep,242,0,"Terran",1150,"Terran Machine Shop",640,3648,560,2218,21
-0,0188 HardTerranT TSLRedeemP.rep,267,1,"Protoss",1550,"Protoss Pylon",3840,3456,664,2738,22
-0,0188 HardTerranT TSLRedeemP.rep,299,0,"Terran",1800,"Terran Supply Depot",560,3968,856,3018,21
-0,0188 HardTerranT TSLRedeemP.rep,307,1,"Protoss",2350,"Protoss Pylon",3456,2912,848,3322,23
-0,0188 HardTerranT TSLRedeemP.rep,320,1,"Protoss",2650,"Protoss Gateway",3552,3920,912,3522,23
-0,0188 HardTerranT TSLRedeemP.rep,328,0,"Terran",1950,"Terran Supply Depot",560,3872,1000,3426,22
-0,0188 HardTerranT TSLRedeemP.rep,367,0,"Terran",2250,"Terran Command Center",288,3120,1200,3970,23
-0,0188 HardTerranT TSLRedeemP.rep,433,0,"Terran",2800,"Terran Command Center",64,3472,1544,4914,24
-0,0188 HardTerranT TSLRedeemP.rep,453,1,"Protoss",5150,"Protoss Citadel of Adun",3856,3968,1264,5098,17
-0,0188 HardTerranT TSLRedeemP.rep,478,0,"Terran",3600,"Terran Engineering Bay",704,3856,1776,5546,26
-0,0188 HardTerranT TSLRedeemP.rep,523,0,"Terran",3350,"Terran Missile Turret",480,3040,2000,6218,29
-0,0188 HardTerranT TSLRedeemP.rep,563,0,"Terran",4250,"Terran Academy",688,3968,2208,6938,34
-0,0188 HardTerranT TSLRedeemP.rep,569,1,"Protoss",6750,"Protoss Pylon",3904,4032,1656,6754,22
-0,0188 HardTerranT TSLRedeemP.rep,574,0,"Terran",3650,"Terran Supply Depot",560,3776,2272,7218,35
-0,0188 HardTerranT TSLRedeemP.rep,577,0,"Terran",3650,"Terran Factory",672,3728,2288,7306,36
-0,0188 HardTerranT TSLRedeemP.rep,578,1,"Protoss",6950,"Protoss Pylon",3840,3232,1688,6882,22
+1349078977,BaryAlibasov vs npnl.rep,60,1,"Terran",400,"Terran Supply Depot",3792,1792,0,378,9
+1349078977,BaryAlibasov vs npnl.rep,90,1,"Terran",500,"Terran Barracks",3968,1872,0,626,11
+1349078977,BaryAlibasov vs npnl.rep,104,0,"Zerg",800,"Zerg Hatchery",1600,272,0,842,11
+1349078977,BaryAlibasov vs npnl.rep,105,1,"Terran",550,"Terran Refinery",3776,1152,0,754,12
+1349078977,BaryAlibasov vs npnl.rep,120,0,"Zerg",800,"Zerg Spawning Pool",2704,128,0,1010,10
+1349078977,BaryAlibasov vs npnl.rep,125,0,"Zerg",800,"Zerg Extractor",2720,64,0,1082,9
+1349078977,BaryAlibasov vs npnl.rep,144,1,"Terran",700,"Terran Supply Depot",3888,1792,40,1130,15
+1349078977,BaryAlibasov vs npnl.rep,159,1,"Terran",750,"Terran Factory",3936,1552,112,1266,16
+1349078977,BaryAlibasov vs npnl.rep,189,1,"Terran",900,"Terran Factory",3648,1488,272,1570,17
+1349078977,BaryAlibasov vs npnl.rep,199,0,"Zerg",1150,"Zerg Lair",2720,240,208,1810,13
+1349078977,BaryAlibasov vs npnl.rep,212,1,"Terran",950,"Terran Supply Depot",3856,1728,392,1834,17
+1349078977,BaryAlibasov vs npnl.rep,213,1,"Terran",950,"Terran Machine Shop",4032,1568,392,1842,17
+1349078977,BaryAlibasov vs npnl.rep,266,1,"Terran",1225,"Terran Supply Depot",4048,1216,672,2530,19
+1349078977,BaryAlibasov vs npnl.rep,268,0,"Zerg",1650,"Zerg Spire",2624,128,552,2674,14
+1349078977,BaryAlibasov vs npnl.rep,278,1,"Terran",1575,"Terran Armory",4048,1152,736,2682,19
+1349078977,BaryAlibasov vs npnl.rep,310,1,"Terran",2125,"Terran Engineering Bay",3616,1328,896,3122,19
+1349078977,BaryAlibasov vs npnl.rep,311,0,"Zerg",2050,"Zerg Extractor",1376,224,760,3242,16
+1349078977,BaryAlibasov vs npnl.rep,325,0,"Zerg",2200,"Zerg Creep Colony",1760,384,824,3442,18
+1349078977,BaryAlibasov vs npnl.rep,343,0,"Zerg",2200,"Zerg Sunken Colony",1760,384,912,3706,18
+1349078977,BaryAlibasov vs npnl.rep,373,1,"Terran",2550,"Terran Missile Turret",1728,736,1224,3882,20
+1349078977,BaryAlibasov vs npnl.rep,375,0,"Zerg",2200,"Zerg Hatchery",1856,368,1200,4170,17
+1349078977,BaryAlibasov vs npnl.rep,381,1,"Terran",2200,"Terran Missile Turret",1920,704,1272,4002,20
+1349078977,BaryAlibasov vs npnl.rep,397,1,"Terran",2600,"Terran Missile Turret",3744,1248,1352,4210,19
+1349078977,BaryAlibasov vs npnl.rep,403,1,"Terran",2600,"Terran Missile Turret",3648,1600,1376,4282,18
+1349078977,BaryAlibasov vs npnl.rep,434,1,"Terran",3050,"Terran Missile Turret",3872,1184,1544,4682,19
+1349078977,BaryAlibasov vs npnl.rep,500,1,"Terran",4050,"Terran Barracks",3648,1328,1880,5530,19
+1349078977,BaryAlibasov vs npnl.rep,503,1,"Terran",4050,"Terran Barracks",3520,1328,1896,5594,19
+1349078977,BaryAlibasov vs npnl.rep,546,0,"Zerg",7900,"Zerg Hydralisk Den",1584,512,2552,6426,24
+1349078977,BaryAlibasov vs npnl.rep,547,1,"Terran",4950,"Terran Supply Depot",3760,1728,2120,6114,19
+1349078977,BaryAlibasov vs npnl.rep,567,1,"Terran",4950,"Terran Academy",3664,1248,2192,6394,18
+1349078977,BaryAlibasov vs npnl.rep,589,1,"Terran",5050,"Terran Supply Depot",3952,1152,2232,6698,18
+1349078977,BaryAlibasov vs npnl.rep,625,1,"Terran",5650,"Terran Machine Shop",3744,1504,2296,7162,18
+1349078977,BaryAlibasov vs npnl.rep,631,1,"Terran",5650,"Terran Comsat Station",3872,1344,2312,7258,17
+1349078977,BaryAlibasov vs npnl.rep,644,1,"Terran",5750,"Terran Supply Depot",4048,1088,2336,7418,17
+1349078977,BaryAlibasov vs npnl.rep,662,0,"Zerg",11200,"Zerg Hatchery",320,2768,3504,8666,24
+1349078977,BaryAlibasov vs npnl.rep,667,1,"Terran",6000,"Terran Supply Depot",3952,1088,2384,7746,17
+1349079047,bd.Blade- vs reps)fo (2).rep,59,0,"Terran",400,"Terran Supply Depot",3760,512,0,378,9
+1349079047,bd.Blade- vs reps)fo (2).rep,90,0,"Terran",500,"Terran Barracks",3328,48,0,602,11
+1349079047,bd.Blade- vs reps)fo (2).rep,100,1,"Zerg",750,"Zerg Hatchery",1216,3632,0,810,11
+1349079047,bd.Blade- vs reps)fo (2).rep,119,1,"Zerg",800,"Zerg Spawning Pool",272,3648,0,1026,10
+1349079047,bd.Blade- vs reps)fo (2).rep,125,0,"Terran",650,"Terran Supply Depot",3760,448,0,978,14
+1349079047,bd.Blade- vs reps)fo (2).rep,166,0,"Terran",850,"Terran Command Center",2880,464,0,1458,16
+1349079047,bd.Blade- vs reps)fo (2).rep,179,0,"Terran",850,"Terran Refinery",3808,96,0,1626,17
+1349079047,bd.Blade- vs reps)fo (2).rep,179,1,"Zerg",1000,"Zerg Hatchery",736,3952,0,1682,13
+1349079047,bd.Blade- vs reps)fo (2).rep,185,1,"Zerg",1000,"Zerg Extractor",288,3584,0,1746,12
+1349079047,bd.Blade- vs reps)fo (2).rep,208,0,"Terran",1050,"Terran Academy",3856,512,8,2018,19
+1349079047,bd.Blade- vs reps)fo (2).rep,244,1,"Zerg",1500,"Zerg Lair",288,3760,120,2658,19
+1349079047,bd.Blade- vs reps)fo (2).rep,248,0,"Terran",1250,"Terran Barracks",3456,48,208,2474,21
+1349079047,bd.Blade- vs reps)fo (2).rep,256,1,"Zerg",1550,"Zerg Creep Colony",1216,3456,176,2874,19
+1349079047,bd.Blade- vs reps)fo (2).rep,266,1,"Zerg",1700,"Zerg Extractor",1248,3808,224,3050,20
+1349079047,bd.Blade- vs reps)fo (2).rep,267,0,"Terran",1500,"Terran Barracks",3328,144,304,2754,23
+1349079047,bd.Blade- vs reps)fo (2).rep,270,1,"Zerg",1750,"Zerg Sunken Colony",1216,3456,248,3122,20
+1349079047,bd.Blade- vs reps)fo (2).rep,289,0,"Terran",1725,"Terran Supply Depot",3856,448,416,3146,27
+1349079047,bd.Blade- vs reps)fo (2).rep,294,1,"Zerg",2000,"Zerg Hydralisk Den",624,4000,360,3538,23
+1349079047,bd.Blade- vs reps)fo (2).rep,300,0,"Terran",1825,"Terran Comsat Station",2976,480,480,3354,27
+1349079047,bd.Blade- vs reps)fo (2).rep,301,0,"Terran",1825,"Terran Comsat Station",3904,288,480,3362,27
+1349079047,bd.Blade- vs reps)fo (2).rep,304,0,"Terran",1950,"Terran Engineering Bay",3648,464,496,3418,27
+1349079047,bd.Blade- vs reps)fo (2).rep,311,1,"Zerg",2200,"Zerg Spire",160,3616,504,3842,25
+1349079047,bd.Blade- vs reps)fo (2).rep,321,0,"Terran",1950,"Terran Supply Depot",3856,576,584,3738,27
+1349079047,bd.Blade- vs reps)fo (2).rep,321,1,"Zerg",2300,"Zerg Creep Colony",1152,3456,600,4010,26
+1349079047,bd.Blade- vs reps)fo (2).rep,335,1,"Zerg",2400,"Zerg Sunken Colony",1152,3456,744,4290,27
+1349079047,bd.Blade- vs reps)fo (2).rep,337,0,"Terran",2225,"Terran Supply Depot",3760,384,664,4098,27
+1349079047,bd.Blade- vs reps)fo (2).rep,360,0,"Terran",2625,"Terran Supply Depot",3760,576,784,4570,31
+1349079047,bd.Blade- vs reps)fo (2).rep,361,0,"Terran",2625,"Terran Supply Depot",3952,576,792,4578,31
+1349079047,bd.Blade- vs reps)fo (2).rep,388,1,"Zerg",3450,"Zerg Creep Colony",1088,3456,1240,5378,26
+1349079047,bd.Blade- vs reps)fo (2).rep,403,1,"Zerg",3550,"Zerg Sunken Colony",1088,3456,1376,5666,26
+1349079047,bd.Blade- vs reps)fo (2).rep,413,0,"Terran",3225,"Terran Missile Turret",2688,576,1056,5386,32
+1349079047,bd.Blade- vs reps)fo (2).rep,415,0,"Terran",3225,"Terran Missile Turret",3840,384,1072,5418,32
+1349079047,bd.Blade- vs reps)fo (2).rep,415,0,"Terran",3225,"Terran Missile Turret",3968,512,1072,5418,32
+1349079047,bd.Blade- vs reps)fo (2).rep,424,0,"Terran",3325,"Terran Missile Turret",2784,352,1112,5578,33
+1349079047,bd.Blade- vs reps)fo (2).rep,426,0,"Terran",3325,"Terran Missile Turret",3424,480,1128,5658,33
+1349079047,bd.Blade- vs reps)fo (2).rep,432,0,"Terran",3325,"Terran Missile Turret",2752,576,1160,5754,33
+1349079047,bd.Blade- vs reps)fo (2).rep,432,1,"Zerg",5500,"Zerg Hatchery",288,2352,1648,6234,25
+1349079047,bd.Blade- vs reps)fo (2).rep,455,0,"Terran",3625,"Terran Missile Turret",3488,480,1280,6266,37
+1349079047,bd.Blade- vs reps)fo (2).rep,463,1,"Zerg",5875,"Zerg Queens Nest",336,3936,1936,6834,24
+1349079047,bd.Blade- vs reps)fo (2).rep,464,0,"Terran",3725,"Terran Factory",3584,48,1328,6450,37
+1349079047,bd.Blade- vs reps)fo (2).rep,469,0,"Terran",3825,"Terran Missile Turret",4032,512,1352,6554,39
+1349079047,bd.Blade- vs reps)fo (2).rep,472,0,"Terran",3825,"Terran Supply Depot",3664,384,1368,6650,39
+1349079047,bd.Blade- vs reps)fo (2).rep,490,0,"Terran",3925,"Terran Bunker",2864,768,1464,7122,39
+1349079047,bd.Blade- vs reps)fo (2).rep,491,0,"Terran",3925,"Terran Bunker",3056,864,1464,7138,39
+1349079047,bd.Blade- vs reps)fo (2).rep,503,0,"Terran",4075,"Terran Bunker",3664,288,1528,7378,38
+1349079047,bd.Blade- vs reps)fo (2).rep,520,1,"Zerg",7075,"Zerg Hive",288,3760,2480,7874,24
+1349079095,bd.gonia119_cn vs re (1).rep,57,1,"Terran",400,"Terran Supply Depot",48,2944,0,354,9
+1349079095,bd.gonia119_cn vs re (1).rep,77,0,"Zerg",550,"Zerg Spawning Pool",2736,384,0,618,8
+1349079095,bd.gonia119_cn vs re (1).rep,80,0,"Zerg",650,"Zerg Extractor",2720,64,0,650,7
+1349079095,bd.gonia119_cn vs re (1).rep,89,1,"Terran",500,"Terran Barracks",320,2512,0,626,11
+1349079095,bd.gonia119_cn vs re (1).rep,132,1,"Terran",650,"Terran Supply Depot",144,2944,0,1034,14
+1349079095,bd.gonia119_cn vs re (1).rep,177,0,"Zerg",1000,"Zerg Hatchery",1600,272,136,1418,9
+1349079095,bd.gonia119_cn vs re (1).rep,193,1,"Terran",1000,"Terran Supply Depot",336,2848,0,1762,17
+1349079095,bd.gonia119_cn vs re (1).rep,200,1,"Terran",1000,"Terran Command Center",64,2448,0,1834,17
+1349079095,bd.gonia119_cn vs re (1).rep,214,0,"Zerg",1150,"Zerg Lair",2720,240,208,1722,9
+1349079095,bd.gonia119_cn vs re (1).rep,223,1,"Terran",1150,"Terran Refinery",320,2592,0,2082,17
+1349079115,bd.Kr4Sh- vs reps)lo (1).rep,48,1,"Protoss",350,"Protoss Pylon",3840,3424,0,306,8
+1349079115,bd.Kr4Sh- vs reps)lo (1).rep,58,0,"Terran",400,"Terran Supply Depot",3760,384,0,378,9
+1349079115,bd.Kr4Sh- vs reps)lo (1).rep,76,1,"Protoss",450,"Protoss Gateway",3904,3344,0,562,10
+1349079115,bd.Kr4Sh- vs reps)lo (1).rep,88,0,"Terran",500,"Terran Barracks",3360,240,0,634,11
+1349079115,bd.Kr4Sh- vs reps)lo (1).rep,91,1,"Protoss",500,"Protoss Assimilator",3808,3616,0,714,11
+1349079115,bd.Kr4Sh- vs reps)lo (1).rep,102,0,"Terran",550,"Terran Refinery",3808,96,0,762,12
+1349079115,bd.Kr4Sh- vs reps)lo (1).rep,120,1,"Protoss",600,"Protoss Cybernetics Core",3920,3424,0,1018,13
+1349079115,bd.Kr4Sh- vs reps)lo (1).rep,138,0,"Terran",700,"Terran Supply Depot",4048,448,32,1106,15
+1349079115,bd.Kr4Sh- vs reps)lo (1).rep,140,1,"Protoss",700,"Protoss Pylon",4064,3904,80,1226,15
+1349079115,bd.Kr4Sh- vs reps)lo (1).rep,154,0,"Terran",750,"Terran Factory",3424,48,120,1266,15
+1349079115,bd.Kr4Sh- vs reps)lo (1).rep,194,1,"Protoss",900,"Protoss Gateway",3776,3344,344,1866,19
+1349079115,bd.Kr4Sh- vs reps)lo (1).rep,206,0,"Terran",1000,"Terran Machine Shop",3520,64,232,1898,19
+1349079115,bd.Kr4Sh- vs reps)lo (1).rep,209,1,"Protoss",1200,"Protoss Pylon",4064,3648,424,2058,19
+1349079115,bd.Kr4Sh- vs reps)lo (1).rep,211,0,"Terran",1000,"Terran Command Center",3264,592,240,1962,19
+1349079115,bd.Kr4Sh- vs reps)lo (1).rep,226,0,"Terran",1050,"Terran Supply Depot",4048,512,312,2178,19
+1349079115,bd.Kr4Sh- vs reps)lo (1).rep,245,1,"Protoss",1550,"Protoss Pylon",3712,3808,608,2554,22
+1349079115,bd.Kr4Sh- vs reps)lo (1).rep,273,1,"Protoss",2100,"Protoss Nexus",3584,2864,752,2978,22
+1349079115,bd.Kr4Sh- vs reps)lo (1).rep,280,0,"Terran",1650,"Terran Engineering Bay",3776,464,592,2930,23
+1349079115,bd.Kr4Sh- vs reps)lo (1).rep,287,1,"Protoss",2100,"Protoss Robotics Facility",4016,3424,816,3178,22
+1349079115,bd.Kr4Sh- vs reps)lo (1).rep,302,0,"Terran",1350,"Terran Factory",3424,144,704,3258,24
+1349079115,bd.Kr4Sh- vs reps)lo (1).rep,315,1,"Protoss",2150,"Protoss Pylon",3744,3872,968,3610,24
+1349079115,bd.Kr4Sh- vs reps)lo (1).rep,317,0,"Terran",1400,"Terran Supply Depot",4048,32,784,3498,25
+1349079115,bd.Kr4Sh- vs reps)lo (1).rep,332,0,"Terran",1450,"Terran Missile Turret",3712,288,864,3682,27
+1349079115,bd.Kr4Sh- vs reps)lo (1).rep,341,1,"Protoss",2750,"Protoss Observatory",4048,3584,1096,4002,26
+1349079115,bd.Kr4Sh- vs reps)lo (1).rep,342,0,"Terran",1500,"Terran Missile Turret",2880,544,912,3866,28
+1349079115,bd.Kr4Sh- vs reps)lo (1).rep,356,0,"Terran",1950,"Terran Machine Shop",3520,160,992,4122,30
+1349079115,bd.Kr4Sh- vs reps)lo (1).rep,362,0,"Terran",2000,"Terran Supply Depot",3952,32,1016,4242,31
+1349079115,bd.Kr4Sh- vs reps)lo (1).rep,378,0,"Terran",1750,"Terran Bunker",2928,640,1096,4594,32
+1349079115,bd.Kr4Sh- vs reps)lo (1).rep,379,1,"Protoss",3150,"Protoss Gateway",3744,3440,1288,4658,28
+1349079115,bd.Kr4Sh- vs reps)lo (1).rep,388,0,"Terran",2200,"Terran Refinery",2848,288,1152,4818,34
+1349079115,bd.Kr4Sh- vs reps)lo (1).rep,392,1,"Protoss",3400,"Protoss Pylon",2240,864,1360,4930,29
+1349079115,bd.Kr4Sh- vs reps)lo (1).rep,392,0,"Terran",2250,"Terran Supply Depot",4048,96,1176,4906,34
+1349079115,bd.Kr4Sh- vs reps)lo (1).rep,413,1,"Protoss",4275,"Protoss Pylon",3616,2944,1464,5370,33
+1349079115,bd.Kr4Sh- vs reps)lo (1).rep,421,0,"Terran",2050,"Terran Supply Depot",3952,96,1336,5594,37
+1349079115,bd.Kr4Sh- vs reps)lo (1).rep,431,1,"Protoss",4600,"Protoss Pylon",3744,3936,1560,5802,35
+1349079115,bd.Kr4Sh- vs reps)lo (1).rep,445,0,"Terran",2950,"Terran Factory",3296,48,1512,6218,39
+1349079115,bd.Kr4Sh- vs reps)lo (1).rep,446,0,"Terran",2950,"Terran Factory",3296,144,1520,6250,39
+1349079115,bd.Kr4Sh- vs reps)lo (1).rep,451,0,"Terran",2950,"Terran Factory",3168,48,1568,6354,39
+1349079115,bd.Kr4Sh- vs reps)lo (1).rep,461,1,"Protoss",5775,"Protoss Pylon",2272,3648,1712,6570,39
+1349079115,bd.Kr4Sh- vs reps)lo (1).rep,466,0,"Terran",3300,"Terran Supply Depot",3856,32,1736,6770,40
+1349079115,bd.Kr4Sh- vs reps)lo (1).rep,470,1,"Protoss",5825,"Protoss Robotics Support Bay",3760,3008,1760,6786,40
+1349079115,bd.Kr4Sh- vs reps)lo (1).rep,473,0,"Terran",3300,"Terran Supply Depot",3760,32,1800,6962,40
+1349079115,bd.Kr4Sh- vs reps)lo (1).rep,478,1,"Protoss",6125,"Protoss Nexus",2464,3824,1800,6994,40
+1349079115,bd.Kr4Sh- vs reps)lo (1).rep,490,1,"Protoss",6425,"Protoss Citadel of Adun",3824,3936,1856,7338,42
+1349079115,bd.Kr4Sh- vs reps)lo (1).rep,503,1,"Protoss",6725,"Protoss Gateway",3616,3440,1928,7666,42
+1349079115,bd.Kr4Sh- vs reps)lo (1).rep,509,1,"Protoss",6725,"Protoss Pylon",2208,3680,1960,7842,42
+1349079115,bd.Kr4Sh- vs reps)lo (1).rep,513,1,"Protoss",6725,"Protoss Gateway",3648,3344,1976,7970,42
+1349079115,bd.Kr4Sh- vs reps)lo (1).rep,514,0,"Terran",2800,"Terran Academy",3952,480,2224,7986,44
+1349079115,bd.Kr4Sh- vs reps)lo (1).rep,517,0,"Terran",2800,"Terran Supply Depot",4048,576,2256,8090,44
+1349079115,bd.Kr4Sh- vs reps)lo (1).rep,521,1,"Protoss",6725,"Protoss Gateway",3680,3728,2016,8202,42
+1349079115,bd.Kr4Sh- vs reps)lo (1).rep,522,0,"Terran",2950,"Terran Supply Depot",3952,544,2312,8226,44
+1349079115,bd.Kr4Sh- vs reps)lo (1).rep,524,1,"Protoss",6725,"Protoss Pylon",2144,3712,2032,8290,42
+1349079115,bd.Kr4Sh- vs reps)lo (1).rep,537,1,"Protoss",7125,"Protoss Gateway",3552,3728,2104,8698,42
+1349079115,bd.Kr4Sh- vs reps)lo (1).rep,545,1,"Protoss",7125,"Protoss Gateway",3616,3824,2144,8914,42
+1349079115,bd.Kr4Sh- vs reps)lo (1).rep,546,0,"Terran",3875,"Terran Supply Depot",4048,640,2552,8866,44
+1349079115,bd.Kr4Sh- vs reps)lo (1).rep,561,0,"Terran",6400,"Terran Supply Depot",3952,608,2712,9338,44
+1349079115,bd.Kr4Sh- vs reps)lo (1).rep,589,0,"Terran",6500,"Terran Missile Turret",4000,960,2992,10010,39
+1349079115,bd.Kr4Sh- vs reps)lo (1).rep,603,1,"Protoss",8475,"Protoss Pylon",3552,2944,2440,10618,48
+1349079115,bd.Kr4Sh- vs reps)lo (1).rep,611,0,"Terran",6500,"Terran Comsat Station",2976,480,3152,10362,39
+1349079115,bd.Kr4Sh- vs reps)lo (1).rep,628,1,"Protoss",8875,"Protoss Pylon",4000,3136,2568,11482,49
+1349079115,bd.Kr4Sh- vs reps)lo (1).rep,704,0,"Terran",5350,"Terran Supply Depot",3856,544,3808,12290,46
+1349079115,bd.Kr4Sh- vs reps)lo (1).rep,766,1,"Protoss",14425,"Protoss Nexus",1216,3632,3040,15426,44
+1349079115,bd.Kr4Sh- vs reps)lo (1).rep,794,0,"Terran",7075,"Terran Missile Turret",3136,2816,4664,14866,49
+1349079115,bd.Kr4Sh- vs reps)lo (1).rep,824,0,"Terran",7450,"Terran Missile Turret",3424,2848,4968,15682,49
+1349079115,bd.Kr4Sh- vs reps)lo (1).rep,825,0,"Terran",7450,"Terran Missile Turret",3328,2976,4984,15698,49
+1349079115,bd.Kr4Sh- vs reps)lo (1).rep,825,0,"Terran",7450,"Terran Missile Turret",3168,3104,4984,15698,49
+1349079115,bd.Kr4Sh- vs reps)lo (1).rep,843,0,"Terran",8375,"Terran Factory",3456,400,5160,16186,48
+1349079115,bd.Kr4Sh- vs reps)lo (1).rep,863,1,"Protoss",16275,"Protoss Gateway",3488,3824,3208,18010,42
+1349079115,bd.Kr4Sh- vs reps)lo (1).rep,872,0,"Terran",8725,"Terran Missile Turret",3488,2976,5464,17018,48
+1349079115,bd.Kr4Sh- vs reps)lo (1).rep,905,0,"Terran",8250,"Terran Factory",3488,496,5800,17882,47
+1349079115,bd.Kr4Sh- vs reps)lo (1).rep,913,0,"Terran",8250,"Terran Missile Turret",3616,2912,5888,18074,44
+1349079203,bd.yoo vs reps)Brave (1).rep,52,0,"Terran",350,"Terran Supply Depot",304,384,0,330,8
+1349079203,bd.yoo vs reps)Brave (1).rep,66,1,"Zerg",550,"Zerg Spawning Pool",3824,3904,0,450,8
+1349079203,bd.yoo vs reps)Brave (1).rep,81,0,"Terran",450,"Terran Barracks",448,688,0,522,9
+1349079203,bd.yoo vs reps)Brave (1).rep,82,1,"Zerg",550,"Zerg Extractor",3776,3616,0,578,7
+1349079203,bd.yoo vs reps)Brave (1).rep,118,0,"Terran",550,"Terran Supply Depot",464,32,0,826,12
+1349079203,bd.yoo vs reps)Brave (1).rep,145,1,"Zerg",750,"Zerg Hatchery",3488,2896,0,1138,9
+1349079203,bd.yoo vs reps)Brave (1).rep,161,1,"Zerg",900,"Zerg Extractor",3776,3616,0,1282,8
+1349079203,bd.yoo vs reps)Brave (1).rep,162,0,"Terran",800,"Terran Refinery",320,96,0,1306,16
+1349079203,bd.yoo vs reps)Brave (1).rep,208,0,"Terran",1100,"Terran Academy",560,32,64,1794,19
+1349079203,bd.yoo vs reps)Brave (1).rep,212,0,"Terran",1150,"Terran Supply Depot",176,32,88,1834,19
+1349079203,bd.yoo vs reps)Brave (1).rep,216,1,"Zerg",1150,"Zerg Lair",3776,3792,104,1762,12
+1349079203,bd.yoo vs reps)Brave (1).rep,237,0,"Terran",1300,"Terran Factory",384,560,224,2114,20
+1349079203,bd.yoo vs reps)Brave (1).rep,241,1,"Zerg",1300,"Zerg Hydralisk Den",3824,3968,224,1962,13
+1349079203,bd.yoo vs reps)Brave (1).rep,254,1,"Zerg",1350,"Zerg Creep Colony",3360,2752,288,2106,13
+1349079203,bd.yoo vs reps)Brave (1).rep,259,0,"Terran",1450,"Terran Barracks",320,688,336,2386,22
+1349079203,bd.yoo vs reps)Brave (1).rep,272,1,"Zerg",1500,"Zerg Sunken Colony",3360,2752,384,2306,16
+1349079203,bd.yoo vs reps)Brave (1).rep,295,0,"Terran",1625,"Terran Starport",288,560,520,2906,22
+1349079203,bd.yoo vs reps)Brave (1).rep,302,1,"Zerg",1550,"Zerg Extractor",3488,2720,528,2754,16
+1349079203,bd.yoo vs reps)Brave (1).rep,306,0,"Terran",1625,"Terran Engineering Bay",512,112,576,3090,23
+1349079203,bd.yoo vs reps)Brave (1).rep,309,0,"Terran",1750,"Terran Supply Depot",272,32,592,3114,23
+1349079203,bd.yoo vs reps)Brave (1).rep,315,0,"Terran",1800,"Terran Comsat Station",416,288,624,3194,23
+1349079203,bd.yoo vs reps)Brave (1).rep,341,0,"Terran",1950,"Terran Control Tower",384,576,760,3586,23
+1349079203,bd.yoo vs reps)Brave (1).rep,345,0,"Terran",1950,"Terran Supply Depot",176,480,784,3666,23
+1349079203,bd.yoo vs reps)Brave (1).rep,360,0,"Terran",2000,"Terran Machine Shop",608,544,856,3906,24
+1349079203,bd.yoo vs reps)Brave (1).rep,372,1,"Zerg",2425,"Zerg Hatchery",3808,2032,1008,3890,21
+1349079203,bd.yoo vs reps)Brave (1).rep,372,0,"Terran",2150,"Terran Bunker",816,1248,920,4114,24
+1349079203,bd.yoo vs reps)Brave (1).rep,398,0,"Terran",2300,"Terran Bunker",720,1344,1056,4522,24
+1349079203,bd.yoo vs reps)Brave (1).rep,413,0,"Terran",2650,"Terran Supply Depot",80,864,1128,4786,24
+1349079203,bd.yoo vs reps)Brave (1).rep,416,1,"Zerg",3475,"Zerg Queens Nest",3728,3968,1464,4626,26
+1349079203,bd.yoo vs reps)Brave (1).rep,417,1,"Zerg",3475,"Zerg Evolution Chamber",3728,3904,1464,4650,25
+1349079203,bd.yoo vs reps)Brave (1).rep,418,0,"Terran",2750,"Terran Science Facility",544,208,1152,4858,24
+1349079203,bd.yoo vs reps)Brave (1).rep,430,0,"Terran",3100,"Terran Missile Turret",800,1312,1216,5058,24
+1349079203,bd.yoo vs reps)Brave (1).rep,448,0,"Terran",3100,"Terran Supply Depot",976,224,1312,5338,25
+1349079203,bd.yoo vs reps)Brave (1).rep,453,1,"Zerg",3825,"Zerg Creep Colony",3744,3680,1840,5378,29
+1349079203,bd.yoo vs reps)Brave (1).rep,460,1,"Zerg",3825,"Zerg Creep Colony",3744,2944,1904,5498,28
+1349079203,bd.yoo vs reps)Brave (1).rep,472,1,"Zerg",3875,"Zerg Sunken Colony",3744,3680,1992,5682,25
+1349079203,bd.yoo vs reps)Brave (1).rep,473,1,"Zerg",3875,"Zerg Hive",3776,3792,2000,5698,25
+1349079203,bd.yoo vs reps)Brave (1).rep,478,1,"Zerg",3875,"Zerg Extractor",4032,2048,2032,5778,24
+1349079203,bd.yoo vs reps)Brave (1).rep,482,0,"Terran",3250,"Terran Barracks",320,784,1488,5922,26
+1349079203,bd.yoo vs reps)Brave (1).rep,495,1,"Zerg",4125,"Zerg Sunken Colony",3744,2944,2136,5954,25
+1349079203,bd.yoo vs reps)Brave (1).rep,497,0,"Terran",3475,"Terran Command Center",608,1200,1560,6162,27
+1349079203,bd.yoo vs reps)Brave (1).rep,539,0,"Terran",4750,"Terran Missile Turret",288,1280,1784,6842,29
+1349079203,bd.yoo vs reps)Brave (1).rep,540,0,"Terran",4750,"Terran Barracks",192,688,1784,6858,29
+1349079203,bd.yoo vs reps)Brave (1).rep,548,0,"Terran",4800,"Terran Missile Turret",64,960,1832,7010,29
+1349079203,bd.yoo vs reps)Brave (1).rep,552,1,"Zerg",4825,"Zerg Ultralisk Cavern",3632,3904,2808,6954,33
+1349079203,bd.yoo vs reps)Brave (1).rep,558,0,"Terran",4850,"Terran Supply Depot",656,32,1880,7162,29
+1349079203,bd.yoo vs reps)Brave (1).rep,595,1,"Zerg",5325,"Zerg Hatchery",3200,2928,3432,7970,34
+1349079203,bd.yoo vs reps)Brave (1).rep,596,0,"Terran",5225,"Terran Refinery",608,1376,2072,7890,29
+1349079203,bd.yoo vs reps)Brave (1).rep,631,0,"Terran",5375,"Terran Supply Depot",656,128,2280,8714,29
+1349079203,bd.yoo vs reps)Brave (1).rep,645,0,"Terran",5425,"Terran Barracks",192,784,2408,8986,29
+1349079203,bd.yoo vs reps)Brave (1).rep,653,0,"Terran",5425,"Terran Supply Depot",560,288,2472,9130,30
+1349079203,bd.yoo vs reps)Brave (1).rep,659,0,"Terran",5625,"Terran Engineering Bay",768,144,2536,9258,30
+1349079203,bd.yoo vs reps)Brave (1).rep,701,0,"Terran",6150,"Terran Supply Depot",752,32,2928,10098,30
+1349079203,bd.yoo vs reps)Brave (1).rep,737,0,"Terran",7550,"Terran Barracks",448,784,3256,10810,30
+1349079203,bd.yoo vs reps)Brave (1).rep,767,1,"Zerg",13975,"Zerg Spire",4064,3776,5448,12066,24
+1349079203,bd.yoo vs reps)Brave (1).rep,772,1,"Zerg",14625,"Zerg Hatchery",2048,3664,5496,12154,23
+1349079203,bd.yoo vs reps)Brave (1).rep,797,0,"Terran",9575,"Terran Supply Depot",656,192,3816,12026,34
+1349079236,Brave(OD) vs reps)Pa.rep,53,0,"Protoss",350,"Protoss Pylon",672,2240,0,346,8
+1349079236,Brave(OD) vs reps)Pa.rep,66,1,"Zerg",550,"Zerg Spawning Pool",3888,1984,0,450,8
+1349079236,Brave(OD) vs reps)Pa.rep,85,1,"Zerg",550,"Zerg Extractor",3808,1664,0,594,8
+1349079236,Brave(OD) vs reps)Pa.rep,90,0,"Protoss",500,"Protoss Gateway",864,2160,0,626,11
+1349079236,Brave(OD) vs reps)Pa.rep,121,0,"Protoss",600,"Protoss Pylon",3584,1152,0,930,13
+1349079236,Brave(OD) vs reps)Pa.rep,135,0,"Protoss",650,"Protoss Pylon",256,1312,0,1098,14
+1349079236,Brave(OD) vs reps)Pa.rep,163,1,"Zerg",950,"Zerg Hatchery",3616,944,0,1242,9
+1349079236,Brave(OD) vs reps)Pa.rep,164,0,"Protoss",850,"Protoss Forge",848,2240,0,1450,15
+1349079236,Brave(OD) vs reps)Pa.rep,207,0,"Protoss",1100,"Protoss Photon Cannon",672,2112,0,2010,15
+1349079236,Brave(OD) vs reps)Pa.rep,234,0,"Protoss",1450,"Protoss Nexus",480,2160,0,2338,16
+1349079236,Brave(OD) vs reps)Pa.rep,237,1,"Zerg",1150,"Zerg Extractor",3808,1664,0,1874,8
+1349079236,Brave(OD) vs reps)Pa.rep,247,0,"Protoss",1450,"Protoss Assimilator",288,1056,0,2514,17
+1349079236,Brave(OD) vs reps)Pa.rep,266,1,"Zerg",1350,"Zerg Hatchery",3424,240,0,2122,11
+1349079236,Brave(OD) vs reps)Pa.rep,289,0,"Protoss",1700,"Protoss Cybernetics Core",336,1312,0,3106,19
+1349079236,Brave(OD) vs reps)Pa.rep,290,0,"Protoss",1700,"Protoss Pylon",256,1152,0,3122,18
+1349079236,Brave(OD) vs reps)Pa.rep,298,1,"Zerg",1600,"Zerg Lair",3808,1840,120,2434,14
+1349079236,Brave(OD) vs reps)Pa.rep,312,0,"Protoss",1750,"Protoss Photon Cannon",768,2208,104,3434,20
+1349079236,Brave(OD) vs reps)Pa.rep,331,0,"Protoss",1850,"Protoss Stargate",416,1232,200,3714,23
+1349079236,Brave(OD) vs reps)Pa.rep,349,0,"Protoss",2050,"Protoss Citadel of Adun",336,1376,288,4098,25
+1349079236,Brave(OD) vs reps)Pa.rep,359,1,"Zerg",2100,"Zerg Creep Colony",3456,1024,432,3338,20
+1349079236,Brave(OD) vs reps)Pa.rep,360,0,"Protoss",2150,"Protoss Pylon",320,1472,344,4306,27
+1349079236,Brave(OD) vs reps)Pa.rep,363,1,"Zerg",2150,"Zerg Spire",3808,1984,456,3402,19
+1349079236,Brave(OD) vs reps)Pa.rep,365,0,"Protoss",2350,"Protoss Assimilator",512,2336,368,4442,29
+1349079236,Brave(OD) vs reps)Pa.rep,373,1,"Zerg",2250,"Zerg Sunken Colony",3456,1024,504,3578,20
+1349079236,Brave(OD) vs reps)Pa.rep,384,0,"Protoss",2450,"Protoss Photon Cannon",768,2272,464,4874,29
+1349079236,Brave(OD) vs reps)Pa.rep,391,0,"Protoss",2450,"Protoss Photon Cannon",768,2144,496,5066,29
+1349079236,Brave(OD) vs reps)Pa.rep,407,0,"Protoss",2600,"Protoss Templar Archives",240,1376,624,5426,31
+1349079236,Brave(OD) vs reps)Pa.rep,415,1,"Zerg",2600,"Zerg Extractor",3584,768,720,4298,24
+1349079236,Brave(OD) vs reps)Pa.rep,420,1,"Zerg",2600,"Zerg Extractor",3648,256,744,4378,23
+1349079236,Brave(OD) vs reps)Pa.rep,422,0,"Protoss",3050,"Protoss Gateway",672,2320,760,5778,33
+1349079236,Brave(OD) vs reps)Pa.rep,437,1,"Zerg",2800,"Zerg Creep Colony",3328,320,832,4682,27
+1349079236,Brave(OD) vs reps)Pa.rep,441,0,"Protoss",3300,"Protoss Pylon",512,1312,936,6274,36
+1349079236,Brave(OD) vs reps)Pa.rep,447,0,"Protoss",3300,"Protoss Pylon",256,1472,1000,6418,36
+1349079236,Brave(OD) vs reps)Pa.rep,450,0,"Protoss",3350,"Protoss Gateway",320,1552,1032,6506,36
+1349079236,Brave(OD) vs reps)Pa.rep,451,0,"Protoss",3350,"Protoss Gateway",192,1552,1032,6538,36
+1349079236,Brave(OD) vs reps)Pa.rep,455,1,"Zerg",3100,"Zerg Sunken Colony",3328,320,960,5074,28
+1349079236,Brave(OD) vs reps)Pa.rep,456,1,"Zerg",3100,"Zerg Hatchery",3424,944,968,5074,27
+1349079236,Brave(OD) vs reps)Pa.rep,468,0,"Protoss",3700,"Protoss Photon Cannon",384,1152,1200,6994,37
+1349079236,Brave(OD) vs reps)Pa.rep,491,1,"Zerg",4150,"Zerg Hatchery",3296,240,1336,5898,31
+1349079236,Brave(OD) vs reps)Pa.rep,495,1,"Zerg",4150,"Zerg Evolution Chamber",3184,256,1368,5962,30
+1349079236,Brave(OD) vs reps)Pa.rep,497,0,"Protoss",4200,"Protoss Pylon",448,2240,1480,7778,41
+1349079236,Brave(OD) vs reps)Pa.rep,507,1,"Zerg",4250,"Zerg Creep Colony",3328,160,1496,6266,31
+1349079236,Brave(OD) vs reps)Pa.rep,511,1,"Zerg",4250,"Zerg Hydralisk Den",3472,864,1536,6354,30
+1349079236,Brave(OD) vs reps)Pa.rep,514,0,"Protoss",4625,"Protoss Pylon",512,1376,1648,8258,42
+1349079236,Brave(OD) vs reps)Pa.rep,521,0,"Protoss",5150,"Protoss Pylon",160,896,1712,8482,42
+1349079236,Brave(OD) vs reps)Pa.rep,524,1,"Zerg",4550,"Zerg Spore Colony",3328,160,1680,6698,34
+1349079236,Brave(OD) vs reps)Pa.rep,536,0,"Protoss",5200,"Protoss Pylon",384,1088,1856,8922,43
+1349079236,Brave(OD) vs reps)Pa.rep,547,1,"Zerg",4700,"Zerg Creep Colony",3392,128,1952,7290,36
+1349079236,Brave(OD) vs reps)Pa.rep,563,1,"Zerg",5075,"Zerg Sunken Colony",3392,128,2128,7714,36
+1349079236,Brave(OD) vs reps)Pa.rep,563,0,"Protoss",6950,"Protoss Gateway",448,1552,2120,9706,47
+1349079236,Brave(OD) vs reps)Pa.rep,573,0,"Protoss",7250,"Protoss Gateway",608,1360,2216,10042,47
+1349079236,Brave(OD) vs reps)Pa.rep,578,0,"Protoss",7450,"Protoss Gateway",608,1264,2264,10186,47
+1349079236,Brave(OD) vs reps)Pa.rep,581,0,"Protoss",7450,"Protoss Pylon",512,1248,2288,10250,47
+1349079236,Brave(OD) vs reps)Pa.rep,607,0,"Protoss",8050,"Protoss Pylon",32,832,2544,11018,48
+1349079236,Brave(OD) vs reps)Pa.rep,625,0,"Protoss",8850,"Protoss Pylon",352,2304,2712,11570,48
+1349079236,Brave(OD) vs reps)Pa.rep,668,0,"Protoss",10550,"Protoss Robotics Facility",400,1472,3128,12970,51
+1349079236,Brave(OD) vs reps)Pa.rep,691,0,"Protoss",10850,"Protoss Pylon",32,1504,3360,13702,51
+1349079236,Brave(OD) vs reps)Pa.rep,698,0,"Protoss",11200,"Protoss Pylon",32,1568,3424,13918,52
+1349079236,Brave(OD) vs reps)Pa.rep,700,0,"Protoss",11200,"Protoss Pylon",32,1440,3448,13974,52
+1349079236,Brave(OD) vs reps)Pa.rep,717,0,"Protoss",11250,"Protoss Gateway",608,1456,3608,14510,52
+1349079236,Brave(OD) vs reps)Pa.rep,721,0,"Protoss",11250,"Protoss Pylon",576,1568,3648,14622,52
+1349079236,Brave(OD) vs reps)Pa.rep,723,0,"Protoss",11250,"Protoss Pylon",1216,2912,3672,14718,52
+1349079236,Brave(OD) vs reps)Pa.rep,751,0,"Protoss",12150,"Protoss Nexus",672,2832,3936,15606,51
+1349079236,Brave(OD) vs reps)Pa.rep,760,0,"Protoss",12150,"Protoss Photon Cannon",1120,2976,4016,15926,51
+1349079236,Brave(OD) vs reps)Pa.rep,763,0,"Protoss",12350,"Protoss Photon Cannon",1280,2912,4048,16022,51
+1349079236,Brave(OD) vs reps)Pa.rep,799,0,"Protoss",13100,"Protoss Pylon",640,192,4392,17230,51
+1349079269,Brave(OD) vs uPro)Th.rep,52,1,"Protoss",350,"Protoss Pylon",3392,3008,0,338,8
+1349079269,Brave(OD) vs uPro)Th.rep,79,0,"Zerg",550,"Zerg Spawning Pool",144,96,0,562,8
+1349079269,Brave(OD) vs uPro)Th.rep,99,1,"Protoss",550,"Protoss Forge",3376,2944,0,746,12
+1349079269,Brave(OD) vs uPro)Th.rep,130,1,"Protoss",650,"Protoss Photon Cannon",3456,2944,0,1090,14
+1349079269,Brave(OD) vs uPro)Th.rep,141,0,"Zerg",850,"Zerg Hatchery",512,1264,0,1194,11
+1349079269,Brave(OD) vs uPro)Th.rep,160,1,"Protoss",750,"Protoss Nexus",3584,2864,0,1458,16
+1349079269,Brave(OD) vs uPro)Th.rep,167,0,"Zerg",1000,"Zerg Extractor",288,64,0,1498,10
+1349079269,Brave(OD) vs uPro)Th.rep,168,1,"Protoss",800,"Protoss Gateway",3360,2864,0,1554,16
+1349079269,Brave(OD) vs uPro)Th.rep,180,1,"Protoss",800,"Protoss Pylon",3840,3712,0,1730,17
+1349079269,Brave(OD) vs uPro)Th.rep,189,1,"Protoss",850,"Protoss Assimilator",3808,3616,0,1850,16
+1349079269,Brave(OD) vs uPro)Th.rep,213,1,"Protoss",900,"Protoss Cybernetics Core",4048,3648,0,2202,18
+1349079269,Brave(OD) vs uPro)Th.rep,219,0,"Zerg",1200,"Zerg Lair",288,240,104,1986,12
+1349079269,Brave(OD) vs uPro)Th.rep,226,0,"Zerg",1250,"Zerg Hatchery",2880,464,144,2058,12
+1349079269,Brave(OD) vs uPro)Th.rep,265,1,"Protoss",1300,"Protoss Stargate",3680,3792,176,2938,24
+1349079269,Brave(OD) vs uPro)Th.rep,285,0,"Zerg",1650,"Zerg Spire",320,320,448,2786,19
+1349079269,Brave(OD) vs uPro)Th.rep,301,1,"Protoss",1650,"Protoss Pylon",3616,2784,344,3530,26
+1349079269,Brave(OD) vs uPro)Th.rep,309,0,"Zerg",1800,"Zerg Creep Colony",608,1152,568,3170,21
+1349079269,Brave(OD) vs uPro)Th.rep,324,0,"Zerg",2000,"Zerg Sunken Colony",608,1152,648,3322,21
+1349079269,Brave(OD) vs uPro)Th.rep,336,1,"Protoss",2000,"Protoss Pylon",3840,3872,512,4234,30
+1349079269,Brave(OD) vs uPro)Th.rep,343,1,"Protoss",2100,"Protoss Assimilator",3616,2688,544,4386,32
+1349079269,Brave(OD) vs uPro)Th.rep,346,1,"Protoss",2100,"Protoss Citadel of Adun",3952,3648,560,4426,32
+1349079269,Brave(OD) vs uPro)Th.rep,370,0,"Zerg",2400,"Zerg Creep Colony",2976,544,880,3962,18
+1349079269,Brave(OD) vs uPro)Th.rep,371,1,"Protoss",2750,"Protoss Photon Cannon",3776,3872,680,5018,34
+1349079269,Brave(OD) vs uPro)Th.rep,377,1,"Protoss",2850,"Protoss Pylon",3840,3936,712,5194,36
+1349079269,Brave(OD) vs uPro)Th.rep,378,0,"Zerg",2400,"Zerg Evolution Chamber",656,1216,920,4090,17
+1349079269,Brave(OD) vs uPro)Th.rep,384,1,"Protoss",2950,"Protoss Pylon",3808,928,776,5370,38
+1349079269,Brave(OD) vs uPro)Th.rep,385,0,"Zerg",2400,"Zerg Sunken Colony",2976,544,960,4210,17
+1349079269,Brave(OD) vs uPro)Th.rep,394,1,"Protoss",3300,"Protoss Pylon",3712,3488,864,5578,38
+1349079269,Brave(OD) vs uPro)Th.rep,402,1,"Protoss",3500,"Protoss Templar Archives",3696,3616,952,5810,38
+1349079269,Brave(OD) vs uPro)Th.rep,429,1,"Protoss",3950,"Protoss Photon Cannon",3456,2880,1208,6490,42
+1349079269,Brave(OD) vs uPro)Th.rep,431,1,"Protoss",4050,"Protoss Gateway",3584,2960,1224,6514,42
+1349079269,Brave(OD) vs uPro)Th.rep,432,0,"Zerg",3450,"Zerg Hatchery",2880,560,1200,4946,23
+1349079269,Brave(OD) vs uPro)Th.rep,434,1,"Protoss",4050,"Protoss Gateway",3776,848,1240,6586,42
+1349079269,Brave(OD) vs uPro)Th.rep,451,0,"Zerg",3500,"Zerg Hatchery",704,1136,1296,5282,23
+1349079269,Brave(OD) vs uPro)Th.rep,454,0,"Zerg",3500,"Zerg Creep Colony",544,1184,1312,5338,22
+1349079269,Brave(OD) vs uPro)Th.rep,477,1,"Protoss",5025,"Protoss Gateway",3808,3472,1648,7810,48
+1349079269,Brave(OD) vs uPro)Th.rep,482,0,"Zerg",3750,"Zerg Creep Colony",3040,544,1456,5906,26
+1349079269,Brave(OD) vs uPro)Th.rep,486,1,"Protoss",5125,"Protoss Gateway",3936,3472,1744,8098,50
+1349079269,Brave(OD) vs uPro)Th.rep,491,0,"Zerg",3850,"Zerg Sunken Colony",544,1184,1504,6082,26
+1349079269,Brave(OD) vs uPro)Th.rep,494,0,"Zerg",3850,"Zerg Creep Colony",640,1312,1512,6122,25
+1349079269,Brave(OD) vs uPro)Th.rep,495,1,"Protoss",5575,"Protoss Pylon",3776,3936,1832,8338,50
+1349079269,Brave(OD) vs uPro)Th.rep,499,1,"Protoss",5575,"Protoss Pylon",4064,3904,1872,8458,50
+1349079269,Brave(OD) vs uPro)Th.rep,502,0,"Zerg",3850,"Zerg Extractor",480,1440,1552,6282,24
+1349079269,Brave(OD) vs uPro)Th.rep,502,0,"Zerg",3850,"Zerg Sunken Colony",3040,544,1560,6290,24
+1349079269,Brave(OD) vs uPro)Th.rep,510,1,"Protoss",6000,"Protoss Pylon",3424,3456,1976,8794,50
+1349079269,Brave(OD) vs uPro)Th.rep,510,0,"Zerg",3850,"Zerg Hydralisk Den",2992,608,1600,6458,23
+1349079269,Brave(OD) vs uPro)Th.rep,516,1,"Protoss",6000,"Protoss Robotics Facility",3696,3872,2032,8978,50
+1349079269,Brave(OD) vs uPro)Th.rep,522,0,"Zerg",4250,"Zerg Spore Colony",640,1312,1664,6682,31
+1349079269,Brave(OD) vs uPro)Th.rep,551,0,"Zerg",4550,"Zerg Creep Colony",2752,576,1880,7234,33
+1349079269,Brave(OD) vs uPro)Th.rep,566,0,"Zerg",4700,"Zerg Spore Colony",2752,576,2032,7594,35
+1349079269,Brave(OD) vs uPro)Th.rep,581,1,"Protoss",7475,"Protoss Pylon",2272,3648,2664,11066,54
+1349079269,Brave(OD) vs uPro)Th.rep,625,1,"Protoss",9425,"Protoss Nexus",2464,3824,3088,12450,55
+1349079269,Brave(OD) vs uPro)Th.rep,628,1,"Protoss",9425,"Protoss Pylon",2432,3744,3112,12570,55
+1349079269,Brave(OD) vs uPro)Th.rep,634,1,"Protoss",9850,"Protoss Pylon",3904,3936,3176,12778,55
+1349079269,Brave(OD) vs uPro)Th.rep,634,0,"Zerg",5850,"Zerg Creep Colony",3008,544,2680,9386,38
+1349079269,Brave(OD) vs uPro)Th.rep,669,0,"Zerg",7250,"Zerg Sunken Colony",3008,544,3016,10306,38
+1349079269,Brave(OD) vs uPro)Th.rep,677,1,"Protoss",10600,"Protoss Gateway",3808,3376,3608,14234,58
+1349079269,Brave(OD) vs uPro)Th.rep,687,0,"Zerg",7550,"Zerg Queens Nest",496,320,3200,10874,36
+1349079269,Brave(OD) vs uPro)Th.rep,717,1,"Protoss",11875,"Protoss Gateway",3680,3376,4000,15618,60
+1349079269,Brave(OD) vs uPro)Th.rep,727,0,"Zerg",9025,"Zerg Hive",288,240,3576,11930,39
+1349079269,Brave(OD) vs uPro)Th.rep,744,1,"Protoss",13050,"Protoss Gateway",3584,3472,4272,16618,61
+1349079269,Brave(OD) vs uPro)Th.rep,779,1,"Protoss",14875,"Protoss Pylon",2336,3776,4608,17722,64
+1349079269,Brave(OD) vs uPro)Th.rep,790,1,"Protoss",14875,"Protoss Pylon",3616,544,4720,18218,64
+1349079269,Brave(OD) vs uPro)Th.rep,794,1,"Protoss",14975,"Protoss Observatory",3696,3680,4760,18394,64
+1349079269,Brave(OD) vs uPro)Th.rep,796,0,"Zerg",10800,"Zerg Creep Colony",2912,672,3976,13418,38
+1349079269,Brave(OD) vs uPro)Th.rep,804,1,"Protoss",15325,"Protoss Pylon",3456,384,4856,18794,64
+1349079269,Brave(OD) vs uPro)Th.rep,808,1,"Protoss",15325,"Protoss Photon Cannon",2272,3776,4896,18946,64
+1349079269,Brave(OD) vs uPro)Th.rep,813,1,"Protoss",15325,"Protoss Gateway",3552,3376,4952,19202,64
+1349079269,Brave(OD) vs uPro)Th.rep,813,1,"Protoss",15325,"Protoss Photon Cannon",2208,3776,4952,19210,64
+1349079269,Brave(OD) vs uPro)Th.rep,816,1,"Protoss",15325,"Protoss Photon Cannon",2208,3712,4968,19330,65
+1349079269,Brave(OD) vs uPro)Th.rep,817,1,"Protoss",15425,"Protoss Assimilator",2688,3904,4984,19362,65
+1349079269,Brave(OD) vs uPro)Th.rep,826,0,"Zerg",11150,"Zerg Spire",288,384,4128,14266,38
+1349079269,Brave(OD) vs uPro)Th.rep,827,0,"Zerg",11150,"Zerg Defiler Mound",480,224,4136,14298,37
+1349079269,Brave(OD) vs uPro)Th.rep,828,0,"Zerg",11150,"Zerg Sunken Colony",2912,672,4136,14314,37
+1349079269,Brave(OD) vs uPro)Th.rep,876,1,"Protoss",18225,"Protoss Pylon",3840,4000,5568,21986,66
+1349079269,Brave(OD) vs uPro)Th.rep,877,1,"Protoss",18225,"Protoss Pylon",3904,4000,5576,22034,66
+1349079269,Brave(OD) vs uPro)Th.rep,880,1,"Protoss",18725,"Protoss Pylon",3776,4000,5600,22146,66
+1349079269,Brave(OD) vs uPro)Th.rep,887,1,"Protoss",18725,"Protoss Pylon",3392,3520,5680,22498,66
+1349079269,Brave(OD) vs uPro)Th.rep,931,1,"Protoss",19450,"Protoss Gateway",3456,3600,6256,24266,66
+1349079269,Brave(OD) vs uPro)Th.rep,933,1,"Protoss",19450,"Protoss Gateway",3328,3600,6280,24378,66
+1349079269,Brave(OD) vs uPro)Th.rep,939,1,"Protoss",19450,"Protoss Pylon",3392,3808,6368,24554,65
+1349079269,Brave(OD) vs uPro)Th.rep,950,0,"Zerg",15425,"Zerg Hatchery",384,432,4928,18218,39
+1349079269,Brave(OD) vs uPro)Th.rep,1007,0,"Zerg",16525,"Zerg Hatchery",288,2352,5352,19178,18
+1349079269,Brave(OD) vs uPro)Th.rep,1020,1,"Protoss",24450,"Protoss Pylon",1760,320,7504,27266,65
+1349079269,Brave(OD) vs uPro)Th.rep,1021,1,"Protoss",24450,"Protoss Nexus",1664,240,7504,27274,65
+1349079269,Brave(OD) vs uPro)Th.rep,1042,0,"Zerg",16875,"Zerg Hatchery",288,3760,5584,19482,16
+1349079269,Brave(OD) vs uPro)Th.rep,1052,1,"Protoss",25450,"Protoss Pylon",1184,3488,7944,27954,65
+1349079269,Brave(OD) vs uPro)Th.rep,1089,1,"Protoss",26250,"Protoss Pylon",3456,352,8464,28370,62
+1349079269,Brave(OD) vs uPro)Th.rep,1093,1,"Protoss",26250,"Protoss Nexus",3808,272,8520,28402,62
+1349079269,Brave(OD) vs uPro)Th.rep,1104,1,"Protoss",26250,"Protoss Photon Cannon",1120,3488,8696,28538,62
+1349079269,Brave(OD) vs uPro)Th.rep,1105,1,"Protoss",26250,"Protoss Photon Cannon",1120,3424,8696,28538,62
+1349079269,Brave(OD) vs uPro)Th.rep,1106,1,"Protoss",26250,"Protoss Photon Cannon",1184,3424,8720,28546,62
+1349079269,Brave(OD) vs uPro)Th.rep,1107,1,"Protoss",26250,"Protoss Photon Cannon",1248,3488,8744,28570,62
+1349079269,Brave(OD) vs uPro)Th.rep,1110,1,"Protoss",26250,"Protoss Nexus",1216,3632,8784,28602,62
+1349079269,Brave(OD) vs uPro)Th.rep,1150,1,"Protoss",29000,"Protoss Photon Cannon",3648,288,9376,29154,62
+1349079318,CIA[AoV] vs BAD]oxya.rep,50,0,"Protoss",350,"Protoss Pylon",1152,320,0,314,8
+1349079318,CIA[AoV] vs BAD]oxya.rep,67,1,"Zerg",550,"Zerg Spawning Pool",2064,3712,0,482,8
+1349079318,CIA[AoV] vs BAD]oxya.rep,79,0,"Protoss",450,"Protoss Gateway",1248,368,0,562,10
+1349079318,CIA[AoV] vs BAD]oxya.rep,88,1,"Zerg",600,"Zerg Extractor",2112,3648,0,666,8
+1349079318,CIA[AoV] vs BAD]oxya.rep,95,0,"Protoss",500,"Protoss Assimilator",1056,96,0,714,11
+1349079318,CIA[AoV] vs BAD]oxya.rep,133,0,"Protoss",650,"Protoss Pylon",1152,256,0,1138,14
+1349079318,CIA[AoV] vs BAD]oxya.rep,172,0,"Protoss",850,"Protoss Cybernetics Core",1072,352,128,1554,16
+1349079318,CIA[AoV] vs BAD]oxya.rep,193,0,"Protoss",1000,"Protoss Pylon",1152,384,224,1762,15
+1349079318,CIA[AoV] vs BAD]oxya.rep,213,0,"Protoss",1100,"Protoss Stargate",1056,432,320,1970,17
+1349079318,CIA[AoV] vs BAD]oxya.rep,217,1,"Zerg",1100,"Zerg Hatchery",992,3440,104,1722,9
+1349079318,CIA[AoV] vs BAD]oxya.rep,248,0,"Protoss",1350,"Protoss Pylon",800,448,496,2426,20
+1349079318,CIA[AoV] vs BAD]oxya.rep,252,1,"Zerg",1200,"Zerg Hydralisk Den",2128,3968,232,1914,8
+1349079318,CIA[AoV] vs BAD]oxya.rep,289,0,"Protoss",2000,"Protoss Gateway",1376,368,704,2994,20
+1349079318,CIA[AoV] vs BAD]oxya.rep,300,0,"Protoss",2050,"Protoss Gateway",1248,272,760,3130,20
+1349079318,CIA[AoV] vs BAD]oxya.rep,368,0,"Protoss",3100,"Protoss Pylon",832,96,1096,4154,24
+1349079318,CIA[AoV] vs BAD]oxya.rep,398,1,"Zerg",2325,"Zerg Creep Colony",1120,3424,680,2874,12
+1349079318,CIA[AoV] vs BAD]oxya.rep,400,0,"Protoss",3600,"Protoss Pylon",896,480,1264,4714,25
+1349079318,CIA[AoV] vs BAD]oxya.rep,413,1,"Zerg",2425,"Zerg Sunken Colony",1120,3424,680,3074,12
+1349079318,CIA[AoV] vs BAD]oxya.rep,428,1,"Zerg",2525,"Zerg Extractor",768,3424,696,3234,11
+1349079318,CIA[AoV] vs BAD]oxya.rep,445,0,"Protoss",4450,"Protoss Forge",1040,544,1488,5458,27
+1349079318,CIA[AoV] vs BAD]oxya.rep,473,0,"Protoss",5250,"Protoss Pylon",1152,448,1632,5946,27
+1349079318,CIA[AoV] vs BAD]oxya.rep,474,0,"Protoss",5250,"Protoss Nexus",2080,656,1640,5962,27
+1349079318,CIA[AoV] vs BAD]oxya.rep,478,0,"Protoss",5250,"Protoss Pylon",2080,768,1656,6010,27
+1349079318,CIA[AoV] vs BAD]oxya.rep,501,0,"Protoss",5500,"Protoss Photon Cannon",2016,768,1776,6426,28
+1349079318,CIA[AoV] vs BAD]oxya.rep,504,0,"Protoss",5500,"Protoss Photon Cannon",2144,800,1792,6482,28
+1349079318,CIA[AoV] vs BAD]oxya.rep,516,0,"Protoss",5550,"Protoss Photon Cannon",2176,640,1848,6690,28
+1349079318,CIA[AoV] vs BAD]oxya.rep,533,0,"Protoss",6050,"Protoss Citadel of Adun",784,512,1936,6994,29
+1349079318,CIA[AoV] vs BAD]oxya.rep,561,0,"Protoss",6150,"Protoss Pylon",1152,512,2080,7570,31
+1349079318,CIA[AoV] vs BAD]oxya.rep,584,1,"Zerg",3925,"Zerg Lair",992,3440,2096,4434,21
+1349079318,CIA[AoV] vs BAD]oxya.rep,588,0,"Protoss",6800,"Protoss Assimilator",2304,736,2208,8018,35
+1349079318,CIA[AoV] vs BAD]oxya.rep,603,0,"Protoss",6950,"Protoss Templar Archives",816,576,2288,8426,38
+1349079318,CIA[AoV] vs BAD]oxya.rep,622,0,"Protoss",7550,"Protoss Gateway",1248,464,2376,8970,38
+1349079318,CIA[AoV] vs BAD]oxya.rep,644,0,"Protoss",7650,"Protoss Pylon",896,544,2560,9594,42
+1349079318,CIA[AoV] vs BAD]oxya.rep,656,1,"Zerg",4500,"Zerg Spire",2048,3936,2816,5522,20
+1349079318,CIA[AoV] vs BAD]oxya.rep,662,0,"Protoss",8350,"Protoss Pylon",2304,800,2728,10138,42
+1349079318,CIA[AoV] vs BAD]oxya.rep,675,0,"Protoss",8350,"Protoss Pylon",704,416,2848,10538,44
+1349079318,CIA[AoV] vs BAD]oxya.rep,677,0,"Protoss",8350,"Protoss Pylon",2784,3104,2864,10578,44
+1349079318,CIA[AoV] vs BAD]oxya.rep,688,0,"Protoss",8450,"Protoss Pylon",896,608,2960,10882,45
+1349079318,CIA[AoV] vs BAD]oxya.rep,688,0,"Protoss",8450,"Protoss Pylon",1152,576,2960,10890,45
+1349079318,CIA[AoV] vs BAD]oxya.rep,692,0,"Protoss",8500,"Protoss Pylon",2336,544,2992,10994,47
+1349079318,CIA[AoV] vs BAD]oxya.rep,695,0,"Protoss",8500,"Protoss Robotics Facility",720,352,3024,11058,47
+1349079318,CIA[AoV] vs BAD]oxya.rep,704,0,"Protoss",8600,"Protoss Pylon",2784,2304,3112,11370,48
+1349079318,CIA[AoV] vs BAD]oxya.rep,710,0,"Protoss",8800,"Protoss Pylon",288,3872,3168,11546,48
+1349079318,CIA[AoV] vs BAD]oxya.rep,733,0,"Protoss",8850,"Protoss Gateway",1248,560,3368,12218,48
+1349079318,CIA[AoV] vs BAD]oxya.rep,748,0,"Protoss",8950,"Protoss Gateway",1248,656,3512,12634,48
+1349079318,CIA[AoV] vs BAD]oxya.rep,752,0,"Protoss",9050,"Protoss Photon Cannon",992,352,3544,12762,48
+1349079318,CIA[AoV] vs BAD]oxya.rep,755,0,"Protoss",9050,"Protoss Photon Cannon",1024,160,3576,12834,48
+1349079318,CIA[AoV] vs BAD]oxya.rep,759,0,"Protoss",9750,"Protoss Photon Cannon",2272,512,3616,12930,48
+1349079318,CIA[AoV] vs BAD]oxya.rep,762,1,"Zerg",7150,"Zerg Hatchery",288,1808,3424,7314,19
+1349079318,CIA[AoV] vs BAD]oxya.rep,768,0,"Protoss",9750,"Protoss Gateway",1120,656,3696,13210,48
+1349079318,CIA[AoV] vs BAD]oxya.rep,770,0,"Protoss",9750,"Protoss Pylon",1152,736,3712,13266,48
+1349079318,CIA[AoV] vs BAD]oxya.rep,789,0,"Protoss",10200,"Protoss Photon Cannon",2240,448,3888,13890,47
+1349079318,CIA[AoV] vs BAD]oxya.rep,797,0,"Protoss",10200,"Protoss Photon Cannon",768,192,3952,14098,47
+1349079318,CIA[AoV] vs BAD]oxya.rep,799,0,"Protoss",10300,"Protoss Observatory",752,288,3976,14154,47
+1349079318,CIA[AoV] vs BAD]oxya.rep,826,0,"Protoss",11500,"Protoss Nexus",288,944,4216,14986,50
+1349079318,CIA[AoV] vs BAD]oxya.rep,829,0,"Protoss",11500,"Protoss Pylon",416,928,4240,15090,50
+1349079318,CIA[AoV] vs BAD]oxya.rep,832,0,"Protoss",11500,"Protoss Pylon",192,992,4272,15202,50
+1349079318,CIA[AoV] vs BAD]oxya.rep,871,1,"Zerg",10250,"Zerg Hatchery",256,2864,3984,9130,19
+1349079318,CIA[AoV] vs BAD]oxya.rep,875,0,"Protoss",12675,"Protoss Photon Cannon",256,1024,4664,16570,50
+1349079318,CIA[AoV] vs BAD]oxya.rep,877,0,"Protoss",12675,"Protoss Photon Cannon",2176,800,4688,16658,50
+1349079318,CIA[AoV] vs BAD]oxya.rep,878,0,"Protoss",12675,"Protoss Photon Cannon",192,896,4688,16674,50
+1349079318,CIA[AoV] vs BAD]oxya.rep,886,1,"Zerg",12050,"Zerg Creep Colony",1824,3840,4056,9338,18
+1349079318,CIA[AoV] vs BAD]oxya.rep,889,1,"Zerg",12050,"Zerg Creep Colony",1888,3744,4072,9378,17
+1349079401,Colbert(OD) vs Blue[.rep,52,1,"Protoss",350,"Protoss Pylon",1152,3456,0,330,8
+1349079401,Colbert(OD) vs Blue[.rep,76,0,"Zerg",550,"Zerg Spawning Pool",3952,128,0,562,8
+1349079401,Colbert(OD) vs Blue[.rep,88,1,"Protoss",500,"Protoss Forge",1232,3456,0,634,11
+1349079401,Colbert(OD) vs Blue[.rep,120,1,"Protoss",600,"Protoss Photon Cannon",1088,3552,0,938,13
+1349079401,Colbert(OD) vs Blue[.rep,125,0,"Zerg",800,"Zerg Hatchery",2880,464,0,1018,10
+1349079401,Colbert(OD) vs Blue[.rep,139,1,"Protoss",650,"Protoss Photon Cannon",1088,3520,0,1154,13
+1349079401,Colbert(OD) vs Blue[.rep,152,1,"Protoss",650,"Protoss Nexus",1216,3632,0,1298,13
+1349079401,Colbert(OD) vs Blue[.rep,171,0,"Zerg",950,"Zerg Extractor",3808,96,0,1506,11
+1349079401,Colbert(OD) vs Blue[.rep,176,1,"Protoss",700,"Protoss Gateway",1152,3376,0,1578,15
+1349079401,Colbert(OD) vs Blue[.rep,188,1,"Protoss",750,"Protoss Assimilator",288,3584,0,1714,16
+1349079401,Colbert(OD) vs Blue[.rep,192,0,"Zerg",1050,"Zerg Hatchery",512,1264,0,1754,12
+1349079401,Colbert(OD) vs Blue[.rep,200,1,"Protoss",800,"Protoss Pylon",320,3872,0,1874,17
+1349079401,Colbert(OD) vs Blue[.rep,225,0,"Zerg",1200,"Zerg Lair",3808,272,120,2106,15
+1349079401,Colbert(OD) vs Blue[.rep,227,1,"Protoss",850,"Protoss Cybernetics Core",400,3872,32,2242,18
+1349079401,Colbert(OD) vs Blue[.rep,274,1,"Protoss",1250,"Protoss Stargate",320,3952,264,2922,25
+1349079401,Colbert(OD) vs Blue[.rep,283,1,"Protoss",1400,"Protoss Assimilator",1248,3808,320,3098,25
+1349079401,Colbert(OD) vs Blue[.rep,290,0,"Zerg",1850,"Zerg Spire",3872,448,456,3162,22
+1349079401,Colbert(OD) vs Blue[.rep,292,1,"Protoss",1450,"Protoss Photon Cannon",1216,3520,360,3258,25
+1349079401,Colbert(OD) vs Blue[.rep,305,1,"Protoss",1450,"Protoss Pylon",384,3744,424,3514,26
+1349079401,Colbert(OD) vs Blue[.rep,324,0,"Zerg",2200,"Zerg Hatchery",3008,624,632,3866,27
+1349079401,Colbert(OD) vs Blue[.rep,327,1,"Protoss",1600,"Protoss Pylon",576,3744,568,3986,26
+1349079401,Colbert(OD) vs Blue[.rep,330,1,"Protoss",1600,"Protoss Citadel of Adun",400,3680,592,4034,26
+1349079401,Colbert(OD) vs Blue[.rep,355,0,"Zerg",2450,"Zerg Extractor",2848,288,784,4554,27
+1349079401,Colbert(OD) vs Blue[.rep,357,1,"Protoss",2250,"Protoss Pylon",1120,3744,864,4594,30
+1349079401,Colbert(OD) vs Blue[.rep,368,1,"Protoss",2400,"Protoss Photon Cannon",256,3840,976,4850,31
+1349079401,Colbert(OD) vs Blue[.rep,375,0,"Zerg",2600,"Zerg Hatchery",640,1136,888,5066,27
+1349079401,Colbert(OD) vs Blue[.rep,377,0,"Zerg",2600,"Zerg Hydralisk Den",2928,544,896,5138,26
+1349079401,Colbert(OD) vs Blue[.rep,380,0,"Zerg",2600,"Zerg Evolution Chamber",656,1216,912,5202,25
+1349079401,Colbert(OD) vs Blue[.rep,397,1,"Protoss",2900,"Protoss Templar Archives",496,3680,1256,5498,32
+1349079401,Colbert(OD) vs Blue[.rep,405,0,"Zerg",3000,"Zerg Creep Colony",544,1184,1128,5754,26
+1349079401,Colbert(OD) vs Blue[.rep,418,1,"Protoss",3400,"Protoss Gateway",512,3856,1464,5954,33
+1349079401,Colbert(OD) vs Blue[.rep,421,0,"Zerg",3350,"Zerg Sunken Colony",544,1184,1288,6106,29
+1349079401,Colbert(OD) vs Blue[.rep,422,1,"Protoss",3450,"Protoss Gateway",640,3888,1496,6074,34
+1349079401,Colbert(OD) vs Blue[.rep,422,0,"Zerg",3350,"Zerg Creep Colony",3008,512,1304,6146,28
+1349079401,Colbert(OD) vs Blue[.rep,430,1,"Protoss",3450,"Protoss Gateway",608,3664,1584,6234,34
+1349079401,Colbert(OD) vs Blue[.rep,436,1,"Protoss",3950,"Protoss Gateway",448,3952,1640,6370,34
+1349079401,Colbert(OD) vs Blue[.rep,436,0,"Zerg",3450,"Zerg Sunken Colony",3008,512,1448,6450,30
+1349079401,Colbert(OD) vs Blue[.rep,466,1,"Protoss",3950,"Protoss Pylon",448,3744,1928,7066,34
+1349079401,Colbert(OD) vs Blue[.rep,469,1,"Protoss",3950,"Protoss Pylon",224,3936,1960,7138,34
+1349079401,Colbert(OD) vs Blue[.rep,500,1,"Protoss",4375,"Protoss Nexus",288,2352,2264,7866,34
+1349079401,Colbert(OD) vs Blue[.rep,504,1,"Protoss",4375,"Protoss Pylon",320,2272,2312,7978,34
+1349079401,Colbert(OD) vs Blue[.rep,530,1,"Protoss",4800,"Protoss Pylon",896,4000,2568,8610,35
+1349079401,Colbert(OD) vs Blue[.rep,533,1,"Protoss",5500,"Protoss Photon Cannon",416,2336,2600,8674,35
+1349079401,Colbert(OD) vs Blue[.rep,536,1,"Protoss",5550,"Protoss Robotics Facility",208,4000,2616,8754,36
+1349079401,Colbert(OD) vs Blue[.rep,553,1,"Protoss",5800,"Protoss Photon Cannon",384,2272,2784,9154,37
+1349079401,Colbert(OD) vs Blue[.rep,570,1,"Protoss",6550,"Protoss Gateway",992,4016,2960,9594,39
+1349079401,Colbert(OD) vs Blue[.rep,574,1,"Protoss",7000,"Protoss Photon Cannon",448,2272,2992,9642,40
+1349079401,Colbert(OD) vs Blue[.rep,611,1,"Protoss",7850,"Protoss Pylon",320,2496,3360,10610,45
+1349079401,Colbert(OD) vs Blue[.rep,619,1,"Protoss",7850,"Protoss Observatory",496,3616,3432,10834,46
+1349079401,Colbert(OD) vs Blue[.rep,644,1,"Protoss",8800,"Protoss Pylon",768,4032,3688,11674,48
+1349079464,Colbert(OD) vs Nebs[.rep,51,1,"Protoss",350,"Protoss Pylon",1248,3424,0,330,8
+1349079464,Colbert(OD) vs Nebs[.rep,77,0,"Zerg",550,"Zerg Spawning Pool",272,128,0,578,8
+1349079464,Colbert(OD) vs Nebs[.rep,87,1,"Protoss",500,"Protoss Forge",1040,3488,0,634,11
+1349079464,Colbert(OD) vs Nebs[.rep,124,0,"Zerg",800,"Zerg Hatchery",512,1264,0,1018,10
+1349079464,Colbert(OD) vs Nebs[.rep,128,1,"Protoss",600,"Protoss Photon Cannon",1248,3488,0,1010,13
+1349079464,Colbert(OD) vs Nebs[.rep,132,1,"Protoss",650,"Protoss Photon Cannon",1120,3488,0,1066,14
+1349079464,Colbert(OD) vs Nebs[.rep,172,1,"Protoss",750,"Protoss Nexus",1216,3632,0,1522,15
+1349079464,Colbert(OD) vs Nebs[.rep,189,1,"Protoss",750,"Protoss Gateway",1120,3408,0,1738,16
+1349079464,Colbert(OD) vs Nebs[.rep,199,0,"Zerg",1100,"Zerg Hatchery",2880,464,0,1818,12
+1349079464,Colbert(OD) vs Nebs[.rep,204,1,"Protoss",800,"Protoss Pylon",320,3840,0,1938,15
+1349079464,Colbert(OD) vs Nebs[.rep,205,1,"Protoss",800,"Protoss Assimilator",288,3584,0,1946,15
+1349079464,Colbert(OD) vs Nebs[.rep,236,1,"Protoss",900,"Protoss Cybernetics Core",304,3968,0,2378,18
+1349079464,Colbert(OD) vs Nebs[.rep,242,0,"Zerg",1400,"Zerg Hatchery",704,1136,0,2378,15
+1349079464,Colbert(OD) vs Nebs[.rep,267,0,"Zerg",1600,"Zerg Extractor",288,64,0,2810,18
+1349079464,Colbert(OD) vs Nebs[.rep,271,1,"Protoss",1050,"Protoss Assimilator",1248,3808,168,2810,22
+1349079464,Colbert(OD) vs Nebs[.rep,278,0,"Zerg",1700,"Zerg Hatchery",3008,560,0,2986,19
+1349079464,Colbert(OD) vs Nebs[.rep,278,1,"Protoss",1100,"Protoss Stargate",416,3792,208,2946,23
+1349079464,Colbert(OD) vs Nebs[.rep,295,1,"Protoss",1350,"Protoss Pylon",256,3680,296,3266,26
+1349079464,Colbert(OD) vs Nebs[.rep,297,0,"Zerg",1850,"Zerg Creep Colony",2976,480,0,3346,21
+1349079464,Colbert(OD) vs Nebs[.rep,303,1,"Protoss",1350,"Protoss Citadel of Adun",1328,3552,328,3426,26
+1349079464,Colbert(OD) vs Nebs[.rep,313,1,"Protoss",1550,"Protoss Pylon",1184,3712,424,3594,28
+1349079464,Colbert(OD) vs Nebs[.rep,313,0,"Zerg",1950,"Zerg Evolution Chamber",688,1216,56,3642,22
+1349079464,Colbert(OD) vs Nebs[.rep,322,0,"Zerg",2100,"Zerg Creep Colony",544,1184,104,3826,22
+1349079464,Colbert(OD) vs Nebs[.rep,322,0,"Zerg",2100,"Zerg Sunken Colony",2976,480,104,3826,22
+1349079464,Colbert(OD) vs Nebs[.rep,330,0,"Zerg",2100,"Zerg Creep Colony",480,1184,144,3994,22
+1349079464,Colbert(OD) vs Nebs[.rep,338,0,"Zerg",2400,"Zerg Creep Colony",2976,416,184,4130,26
+1349079464,Colbert(OD) vs Nebs[.rep,346,0,"Zerg",2400,"Zerg Sunken Colony",480,1184,224,4282,26
+1349079464,Colbert(OD) vs Nebs[.rep,348,1,"Protoss",1750,"Protoss Templar Archives",1104,3712,760,4314,31
+1349079464,Colbert(OD) vs Nebs[.rep,349,0,"Zerg",2450,"Zerg Spore Colony",544,1184,232,4354,27
+1349079464,Colbert(OD) vs Nebs[.rep,353,1,"Protoss",1800,"Protoss Gateway",416,3952,800,4418,31
+1349079464,Colbert(OD) vs Nebs[.rep,355,0,"Zerg",2450,"Zerg Spore Colony",2976,416,264,4466,27
+1349079464,Colbert(OD) vs Nebs[.rep,357,1,"Protoss",2200,"Protoss Pylon",320,3520,832,4506,32
+1349079464,Colbert(OD) vs Nebs[.rep,397,0,"Zerg",2800,"Zerg Lair",2880,464,472,5490,32
+1349079464,Colbert(OD) vs Nebs[.rep,415,0,"Zerg",3300,"Zerg Creep Colony",672,1312,552,5946,40
+1349079464,Colbert(OD) vs Nebs[.rep,421,1,"Protoss",3400,"Protoss Robotics Facility",48,3584,1464,6066,41
+1349079464,Colbert(OD) vs Nebs[.rep,428,0,"Zerg",3600,"Zerg Extractor",480,1440,616,6338,40
+1349079464,Colbert(OD) vs Nebs[.rep,429,0,"Zerg",3600,"Zerg Creep Colony",256,320,624,6370,39
+1349079464,Colbert(OD) vs Nebs[.rep,432,0,"Zerg",3600,"Zerg Creep Colony",320,320,640,6474,38
+1349079464,Colbert(OD) vs Nebs[.rep,434,1,"Protoss",3600,"Protoss Pylon",416,2336,1584,6386,42
+1349079464,Colbert(OD) vs Nebs[.rep,439,0,"Zerg",3800,"Zerg Creep Colony",2976,320,664,6666,38
+1349079464,Colbert(OD) vs Nebs[.rep,444,0,"Zerg",3950,"Zerg Creep Colony",3040,480,688,6834,38
+1349079464,Colbert(OD) vs Nebs[.rep,445,0,"Zerg",3950,"Zerg Sunken Colony",672,1312,696,6890,38
+1349079464,Colbert(OD) vs Nebs[.rep,447,0,"Zerg",3950,"Zerg Spore Colony",256,320,704,6946,39
+1349079464,Colbert(OD) vs Nebs[.rep,448,0,"Zerg",4050,"Zerg Sunken Colony",320,320,712,6962,40
+1349079464,Colbert(OD) vs Nebs[.rep,451,1,"Protoss",3975,"Protoss Nexus",288,2352,1744,6842,42
+1349079464,Colbert(OD) vs Nebs[.rep,453,0,"Zerg",4050,"Zerg Sunken Colony",2976,320,736,7138,40
+1349079464,Colbert(OD) vs Nebs[.rep,454,1,"Protoss",3975,"Protoss Forge",304,3904,1776,6906,42
+1349079464,Colbert(OD) vs Nebs[.rep,456,1,"Protoss",3975,"Protoss Forge",400,3872,1792,6962,42
+1349079464,Colbert(OD) vs Nebs[.rep,457,1,"Protoss",3975,"Protoss Photon Cannon",416,2272,1808,7010,42
+1349079464,Colbert(OD) vs Nebs[.rep,460,0,"Zerg",4150,"Zerg Sunken Colony",3040,480,768,7338,42
+1349079464,Colbert(OD) vs Nebs[.rep,460,1,"Protoss",3975,"Protoss Photon Cannon",480,2272,1840,7098,42
+1349079464,Colbert(OD) vs Nebs[.rep,467,0,"Zerg",4250,"Zerg Hydralisk Den",2800,608,808,7594,41
+1349079464,Colbert(OD) vs Nebs[.rep,481,1,"Protoss",4075,"Protoss Photon Cannon",352,2272,2040,7634,44
+1349079464,Colbert(OD) vs Nebs[.rep,484,1,"Protoss",4075,"Protoss Pylon",1120,3648,2072,7706,45
+1349079464,Colbert(OD) vs Nebs[.rep,497,1,"Protoss",4125,"Protoss Photon Cannon",256,2432,2192,8058,45
+1349079464,Colbert(OD) vs Nebs[.rep,504,1,"Protoss",4475,"Protoss Pylon",320,3456,2272,8274,45
+1349079464,Colbert(OD) vs Nebs[.rep,505,1,"Protoss",4825,"Protoss Pylon",192,2432,2272,8274,45
+1349079464,Colbert(OD) vs Nebs[.rep,514,1,"Protoss",4825,"Protoss Photon Cannon",1248,3552,2360,8530,45
+1349079464,Colbert(OD) vs Nebs[.rep,514,0,"Zerg",5250,"Zerg Hatchery",3808,272,1032,9178,48
+1349079464,Colbert(OD) vs Nebs[.rep,524,1,"Protoss",4825,"Protoss Gateway",416,3504,2456,8810,45
+1349079464,Colbert(OD) vs Nebs[.rep,525,1,"Protoss",4825,"Protoss Gateway",416,3408,2472,8850,45
+1349079464,Colbert(OD) vs Nebs[.rep,535,1,"Protoss",4825,"Protoss Photon Cannon",192,2368,2568,9106,46
+1349079464,Colbert(OD) vs Nebs[.rep,548,0,"Zerg",5850,"Zerg Extractor",2848,288,1304,10426,57
+1349079464,Colbert(OD) vs Nebs[.rep,552,1,"Protoss",5525,"Protoss Assimilator",256,2176,2728,9458,49
+1349079464,Colbert(OD) vs Nebs[.rep,560,0,"Zerg",6250,"Zerg Evolution Chamber",272,384,1424,10890,57
+1349079464,Colbert(OD) vs Nebs[.rep,567,0,"Zerg",6250,"Zerg Spire",32,352,1504,11194,56
+1349079464,Colbert(OD) vs Nebs[.rep,569,0,"Zerg",6400,"Zerg Hatchery",3264,112,1520,11282,55
+1349079464,Colbert(OD) vs Nebs[.rep,580,1,"Protoss",6000,"Protoss Gateway",544,3504,3000,10386,49
+1349079464,Colbert(OD) vs Nebs[.rep,580,0,"Zerg",6550,"Zerg Hatchery",3392,112,1632,11642,54
+1349079464,Colbert(OD) vs Nebs[.rep,581,1,"Protoss",6200,"Protoss Gateway",544,3408,3016,10434,49
+1349079464,Colbert(OD) vs Nebs[.rep,603,1,"Protoss",7050,"Protoss Photon Cannon",352,2432,3280,11202,55
+1349079464,Colbert(OD) vs Nebs[.rep,615,0,"Zerg",7575,"Zerg Creep Colony",2848,704,2040,12986,58
+1349079464,Colbert(OD) vs Nebs[.rep,617,0,"Zerg",7825,"Zerg Creep Colony",2976,736,2064,13066,57
+1349079464,Colbert(OD) vs Nebs[.rep,620,0,"Zerg",7825,"Zerg Creep Colony",3872,352,2112,13202,56
+1349079464,Colbert(OD) vs Nebs[.rep,630,1,"Protoss",7500,"Protoss Pylon",800,3552,3680,12210,57
+1349079464,Colbert(OD) vs Nebs[.rep,633,1,"Protoss",7500,"Protoss Pylon",192,2528,3728,12306,57
+1349079464,Colbert(OD) vs Nebs[.rep,634,1,"Protoss",7500,"Protoss Pylon",384,2496,3744,12362,57
+1349079464,Colbert(OD) vs Nebs[.rep,638,0,"Zerg",8375,"Zerg Sunken Colony",2976,736,2376,13882,58
+1349079464,Colbert(OD) vs Nebs[.rep,638,0,"Zerg",8375,"Zerg Spore Colony",2848,704,2376,13914,58
+1349079464,Colbert(OD) vs Nebs[.rep,644,0,"Zerg",8375,"Zerg Spore Colony",3872,352,2456,14138,58
+1349079464,Colbert(OD) vs Nebs[.rep,649,1,"Protoss",7950,"Protoss Pylon",864,3392,3968,12906,57
+1349079464,Colbert(OD) vs Nebs[.rep,656,0,"Zerg",8675,"Zerg Extractor",3808,96,2632,14674,57
+1349079464,Colbert(OD) vs Nebs[.rep,668,0,"Zerg",10625,"Zerg Creep Colony",3648,288,2816,15178,58
+1349079464,Colbert(OD) vs Nebs[.rep,669,0,"Zerg",10625,"Zerg Creep Colony",3616,384,2816,15242,57
+1349079464,Colbert(OD) vs Nebs[.rep,670,0,"Zerg",10625,"Zerg Creep Colony",960,1184,2840,15258,56
+1349079464,Colbert(OD) vs Nebs[.rep,671,0,"Zerg",10625,"Zerg Creep Colony",3808,480,2848,15274,55
+1349079464,Colbert(OD) vs Nebs[.rep,672,1,"Protoss",8500,"Protoss Gateway",768,3376,4304,13738,57
+1349079464,Colbert(OD) vs Nebs[.rep,678,1,"Protoss",8600,"Protoss Gateway",416,3600,4392,13978,57
+1349079464,Colbert(OD) vs Nebs[.rep,682,0,"Zerg",10725,"Zerg Spore Colony",3648,288,3008,15738,55
+1349079464,Colbert(OD) vs Nebs[.rep,682,0,"Zerg",10725,"Zerg Lair",3808,272,3016,15746,55
+1349079464,Colbert(OD) vs Nebs[.rep,683,0,"Zerg",10925,"Zerg Sunken Colony",3616,384,3024,15770,55
+1349079464,Colbert(OD) vs Nebs[.rep,686,0,"Zerg",11125,"Zerg Sunken Colony",3808,480,3080,15898,55
+1349079464,Colbert(OD) vs Nebs[.rep,690,0,"Zerg",11125,"Zerg Spore Colony",960,1184,3128,16066,55
+1349079464,Colbert(OD) vs Nebs[.rep,692,1,"Protoss",8600,"Protoss Gateway",96,2544,4592,14506,56
+1349079464,Colbert(OD) vs Nebs[.rep,693,1,"Protoss",8900,"Protoss Pylon",704,4032,4616,14546,56
+1349079464,Colbert(OD) vs Nebs[.rep,703,1,"Protoss",9100,"Protoss Gateway",576,3600,4760,14890,57
+1349079464,Colbert(OD) vs Nebs[.rep,707,1,"Protoss",9100,"Protoss Gateway",544,3792,4816,15050,57
+1349079464,Colbert(OD) vs Nebs[.rep,736,1,"Protoss",9800,"Protoss Observatory",144,3584,5256,16266,58
+1349079464,Colbert(OD) vs Nebs[.rep,738,1,"Protoss",9800,"Protoss Pylon",2624,3840,5280,16346,58
+1349079464,Colbert(OD) vs Nebs[.rep,740,1,"Protoss",9800,"Protoss Photon Cannon",256,3456,5304,16410,58
+1349079464,Colbert(OD) vs Nebs[.rep,744,0,"Zerg",13950,"Zerg Queens Nest",3696,448,4088,18306,66
+1349079464,Colbert(OD) vs Nebs[.rep,745,0,"Zerg",13950,"Zerg Creep Colony",3808,352,4096,18314,65
+1349079464,Colbert(OD) vs Nebs[.rep,751,1,"Protoss",10450,"Protoss Pylon",704,3968,5472,16858,58
+1349079464,Colbert(OD) vs Nebs[.rep,752,1,"Protoss",10450,"Protoss Nexus",2464,3824,5480,16890,58
+1349079464,Colbert(OD) vs Nebs[.rep,782,0,"Zerg",15100,"Zerg Hive",2880,464,4840,20098,70
+1349079464,Colbert(OD) vs Nebs[.rep,785,0,"Zerg",15100,"Zerg Sunken Colony",3808,352,4904,20258,70
+1349079464,Colbert(OD) vs Nebs[.rep,794,1,"Protoss",13350,"Protoss Pylon",2592,3712,6088,18546,58
+1349079464,Colbert(OD) vs Nebs[.rep,869,0,"Zerg",20525,"Zerg Hatchery",3520,112,6544,24498,69
+1349079464,Colbert(OD) vs Nebs[.rep,871,0,"Zerg",20625,"Zerg Hatchery",3488,272,6576,24626,68
+1349079464,Colbert(OD) vs Nebs[.rep,890,0,"Zerg",21325,"Zerg Defiler Mound",320,1152,6968,25594,67
+1349079464,Colbert(OD) vs Nebs[.rep,955,0,"Zerg",24000,"Zerg Hatchery",3808,1712,8232,28746,69
+1349079464,Colbert(OD) vs Nebs[.rep,956,0,"Zerg",24100,"Zerg Hatchery",3648,1680,8264,28842,68
+1349079464,Colbert(OD) vs Nebs[.rep,958,1,"Protoss",22300,"Protoss Pylon",2560,3744,8520,25154,57
+1349079464,Colbert(OD) vs Nebs[.rep,1020,1,"Protoss",24800,"Protoss Pylon",1504,3616,9432,27510,58
+1349079464,Colbert(OD) vs Nebs[.rep,1023,1,"Protoss",24800,"Protoss Nexus",2464,3824,9472,27606,58
+1349079464,Colbert(OD) vs Nebs[.rep,1027,1,"Protoss",24800,"Protoss Photon Cannon",2496,3744,9528,27734,58
+1349079464,Colbert(OD) vs Nebs[.rep,1041,0,"Zerg",29075,"Zerg Hatchery",1664,240,9928,32910,64
+1349079464,Colbert(OD) vs Nebs[.rep,1042,0,"Zerg",29075,"Zerg Hive",3808,272,9944,32974,64
+1349079464,Colbert(OD) vs Nebs[.rep,1045,1,"Protoss",25600,"Protoss Gateway",800,4016,9800,28390,58
+1349079464,Colbert(OD) vs Nebs[.rep,1045,0,"Zerg",29075,"Zerg Ultralisk Cavern",3792,416,10008,33114,63
+1349079464,Colbert(OD) vs Nebs[.rep,1052,1,"Protoss",25700,"Protoss Photon Cannon",2624,3808,9912,28682,58
+1349079464,Colbert(OD) vs Nebs[.rep,1054,1,"Protoss",25700,"Protoss Photon Cannon",2624,3744,9936,28782,58
+1349079464,Colbert(OD) vs Nebs[.rep,1055,1,"Protoss",25700,"Protoss Photon Cannon",2560,3808,9952,28806,58
+1349079464,Colbert(OD) vs Nebs[.rep,1057,1,"Protoss",25900,"Protoss Photon Cannon",2688,3808,9976,28870,58
+1349079464,Colbert(OD) vs Nebs[.rep,1066,0,"Zerg",30675,"Zerg Creep Colony",3776,1824,10440,33994,66
+1349079464,Colbert(OD) vs Nebs[.rep,1083,0,"Zerg",31100,"Zerg Sunken Colony",3776,1824,10744,34714,65
+1349079464,Colbert(OD) vs Nebs[.rep,1105,0,"Zerg",32650,"Zerg Creep Colony",3680,1824,11184,35690,67
+1349079464,Colbert(OD) vs Nebs[.rep,1106,0,"Zerg",32700,"Zerg Creep Colony",3584,1760,11208,35738,66
+1349079464,Colbert(OD) vs Nebs[.rep,1111,0,"Zerg",32800,"Zerg Extractor",3904,1888,11288,35894,66
+1349079464,Colbert(OD) vs Nebs[.rep,1140,0,"Zerg",33975,"Zerg Creep Colony",1760,256,11872,37010,66
+1349079464,Colbert(OD) vs Nebs[.rep,1142,0,"Zerg",34725,"Zerg Spore Colony",3584,1760,11896,37050,66
+1349079464,Colbert(OD) vs Nebs[.rep,1142,1,"Protoss",30775,"Protoss Assimilator",2688,3904,11232,31430,58
+1349079464,Colbert(OD) vs Nebs[.rep,1142,0,"Zerg",34725,"Zerg Sunken Colony",3680,1824,11912,37082,66
+1349079464,Colbert(OD) vs Nebs[.rep,1144,1,"Protoss",30775,"Protoss Pylon",2176,3840,11272,31534,58
+1349079464,Colbert(OD) vs Nebs[.rep,1150,1,"Protoss",31325,"Protoss Robotics Support Bay",624,4032,11360,31706,58
+1349079464,Colbert(OD) vs Nebs[.rep,1184,1,"Protoss",34050,"Protoss Pylon",3744,3456,11848,32830,58
+1349079464,Colbert(OD) vs Nebs[.rep,1201,0,"Zerg",36175,"Zerg Sunken Colony",1760,256,13248,38930,71
+1349079464,Colbert(OD) vs Nebs[.rep,1204,0,"Zerg",36275,"Zerg Creep Colony",1536,256,13312,39018,70
+1349079464,Colbert(OD) vs Nebs[.rep,1208,0,"Zerg",36275,"Zerg Creep Colony",1536,352,13392,39134,69
+1349079464,Colbert(OD) vs Nebs[.rep,1219,1,"Protoss",36400,"Protoss Photon Cannon",3712,3360,12376,33882,58
+1349079464,Colbert(OD) vs Nebs[.rep,1219,1,"Protoss",36400,"Protoss Photon Cannon",3776,3360,12376,33890,58
+1349079464,Colbert(OD) vs Nebs[.rep,1220,1,"Protoss",36750,"Protoss Photon Cannon",3840,3360,12400,33938,58
+1349079464,Colbert(OD) vs Nebs[.rep,1222,1,"Protoss",37800,"Protoss Photon Cannon",3648,3360,12424,33978,58
+1349079464,Colbert(OD) vs Nebs[.rep,1224,1,"Protoss",37900,"Protoss Robotics Facility",3824,3456,12448,34058,58
+1349079464,Colbert(OD) vs Nebs[.rep,1225,0,"Zerg",36975,"Zerg Spore Colony",1536,256,13776,39622,72
+1349079464,Colbert(OD) vs Nebs[.rep,1225,0,"Zerg",36975,"Zerg Sunken Colony",1536,352,13776,39630,72
+1349079464,Colbert(OD) vs Nebs[.rep,1245,0,"Zerg",38025,"Zerg Hatchery",2080,2000,14232,40346,72
+1349079464,Colbert(OD) vs Nebs[.rep,1250,1,"Protoss",39100,"Protoss Photon Cannon",3680,3456,12780,34802,58
+1349079464,Colbert(OD) vs Nebs[.rep,1295,1,"Protoss",41350,"Protoss Pylon",256,2528,13332,36154,57
+1349079464,Colbert(OD) vs Nebs[.rep,1297,1,"Protoss",41350,"Protoss Pylon",192,2592,13350,36186,57
+1349079464,Colbert(OD) vs Nebs[.rep,1306,1,"Protoss",41350,"Protoss Pylon",3424,2880,13490,36450,57
+1349079464,Colbert(OD) vs Nebs[.rep,1309,1,"Protoss",41350,"Protoss Nexus",3584,2864,13534,36530,57
+1349079464,Colbert(OD) vs Nebs[.rep,1331,1,"Protoss",41700,"Protoss Photon Cannon",160,3648,13858,37122,57
+1349079464,Colbert(OD) vs Nebs[.rep,1332,1,"Protoss",41700,"Protoss Photon Cannon",96,3648,13884,37154,57
+1349079464,Colbert(OD) vs Nebs[.rep,1333,1,"Protoss",41700,"Protoss Photon Cannon",192,3744,13886,37178,57
+1349079464,Colbert(OD) vs Nebs[.rep,1374,1,"Protoss",43875,"Protoss Photon Cannon",3424,2816,14486,38290,54
+1349079464,Colbert(OD) vs Nebs[.rep,1394,0,"Zerg",50600,"Zerg Hatchery",2048,1968,17370,46886,71
+1349079464,Colbert(OD) vs Nebs[.rep,1404,0,"Zerg",54500,"Zerg Creep Colony",1760,352,17558,47310,70
+1349079464,Colbert(OD) vs Nebs[.rep,1607,1,"Protoss",57875,"Protoss Pylon",3488,3008,16794,42466,31
+1349079464,Colbert(OD) vs Nebs[.rep,1618,1,"Protoss",58075,"Protoss Nexus",3584,2864,16838,42466,30
+1349079464,Colbert(OD) vs Nebs[.rep,1671,0,"Zerg",74025,"Zerg Sunken Colony",1760,352,22070,58550,68
+1349079464,Colbert(OD) vs Nebs[.rep,1694,0,"Zerg",77175,"Zerg Hatchery",2048,2096,22320,59478,67
+1349079464,Colbert(OD) vs Nebs[.rep,1695,0,"Zerg",77175,"Zerg Extractor",1888,160,22326,59526,66
+1349079718,Colbert(OD) vs S.A-a.rep,53,0,"Protoss",350,"Protoss Pylon",640,1248,0,338,8
+1349079718,Colbert(OD) vs S.A-a.rep,85,1,"Zerg",650,"Zerg Spawning Pool",272,3648,0,658,8
+1349079718,Colbert(OD) vs S.A-a.rep,99,0,"Protoss",500,"Protoss Forge",720,1216,0,722,11
+1349079718,Colbert(OD) vs S.A-a.rep,124,1,"Zerg",800,"Zerg Hatchery",1216,3632,0,1010,10
+1349079718,Colbert(OD) vs S.A-a.rep,145,0,"Protoss",700,"Protoss Photon Cannon",640,1184,0,1178,14
+1349079718,Colbert(OD) vs S.A-a.rep,158,0,"Protoss",700,"Protoss Nexus",512,1264,0,1330,14
+1349079718,Colbert(OD) vs S.A-a.rep,169,0,"Protoss",700,"Protoss Gateway",736,1136,0,1450,14
+1349079718,Colbert(OD) vs S.A-a.rep,180,1,"Zerg",1050,"Zerg Hatchery",3584,2864,0,1562,10
+1349079718,Colbert(OD) vs S.A-a.rep,189,0,"Protoss",700,"Protoss Assimilator",288,64,0,1674,15
+1349079718,Colbert(OD) vs S.A-a.rep,222,0,"Protoss",800,"Protoss Photon Cannon",640,1120,0,1970,14
+1349079718,Colbert(OD) vs S.A-a.rep,237,0,"Protoss",950,"Protoss Pylon",32,3264,0,2058,13
+1349079718,Colbert(OD) vs S.A-a.rep,250,1,"Zerg",1300,"Zerg Hatchery",1088,3504,0,2386,14
+1349079718,Colbert(OD) vs S.A-a.rep,275,1,"Zerg",1600,"Zerg Extractor",288,3584,0,2754,16
+1349079718,Colbert(OD) vs S.A-a.rep,277,0,"Protoss",1050,"Protoss Photon Cannon",32,3360,0,2314,13
+1349079718,Colbert(OD) vs S.A-a.rep,301,0,"Protoss",1100,"Protoss Photon Cannon",96,3360,0,2554,14
+1349079718,Colbert(OD) vs S.A-a.rep,305,1,"Zerg",2000,"Zerg Hatchery",3392,2992,0,3362,23
+1349079718,Colbert(OD) vs S.A-a.rep,317,0,"Protoss",1150,"Protoss Photon Cannon",96,3296,0,2770,15
+1349079718,Colbert(OD) vs S.A-a.rep,319,1,"Zerg",2100,"Zerg Creep Colony",1216,3488,32,3634,24
+1349079718,Colbert(OD) vs S.A-a.rep,329,0,"Protoss",1200,"Protoss Photon Cannon",160,3296,0,2914,15
+1349079718,Colbert(OD) vs S.A-a.rep,333,1,"Zerg",2250,"Zerg Sunken Colony",1216,3488,96,3930,25
+1349079718,Colbert(OD) vs S.A-a.rep,338,1,"Zerg",2250,"Zerg Evolution Chamber",1104,3424,120,4026,24
+1349079718,Colbert(OD) vs S.A-a.rep,339,0,"Protoss",1200,"Protoss Pylon",160,3360,0,3058,16
+1349079718,Colbert(OD) vs S.A-a.rep,343,1,"Zerg",2300,"Zerg Creep Colony",416,3680,144,4146,24
+1349079718,Colbert(OD) vs S.A-a.rep,350,1,"Zerg",2450,"Zerg Creep Colony",192,3744,160,4258,26
+1349079718,Colbert(OD) vs S.A-a.rep,352,1,"Zerg",2450,"Zerg Lair",3584,2864,168,4314,26
+1349079718,Colbert(OD) vs S.A-a.rep,362,0,"Protoss",1300,"Protoss Photon Cannon",224,3392,0,3394,19
+1349079718,Colbert(OD) vs S.A-a.rep,362,1,"Zerg",2600,"Zerg Sunken Colony",416,3680,184,4450,27
+1349079718,Colbert(OD) vs S.A-a.rep,363,1,"Zerg",2600,"Zerg Creep Colony",992,3488,184,4482,26
+1349079718,Colbert(OD) vs S.A-a.rep,363,1,"Zerg",2600,"Zerg Sunken Colony",192,3744,184,4482,26
+1349079718,Colbert(OD) vs S.A-a.rep,373,0,"Protoss",1400,"Protoss Photon Cannon",32,3456,0,3570,19
+1349079718,Colbert(OD) vs S.A-a.rep,381,1,"Zerg",2700,"Zerg Sunken Colony",992,3488,208,4850,28
+1349079718,Colbert(OD) vs S.A-a.rep,387,1,"Zerg",2800,"Zerg Spawning Pool",3408,2848,208,4978,29
+1349079718,Colbert(OD) vs S.A-a.rep,392,0,"Protoss",1450,"Protoss Photon Cannon",416,1216,56,3818,22
+1349079718,Colbert(OD) vs S.A-a.rep,398,1,"Zerg",2850,"Zerg Creep Colony",3488,2848,208,5202,29
+1349079718,Colbert(OD) vs S.A-a.rep,399,0,"Protoss",1500,"Protoss Pylon",288,320,88,3914,22
+1349079718,Colbert(OD) vs S.A-a.rep,407,1,"Zerg",2900,"Zerg Extractor",1248,3808,208,5402,29
+1349079718,Colbert(OD) vs S.A-a.rep,418,0,"Protoss",1600,"Protoss Pylon",1056,4032,192,4218,23
+1349079718,Colbert(OD) vs S.A-a.rep,424,1,"Zerg",3250,"Zerg Sunken Colony",3488,2848,208,5866,36
+1349079718,Colbert(OD) vs S.A-a.rep,431,1,"Zerg",3250,"Zerg Extractor",3616,2688,208,6034,35
+1349079718,Colbert(OD) vs S.A-a.rep,438,1,"Zerg",3400,"Zerg Creep Colony",3488,2912,208,6226,37
+1349079718,Colbert(OD) vs S.A-a.rep,440,0,"Protoss",1650,"Protoss Cybernetics Core",400,288,304,4642,25
+1349079718,Colbert(OD) vs S.A-a.rep,442,0,"Protoss",1650,"Protoss Gateway",288,432,312,4690,25
+1349079718,Colbert(OD) vs S.A-a.rep,445,0,"Protoss",1650,"Protoss Gateway",416,432,328,4754,25
+1349079718,Colbert(OD) vs S.A-a.rep,449,0,"Protoss",1650,"Protoss Assimilator",480,1440,352,4834,26
+1349079718,Colbert(OD) vs S.A-a.rep,460,1,"Zerg",3750,"Zerg Spore Colony",3488,2912,256,6866,40
+1349079718,Colbert(OD) vs S.A-a.rep,462,0,"Protoss",1800,"Protoss Photon Cannon",224,320,416,5090,28
+1349079718,Colbert(OD) vs S.A-a.rep,468,0,"Protoss",1800,"Protoss Photon Cannon",192,192,440,5218,28
+1349079718,Colbert(OD) vs S.A-a.rep,478,1,"Zerg",4400,"Zerg Hatchery",2464,3824,384,7402,40
+1349079718,Colbert(OD) vs S.A-a.rep,499,1,"Zerg",4500,"Zerg Spire",3872,2848,544,8018,39
+1349079718,Colbert(OD) vs S.A-a.rep,499,0,"Protoss",2150,"Protoss Citadel of Adun",400,224,688,5898,32
+1349079718,Colbert(OD) vs S.A-a.rep,526,1,"Zerg",5100,"Zerg Hatchery",3808,3792,760,8842,44
+1349079718,Colbert(OD) vs S.A-a.rep,542,1,"Zerg",5300,"Zerg Evolution Chamber",1072,3360,888,9354,43
+1349079718,Colbert(OD) vs S.A-a.rep,547,0,"Protoss",2750,"Protoss Pylon",1792,352,1160,7002,36
+1349079718,Colbert(OD) vs S.A-a.rep,553,0,"Protoss",2750,"Protoss Pylon",192,96,1208,7154,36
+1349079718,Colbert(OD) vs S.A-a.rep,554,1,"Zerg",5450,"Zerg Hydralisk Den",3312,2848,984,9706,43
+1349079718,Colbert(OD) vs S.A-a.rep,558,1,"Zerg",5700,"Zerg Creep Colony",3232,2848,1016,9842,47
+1349079718,Colbert(OD) vs S.A-a.rep,559,0,"Protoss",2850,"Protoss Templar Archives",496,224,1272,7282,36
+1349079718,Colbert(OD) vs S.A-a.rep,562,0,"Protoss",2950,"Protoss Pylon",480,288,1296,7354,36
+1349079718,Colbert(OD) vs S.A-a.rep,563,1,"Zerg",5850,"Zerg Creep Colony",2368,3808,1056,9986,49
+1349079718,Colbert(OD) vs S.A-a.rep,567,0,"Protoss",2950,"Protoss Pylon",448,608,1344,7474,36
+1349079718,Colbert(OD) vs S.A-a.rep,573,0,"Protoss",2950,"Protoss Photon Cannon",1952,320,1408,7626,36
+1349079718,Colbert(OD) vs S.A-a.rep,575,0,"Protoss",2950,"Protoss Photon Cannon",1888,320,1424,7706,36
+1349079718,Colbert(OD) vs S.A-a.rep,577,1,"Zerg",5900,"Zerg Sunken Colony",2368,3808,1168,10442,50
+1349079718,Colbert(OD) vs S.A-a.rep,579,0,"Protoss",2950,"Protoss Photon Cannon",2016,320,1472,7770,36
+1349079718,Colbert(OD) vs S.A-a.rep,582,1,"Zerg",5900,"Zerg Creep Colony",2432,3744,1208,10586,49
+1349079718,Colbert(OD) vs S.A-a.rep,590,0,"Protoss",2950,"Protoss Photon Cannon",352,352,1576,8058,37
+1349079718,Colbert(OD) vs S.A-a.rep,601,0,"Protoss",3100,"Protoss Gateway",416,528,1680,8298,37
+1349079718,Colbert(OD) vs S.A-a.rep,607,1,"Zerg",6300,"Zerg Spore Colony",2432,3744,1408,11554,53
+1349079718,Colbert(OD) vs S.A-a.rep,609,1,"Zerg",6900,"Zerg Extractor",2688,3904,1424,11642,52
+1349079718,Colbert(OD) vs S.A-a.rep,611,1,"Zerg",6900,"Zerg Creep Colony",2304,3776,1440,11730,51
+1349079718,Colbert(OD) vs S.A-a.rep,617,1,"Zerg",6900,"Zerg Creep Colony",2368,3712,1488,11954,50
+1349079718,Colbert(OD) vs S.A-a.rep,620,0,"Protoss",3200,"Protoss Nexus",1664,240,1872,8778,37
+1349079718,Colbert(OD) vs S.A-a.rep,624,0,"Protoss",3200,"Protoss Photon Cannon",1568,256,1904,8906,37
+1349079718,Colbert(OD) vs S.A-a.rep,633,1,"Zerg",8150,"Zerg Extractor",3808,3616,1616,12626,52
+1349079718,Colbert(OD) vs S.A-a.rep,635,1,"Zerg",8300,"Zerg Queens Nest",3824,3936,1624,12714,51
+1349079718,Colbert(OD) vs S.A-a.rep,636,1,"Zerg",8300,"Zerg Sunken Colony",2368,3712,1640,12770,51
+1349079718,Colbert(OD) vs S.A-a.rep,637,1,"Zerg",8300,"Zerg Sunken Colony",2304,3776,1640,12778,51
+1349079718,Colbert(OD) vs S.A-a.rep,645,0,"Protoss",3200,"Protoss Gateway",288,528,2112,9458,37
+1349079718,Colbert(OD) vs S.A-a.rep,669,0,"Protoss",4575,"Protoss Gateway",544,432,2360,10106,37
+1349079718,Colbert(OD) vs S.A-a.rep,670,1,"Zerg",9000,"Zerg Sunken Colony",3232,2848,2048,14210,54
+1349079718,Colbert(OD) vs S.A-a.rep,682,0,"Protoss",4925,"Protoss Photon Cannon",1568,320,2480,10450,37
+1349079718,Colbert(OD) vs S.A-a.rep,696,0,"Protoss",5250,"Protoss Gateway",544,528,2624,10794,37
+1349079718,Colbert(OD) vs S.A-a.rep,696,1,"Zerg",9850,"Zerg Hatchery",3808,1712,2512,15218,56
+1349079718,Colbert(OD) vs S.A-a.rep,714,0,"Protoss",5925,"Protoss Gateway",544,624,2792,11226,39
+1349079718,Colbert(OD) vs S.A-a.rep,720,1,"Zerg",10725,"Zerg Hatchery",2880,464,2976,16226,57
+1349079718,Colbert(OD) vs S.A-a.rep,733,1,"Zerg",10975,"Zerg Creep Colony",2208,3808,3216,16786,57
+1349079718,Colbert(OD) vs S.A-a.rep,754,1,"Zerg",11775,"Zerg Hatchery",3584,3824,3616,17698,59
+1349079718,Colbert(OD) vs S.A-a.rep,761,1,"Zerg",11975,"Zerg Sunken Colony",2208,3808,3744,17994,59
+1349079718,Colbert(OD) vs S.A-a.rep,788,0,"Protoss",7250,"Protoss Assimilator",1888,160,3520,13250,42
+1349079718,Colbert(OD) vs S.A-a.rep,799,1,"Zerg",14650,"Zerg Hive",3584,2864,4480,19714,62
+1349079718,Colbert(OD) vs S.A-a.rep,803,0,"Protoss",7400,"Protoss Photon Cannon",1632,320,3672,13714,43
+1349079718,Colbert(OD) vs S.A-a.rep,812,0,"Protoss",9650,"Protoss Robotics Facility",560,288,3760,13954,44
+1349079718,Colbert(OD) vs S.A-a.rep,814,0,"Protoss",9650,"Protoss Gateway",288,3280,3776,13986,44
+1349079718,Colbert(OD) vs S.A-a.rep,816,0,"Protoss",9650,"Protoss Gateway",128,3216,3792,14090,44
+1349079718,Colbert(OD) vs S.A-a.rep,818,0,"Protoss",9750,"Protoss Pylon",32,3200,3808,14114,44
+1349079718,Colbert(OD) vs S.A-a.rep,836,0,"Protoss",9900,"Protoss Pylon",480,352,3992,14682,44
+1349079718,Colbert(OD) vs S.A-a.rep,841,0,"Protoss",9900,"Protoss Gateway",128,3120,4040,14802,44
+1349079718,Colbert(OD) vs S.A-a.rep,847,0,"Protoss",10700,"Protoss Gateway",256,3184,4104,15010,44
+1349079718,Colbert(OD) vs S.A-a.rep,859,0,"Protoss",10700,"Protoss Forge",560,352,4248,15394,45
+1349079718,Colbert(OD) vs S.A-a.rep,860,0,"Protoss",10700,"Protoss Forge",208,608,4248,15402,45
+1349079718,Colbert(OD) vs S.A-a.rep,888,0,"Protoss",11550,"Protoss Photon Cannon",1760,224,4664,16178,43
+1349079718,Colbert(OD) vs S.A-a.rep,901,0,"Protoss",11550,"Protoss Observatory",48,96,4848,16466,43
+1349079718,Colbert(OD) vs S.A-a.rep,913,0,"Protoss",13050,"Protoss Pylon",416,3200,5024,16698,36
+1349079718,Colbert(OD) vs S.A-a.rep,935,0,"Protoss",13350,"Protoss Gateway",416,3280,5272,17218,31
+1349079718,Colbert(OD) vs S.A-a.rep,939,1,"Zerg",23925,"Zerg Ultralisk Cavern",3600,4000,7152,26170,69
+1349079830,Eunji[AoV] vs BaD]Fe (1).rep,48,1,"Protoss",350,"Protoss Pylon",3872,3168,0,306,8
+1349079830,Eunji[AoV] vs BaD]Fe (1).rep,56,0,"Protoss",400,"Protoss Pylon",576,608,0,338,8
+1349079830,Eunji[AoV] vs BaD]Fe (1).rep,78,1,"Protoss",450,"Protoss Gateway",3968,3088,0,594,10
+1349079830,Eunji[AoV] vs BaD]Fe (1).rep,85,0,"Protoss",450,"Protoss Gateway",608,688,0,554,10
+1349079830,Eunji[AoV] vs BaD]Fe (1).rep,100,1,"Protoss",550,"Protoss Pylon",3872,3392,0,810,12
+1349079830,Eunji[AoV] vs BaD]Fe (1).rep,105,0,"Protoss",550,"Protoss Pylon",768,320,0,730,11
+1349079830,Eunji[AoV] vs BaD]Fe (1).rep,122,1,"Protoss",650,"Protoss Assimilator",3776,3648,0,1026,13
+1349079830,Eunji[AoV] vs BaD]Fe (1).rep,138,0,"Protoss",650,"Protoss Assimilator",896,224,0,1050,14
+1349079830,Eunji[AoV] vs BaD]Fe (1).rep,156,1,"Protoss",850,"Protoss Cybernetics Core",4048,3360,8,1434,15
+1349079830,Eunji[AoV] vs BaD]Fe (1).rep,181,1,"Protoss",1000,"Protoss Pylon",3584,3488,80,1730,17
+1349079830,Eunji[AoV] vs BaD]Fe (1).rep,184,0,"Protoss",1000,"Protoss Cybernetics Core",528,352,32,1634,17
+1349079830,Eunji[AoV] vs BaD]Fe (1).rep,220,0,"Protoss",1200,"Protoss Pylon",576,288,184,2042,18
+1349079830,Eunji[AoV] vs BaD]Fe (1).rep,232,1,"Protoss",1250,"Protoss Gateway",3840,3088,312,2386,19
+1349079830,Eunji[AoV] vs BaD]Fe (1).rep,267,1,"Protoss",1650,"Protoss Gateway",3968,3184,472,2842,21
+1349079830,Eunji[AoV] vs BaD]Fe (1).rep,268,0,"Protoss",1400,"Protoss Gateway",736,688,376,2674,21
+1349079830,Eunji[AoV] vs BaD]Fe (1).rep,269,1,"Protoss",1650,"Protoss Pylon",3872,3232,488,2866,21
+1349079830,Eunji[AoV] vs BaD]Fe (1).rep,284,0,"Protoss",1450,"Protoss Robotics Facility",400,704,440,2906,22
+1349079830,Eunji[AoV] vs BaD]Fe (1).rep,293,0,"Protoss",1750,"Protoss Pylon",32,896,480,3042,23
+1349079830,Eunji[AoV] vs BaD]Fe (1).rep,299,1,"Protoss",2000,"Protoss Pylon",3776,3392,624,3274,23
+1349079830,Eunji[AoV] vs BaD]Fe (1).rep,325,0,"Protoss",1850,"Protoss Pylon",1184,352,608,3514,25
+1349079830,Eunji[AoV] vs BaD]Fe (1).rep,338,1,"Protoss",2600,"Protoss Pylon",3488,3200,808,3850,24
+1349079830,Eunji[AoV] vs BaD]Fe (1).rep,361,0,"Protoss",2750,"Protoss Observatory",624,352,752,4098,26
+1349079830,Eunji[AoV] vs BaD]Fe (1).rep,426,0,"Protoss",4000,"Protoss Robotics Support Bay",432,352,1072,5002,27
+1349079830,Eunji[AoV] vs BaD]Fe (1).rep,429,1,"Protoss",4950,"Protoss Pylon",3136,2976,1240,5282,25
+1349079830,Eunji[AoV] vs BaD]Fe (1).rep,447,0,"Protoss",4275,"Protoss Gateway",672,592,1184,5314,29
+1349079830,Eunji[AoV] vs BaD]Fe (1).rep,483,1,"Protoss",5750,"Protoss Nexus",3232,2928,1496,6170,26
+1349079830,Eunji[AoV] vs BaD]Fe (1).rep,490,1,"Protoss",5750,"Protoss Gateway",3776,3184,1528,6306,27
+1349079830,Eunji[AoV] vs BaD]Fe (1).rep,512,0,"Protoss",5325,"Protoss Pylon",576,544,1520,6162,18
+1349079872,Eunji[AoV] vs BaD]Fe.rep,48,1,"Protoss",350,"Protoss Pylon",256,3648,0,314,8
+1349079872,Eunji[AoV] vs BaD]Fe.rep,59,0,"Terran",400,"Terran Supply Depot",368,864,0,370,9
+1349079872,Eunji[AoV] vs BaD]Fe.rep,80,1,"Protoss",450,"Protoss Gateway",416,3760,0,578,10
+1349079872,Eunji[AoV] vs BaD]Fe.rep,88,0,"Terran",500,"Terran Barracks",192,944,0,626,11
+1349079872,Eunji[AoV] vs BaD]Fe.rep,100,1,"Protoss",550,"Protoss Assimilator",288,3584,0,770,12
+1349079872,Eunji[AoV] vs BaD]Fe.rep,110,0,"Terran",550,"Terran Supply Depot",272,864,0,826,12
+1349079872,Eunji[AoV] vs BaD]Fe.rep,128,1,"Protoss",650,"Protoss Cybernetics Core",48,3616,0,1058,14
+1349079872,Eunji[AoV] vs BaD]Fe.rep,133,0,"Terran",650,"Terran Refinery",288,64,0,1066,14
+1349079872,Eunji[AoV] vs BaD]Fe.rep,144,1,"Protoss",700,"Protoss Pylon",320,3840,56,1226,15
+1349079872,Eunji[AoV] vs BaD]Fe.rep,185,0,"Terran",900,"Terran Factory",416,528,104,1650,18
+1349079872,Eunji[AoV] vs BaD]Fe.rep,212,1,"Protoss",1200,"Protoss Gateway",416,3856,392,2058,19
+1349079872,Eunji[AoV] vs BaD]Fe.rep,227,1,"Protoss",1200,"Protoss Pylon",256,3840,472,2282,20
+1349079872,Eunji[AoV] vs BaD]Fe.rep,228,0,"Terran",1200,"Terran Supply Depot",48,32,336,2194,20
+1349079872,Eunji[AoV] vs BaD]Fe.rep,237,0,"Terran",1250,"Terran Starport",64,528,376,2282,21
+1349079872,Eunji[AoV] vs BaD]Fe.rep,238,0,"Terran",1250,"Terran Machine Shop",512,544,384,2306,21
+1349079872,Eunji[AoV] vs BaD]Fe.rep,254,1,"Protoss",1550,"Protoss Pylon",160,2144,608,2634,22
+1349079872,Eunji[AoV] vs BaD]Fe.rep,263,1,"Protoss",1600,"Protoss Robotics Facility",208,3936,656,2786,22
+1349079872,Eunji[AoV] vs BaD]Fe.rep,275,0,"Terran",1400,"Terran Supply Depot",144,32,576,2834,23
+1349079872,Eunji[AoV] vs BaD]Fe.rep,289,0,"Terran",1525,"Terran Control Tower",160,544,640,3034,24
+1349079872,Eunji[AoV] vs BaD]Fe.rep,309,1,"Protoss",2250,"Protoss Pylon",256,3520,880,3466,26
+1349079872,Eunji[AoV] vs BaD]Fe.rep,312,0,"Terran",1700,"Terran Command Center",64,944,768,3402,26
+1349079872,Eunji[AoV] vs BaD]Fe.rep,331,1,"Protoss",2800,"Protoss Observatory",144,3616,984,3802,27
+1349079872,Eunji[AoV] vs BaD]Fe.rep,338,0,"Terran",1825,"Terran Factory",416,432,896,3794,27
+1349079872,Eunji[AoV] vs BaD]Fe.rep,339,1,"Protoss",2850,"Protoss Pylon",1664,224,1024,3930,27
+1349079872,Eunji[AoV] vs BaD]Fe.rep,354,0,"Terran",1875,"Terran Factory",416,624,976,4026,28
+1349079872,Eunji[AoV] vs BaD]Fe.rep,371,0,"Terran",2300,"Terran Supply Depot",144,448,1064,4282,28
+1349079872,Eunji[AoV] vs BaD]Fe.rep,371,0,"Terran",2300,"Terran Supply Depot",432,32,1072,4282,28
+1349079872,Eunji[AoV] vs BaD]Fe.rep,374,1,"Protoss",3350,"Protoss Nexus",1216,3632,1200,4474,27
+1349079872,Eunji[AoV] vs BaD]Fe.rep,427,0,"Terran",2425,"Terran Armory",432,96,1360,5194,30
+1349079872,Eunji[AoV] vs BaD]Fe.rep,428,1,"Protoss",4600,"Protoss Gateway",544,3856,1440,5314,26
+1349079872,Eunji[AoV] vs BaD]Fe.rep,428,0,"Terran",2500,"Terran Supply Depot",528,32,1360,5210,30
+1349079872,Eunji[AoV] vs BaD]Fe.rep,453,0,"Terran",3200,"Terran Engineering Bay",608,1136,1488,5602,31
+1349079872,Eunji[AoV] vs BaD]Fe.rep,457,1,"Protoss",5150,"Protoss Gateway",416,3632,1584,5794,26
+1349079872,Eunji[AoV] vs BaD]Fe.rep,472,1,"Protoss",5200,"Protoss Pylon",1248,3424,1656,5994,29
+1349079872,Eunji[AoV] vs BaD]Fe.rep,498,0,"Terran",3575,"Terran Missile Turret",704,1248,1720,6394,34
+1349079872,Eunji[AoV] vs BaD]Fe.rep,499,1,"Protoss",6050,"Protoss Pylon",2592,3680,1784,6562,32
+1349079872,Eunji[AoV] vs BaD]Fe.rep,500,0,"Terran",3575,"Terran Missile Turret",288,1440,1736,6426,34
+1349079872,Eunji[AoV] vs BaD]Fe.rep,506,0,"Terran",3625,"Terran Supply Depot",528,96,1768,6586,36
+1349079872,Eunji[AoV] vs BaD]Fe.rep,544,1,"Protoss",6875,"Protoss Nexus",2464,3824,2008,7706,36
+1349079872,Eunji[AoV] vs BaD]Fe.rep,549,0,"Terran",4425,"Terran Missile Turret",736,768,1984,7626,40
+1349079872,Eunji[AoV] vs BaD]Fe.rep,550,0,"Terran",4425,"Terran Missile Turret",608,896,1992,7658,40
+1349079872,Eunji[AoV] vs BaD]Fe.rep,553,1,"Protoss",6875,"Protoss Pylon",1184,3424,2048,7946,36
+1349079872,Eunji[AoV] vs BaD]Fe.rep,580,0,"Terran",4425,"Terran Missile Turret",672,1280,2144,8418,40
+1349079872,Eunji[AoV] vs BaD]Fe.rep,586,1,"Protoss",8100,"Protoss Pylon",2624,3744,2224,8850,36
+1349079872,Eunji[AoV] vs BaD]Fe.rep,586,0,"Terran",4075,"Terran Missile Turret",320,1152,2184,8586,41
+1349079872,Eunji[AoV] vs BaD]Fe.rep,588,1,"Protoss",8100,"Protoss Citadel of Adun",48,3552,2232,8898,36
+1349079872,Eunji[AoV] vs BaD]Fe.rep,591,1,"Protoss",8100,"Protoss Gateway",416,3952,2248,8970,38
+1349079872,Eunji[AoV] vs BaD]Fe.rep,593,1,"Protoss",8100,"Protoss Assimilator",1248,3808,2256,9018,38
+1349079872,Eunji[AoV] vs BaD]Fe.rep,599,0,"Terran",4125,"Terran Factory",640,528,2248,8890,42
+1349079872,Eunji[AoV] vs BaD]Fe.rep,602,0,"Terran",4125,"Terran Supply Depot",528,160,2256,8946,42
+1349079872,Eunji[AoV] vs BaD]Fe.rep,602,0,"Terran",4125,"Terran Factory",640,432,2264,8962,42
+1349079872,Eunji[AoV] vs BaD]Fe.rep,605,1,"Protoss",8200,"Protoss Gateway",416,3536,2320,9338,40
+1349079872,Eunji[AoV] vs BaD]Fe.rep,605,0,"Terran",4175,"Terran Refinery",480,1440,2280,9050,44
+1349079872,Eunji[AoV] vs BaD]Fe.rep,609,1,"Protoss",9200,"Protoss Gateway",416,3440,2336,9442,40
+1349079872,Eunji[AoV] vs BaD]Fe.rep,637,1,"Protoss",9400,"Protoss Forge",2704,3776,2504,10202,45
+1349079872,Eunji[AoV] vs BaD]Fe.rep,643,1,"Protoss",9500,"Protoss Pylon",2784,3776,2568,10314,45
+1349079872,Eunji[AoV] vs BaD]Fe.rep,660,0,"Terran",5625,"Terran Academy",240,1216,2600,10458,49
+1349079872,Eunji[AoV] vs BaD]Fe.rep,662,0,"Terran",5625,"Terran Machine Shop",736,544,2616,10506,49
+1349079872,Eunji[AoV] vs BaD]Fe.rep,663,0,"Terran",5625,"Terran Machine Shop",736,448,2632,10554,49
+1349079872,Eunji[AoV] vs BaD]Fe.rep,669,0,"Terran",5825,"Terran Supply Depot",624,32,2688,10698,51
+1349079872,Eunji[AoV] vs BaD]Fe.rep,677,1,"Protoss",10925,"Protoss Pylon",2144,3680,2888,11210,48
+1349079872,Eunji[AoV] vs BaD]Fe.rep,680,1,"Protoss",10925,"Protoss Pylon",2208,3680,2912,11298,48
+1349079872,Eunji[AoV] vs BaD]Fe.rep,712,1,"Protoss",11575,"Protoss Photon Cannon",2336,3776,3224,12194,48
+1349079872,Eunji[AoV] vs BaD]Fe.rep,713,1,"Protoss",11575,"Protoss Templar Archives",144,3552,3240,12234,49
+1349079872,Eunji[AoV] vs BaD]Fe.rep,713,1,"Protoss",11575,"Protoss Assimilator",2688,3904,3248,12250,49
+1349079872,Eunji[AoV] vs BaD]Fe.rep,716,1,"Protoss",11575,"Protoss Stargate",64,3472,3272,12290,49
+1349079872,Eunji[AoV] vs BaD]Fe.rep,726,0,"Terran",6650,"Terran Supply Depot",624,96,3216,12386,51
+1349079872,Eunji[AoV] vs BaD]Fe.rep,728,0,"Terran",6650,"Terran Supply Depot",240,448,3232,12458,51
+1349079872,Eunji[AoV] vs BaD]Fe.rep,731,0,"Terran",6650,"Terran Supply Depot",528,224,3264,12562,51
+1349079872,Eunji[AoV] vs BaD]Fe.rep,754,1,"Protoss",12400,"Protoss Pylon",1056,3424,3640,13618,52
+1349079872,Eunji[AoV] vs BaD]Fe.rep,755,0,"Terran",6725,"Terran Command Center",704,272,3488,13234,51
+1349079872,Eunji[AoV] vs BaD]Fe.rep,768,1,"Protoss",12400,"Protoss Pylon",1152,3712,3784,14098,53
+1349079872,Eunji[AoV] vs BaD]Fe.rep,769,1,"Protoss",13150,"Protoss Pylon",1152,3776,3808,14154,53
+1349079872,Eunji[AoV] vs BaD]Fe.rep,798,1,"Protoss",13200,"Protoss Arbiter Tribunal",176,3488,4200,15218,55
+1349079872,Eunji[AoV] vs BaD]Fe.rep,807,1,"Protoss",13400,"Protoss Pylon",3712,2848,4320,15530,55
+1349079872,Eunji[AoV] vs BaD]Fe.rep,818,1,"Protoss",13600,"Protoss Nexus",3584,2864,4488,15954,55
+1349079872,Eunji[AoV] vs BaD]Fe.rep,831,0,"Terran",8300,"Terran Supply Depot",720,32,4200,15426,51
+1349079872,Eunji[AoV] vs BaD]Fe.rep,831,1,"Protoss",14100,"Protoss Pylon",3808,3424,4664,16514,55
+1349079872,Eunji[AoV] vs BaD]Fe.rep,843,1,"Protoss",14300,"Protoss Pylon",3328,2816,4824,16954,55
+1349079872,Eunji[AoV] vs BaD]Fe.rep,848,0,"Terran",8375,"Terran Missile Turret",1248,1056,4352,15914,51
+1349079872,Eunji[AoV] vs BaD]Fe.rep,850,1,"Protoss",14300,"Protoss Pylon",3328,2880,4928,17226,55
+1349079872,Eunji[AoV] vs BaD]Fe.rep,853,1,"Protoss",14300,"Protoss Pylon",3360,3008,4960,17346,55
+1349079872,Eunji[AoV] vs BaD]Fe.rep,857,0,"Terran",8525,"Terran Comsat Station",384,256,4440,16138,51
+1349079872,Eunji[AoV] vs BaD]Fe.rep,859,0,"Terran",9225,"Terran Comsat Station",608,1280,4456,16210,51
+1349079872,Eunji[AoV] vs BaD]Fe.rep,875,1,"Protoss",15175,"Protoss Gateway",3840,3504,5264,18146,56
+1349079872,Eunji[AoV] vs BaD]Fe.rep,877,1,"Protoss",15525,"Protoss Gateway",3904,3408,5304,18258,56
+1349079872,Eunji[AoV] vs BaD]Fe.rep,878,0,"Terran",8675,"Terran Missile Turret",928,352,4632,16770,51
+1349079872,Eunji[AoV] vs BaD]Fe.rep,885,0,"Terran",8675,"Terran Factory",640,624,4688,16978,51
+1349079872,Eunji[AoV] vs BaD]Fe.rep,885,1,"Protoss",15775,"Protoss Pylon",4000,3072,5416,18522,56
+1349079872,Eunji[AoV] vs BaD]Fe.rep,892,1,"Protoss",16125,"Protoss Photon Cannon",3648,2944,5512,18738,56
+1349079872,Eunji[AoV] vs BaD]Fe.rep,894,1,"Protoss",16375,"Protoss Photon Cannon",1312,3552,5536,18770,56
+1349079872,Eunji[AoV] vs BaD]Fe.rep,908,1,"Protoss",16475,"Protoss Pylon",672,3872,5736,19210,57
+1349079872,Eunji[AoV] vs BaD]Fe.rep,910,1,"Protoss",16475,"Protoss Photon Cannon",3616,2784,5752,19258,57
+1349079872,Eunji[AoV] vs BaD]Fe.rep,921,0,"Terran",9675,"Terran Comsat Station",1760,256,5032,17914,51
+1349079872,Eunji[AoV] vs BaD]Fe.rep,923,0,"Terran",10025,"Terran Supply Depot",528,288,5048,17946,51
+1349079872,Eunji[AoV] vs BaD]Fe.rep,925,0,"Terran",10025,"Terran Supply Depot",624,160,5064,18026,51
+1349079872,Eunji[AoV] vs BaD]Fe.rep,927,1,"Protoss",17025,"Protoss Assimilator",3616,2688,6008,19850,58
+1349079872,Eunji[AoV] vs BaD]Fe.rep,940,1,"Protoss",17425,"Protoss Gateway",544,3952,6168,20382,58
+1349079872,Eunji[AoV] vs BaD]Fe.rep,941,0,"Terran",10525,"Terran Science Facility",64,656,5208,18426,51
+1349079872,Eunji[AoV] vs BaD]Fe.rep,944,1,"Protoss",17750,"Protoss Nexus",3808,3792,6216,20502,58
+1349079872,Eunji[AoV] vs BaD]Fe.rep,968,1,"Protoss",17850,"Protoss Gateway",544,3760,6560,21530,58
+1349079872,Eunji[AoV] vs BaD]Fe.rep,981,1,"Protoss",18875,"Protoss Forge",2224,3808,6744,22058,58
+1349079872,Eunji[AoV] vs BaD]Fe.rep,991,1,"Protoss",18875,"Protoss Nexus",3808,1712,6880,22490,58
+1349079872,Eunji[AoV] vs BaD]Fe.rep,1005,1,"Protoss",19875,"Protoss Gateway",704,3952,7096,23082,58
+1349079872,Eunji[AoV] vs BaD]Fe.rep,1019,1,"Protoss",19875,"Protoss Gateway",768,3856,7280,23650,58
+1349079989,Eunji[AoV] vs Laszlo.rep,50,0,"Protoss",350,"Protoss Pylon",608,1632,0,314,8
+1349079989,Eunji[AoV] vs Laszlo.rep,52,1,"Protoss",350,"Protoss Pylon",3776,1728,0,330,8
+1349079989,Eunji[AoV] vs Laszlo.rep,81,1,"Protoss",450,"Protoss Gateway",3808,1584,0,586,10
+1349079989,Eunji[AoV] vs Laszlo.rep,82,0,"Protoss",450,"Protoss Gateway",512,1648,0,586,10
+1349079989,Eunji[AoV] vs Laszlo.rep,96,0,"Protoss",500,"Protoss Assimilator",288,1056,0,722,11
+1349079989,Eunji[AoV] vs Laszlo.rep,105,1,"Protoss",550,"Protoss Gateway",3680,1584,0,818,12
+1349079989,Eunji[AoV] vs Laszlo.rep,123,0,"Protoss",600,"Protoss Pylon",256,1120,0,1010,13
+1349079989,Eunji[AoV] vs Laszlo.rep,133,1,"Protoss",650,"Protoss Pylon",3904,1728,0,1130,14
+1349079989,Eunji[AoV] vs Laszlo.rep,157,0,"Protoss",800,"Protoss Gateway",512,1552,104,1354,14
+1349079989,Eunji[AoV] vs Laszlo.rep,167,0,"Protoss",800,"Protoss Pylon",480,1760,104,1474,14
+1349079989,Eunji[AoV] vs Laszlo.rep,167,1,"Protoss",900,"Protoss Pylon",3840,1920,0,1578,16
+1349079989,Eunji[AoV] vs Laszlo.rep,194,0,"Protoss",950,"Protoss Cybernetics Core",48,1056,136,1818,15
+1349079989,Eunji[AoV] vs Laszlo.rep,220,1,"Protoss",1450,"Protoss Nexus",3616,944,0,2314,20
+1349079989,Eunji[AoV] vs Laszlo.rep,228,1,"Protoss",1450,"Protoss Pylon",3520,928,0,2434,20
+1349079989,Eunji[AoV] vs Laszlo.rep,230,0,"Protoss",1250,"Protoss Pylon",608,1568,264,2242,17
+1349079989,Eunji[AoV] vs Laszlo.rep,237,1,"Protoss",1500,"Protoss Forge",3920,2016,0,2578,20
+1349079989,Eunji[AoV] vs Laszlo.rep,246,1,"Protoss",1500,"Protoss Assimilator",3808,1664,0,2722,21
+1349079989,Eunji[AoV] vs Laszlo.rep,273,1,"Protoss",1600,"Protoss Photon Cannon",3456,928,0,3130,22
+1349079989,Eunji[AoV] vs Laszlo.rep,281,1,"Protoss",1600,"Protoss Photon Cannon",3456,864,0,3266,21
+1349079989,Eunji[AoV] vs Laszlo.rep,318,0,"Protoss",2300,"Protoss Gateway",512,1456,696,3386,21
+1349079989,Eunji[AoV] vs Laszlo.rep,321,1,"Protoss",1850,"Protoss Cybernetics Core",3824,2016,192,3802,24
+1349079989,Eunji[AoV] vs Laszlo.rep,322,0,"Protoss",2350,"Protoss Pylon",288,1312,720,3458,21
+1349079989,Eunji[AoV] vs Laszlo.rep,357,1,"Protoss",2100,"Protoss Photon Cannon",3456,992,384,4450,28
+1349079989,Eunji[AoV] vs Laszlo.rep,358,1,"Protoss",2100,"Protoss Pylon",3968,160,384,4474,28
+1349079989,Eunji[AoV] vs Laszlo.rep,364,1,"Protoss",2200,"Protoss Robotics Facility",3600,1024,416,4586,29
+1349079989,Eunji[AoV] vs Laszlo.rep,365,0,"Protoss",3000,"Protoss Pylon",352,1312,936,4122,24
+1349079989,Eunji[AoV] vs Laszlo.rep,377,1,"Protoss",2250,"Protoss Photon Cannon",3456,800,480,4882,30
+1349079989,Eunji[AoV] vs Laszlo.rep,389,0,"Protoss",3500,"Protoss Nexus",480,2160,1056,4498,24
+1349079989,Eunji[AoV] vs Laszlo.rep,389,1,"Protoss",2300,"Protoss Photon Cannon",3456,1056,536,5130,32
+1349079989,Eunji[AoV] vs Laszlo.rep,402,0,"Protoss",3750,"Protoss Robotics Facility",80,992,1128,4714,25
+1349079989,Eunji[AoV] vs Laszlo.rep,420,1,"Protoss",3000,"Protoss Robotics Support Bay",3728,2016,688,5858,34
+1349079989,Eunji[AoV] vs Laszlo.rep,427,1,"Protoss",3000,"Protoss Pylon",3520,864,720,6026,36
+1349079989,Eunji[AoV] vs Laszlo.rep,439,1,"Protoss",3600,"Protoss Photon Cannon",3520,992,784,6250,34
+1349079989,Eunji[AoV] vs Laszlo.rep,475,0,"Protoss",4400,"Protoss Observatory",208,1344,1496,5858,25
+1349079989,Eunji[AoV] vs Laszlo.rep,485,1,"Protoss",4100,"Protoss Assimilator",3584,768,1008,7058,35
+1349079989,Eunji[AoV] vs Laszlo.rep,491,1,"Protoss",4500,"Protoss Gateway",3680,1680,1048,7218,35
+1349079989,Eunji[AoV] vs Laszlo.rep,506,1,"Protoss",4600,"Protoss Pylon",3104,1952,1120,7594,37
+1349079989,Eunji[AoV] vs Laszlo.rep,514,1,"Protoss",5200,"Protoss Pylon",3488,2336,1160,7826,37
+1349079989,Eunji[AoV] vs Laszlo.rep,536,0,"Protoss",6475,"Protoss Citadel of Adun",208,1408,1816,7090,31
+1349079989,Eunji[AoV] vs Laszlo.rep,536,1,"Protoss",5300,"Protoss Gateway",3680,1840,1312,8410,41
+1349079989,Eunji[AoV] vs Laszlo.rep,540,1,"Protoss",5700,"Protoss Pylon",3680,1024,1352,8498,41
+1349079989,Eunji[AoV] vs Laszlo.rep,542,0,"Protoss",6775,"Protoss Gateway",384,1456,1840,7218,32
+1349079989,Eunji[AoV] vs Laszlo.rep,548,0,"Protoss",7025,"Protoss Pylon",224,1472,1872,7362,32
+1349079989,Eunji[AoV] vs Laszlo.rep,550,0,"Protoss",7075,"Protoss Pylon",224,1536,1880,7394,33
+1349079989,Eunji[AoV] vs Laszlo.rep,554,0,"Protoss",7075,"Protoss Pylon",416,1312,1904,7490,33
+1349079989,Eunji[AoV] vs Laszlo.rep,556,1,"Protoss",6300,"Protoss Pylon",3936,480,1512,8962,43
+1349079989,Eunji[AoV] vs Laszlo.rep,556,0,"Protoss",7075,"Protoss Assimilator",512,2336,1912,7546,33
+1349079989,Eunji[AoV] vs Laszlo.rep,569,0,"Protoss",7225,"Protoss Gateway",384,1584,1976,7906,33
+1349079989,Eunji[AoV] vs Laszlo.rep,571,0,"Protoss",7225,"Protoss Gateway",384,1552,1992,7938,33
+1349079989,Eunji[AoV] vs Laszlo.rep,573,1,"Protoss",6400,"Protoss Gateway",3552,1680,1680,9418,45
+1349079989,Eunji[AoV] vs Laszlo.rep,574,0,"Protoss",7225,"Protoss Gateway",384,1648,2008,8042,33
+1349079989,Eunji[AoV] vs Laszlo.rep,583,1,"Protoss",6700,"Protoss Observatory",3696,2240,1776,9690,47
+1349079989,Eunji[AoV] vs Laszlo.rep,598,0,"Protoss",7325,"Protoss Pylon",384,1248,2120,8674,35
+1349079989,Eunji[AoV] vs Laszlo.rep,623,0,"Protoss",7950,"Protoss Pylon",480,1248,2352,9314,35
+1349079989,Eunji[AoV] vs Laszlo.rep,624,1,"Protoss",8150,"Protoss Pylon",2240,736,2192,10914,50
+1349079989,Eunji[AoV] vs Laszlo.rep,626,0,"Protoss",8175,"Protoss Pylon",480,1184,2384,9402,35
+1349079989,Eunji[AoV] vs Laszlo.rep,635,1,"Protoss",8200,"Protoss Citadel of Adun",3632,1984,2304,11234,51
+1349079989,Eunji[AoV] vs Laszlo.rep,641,1,"Protoss",8750,"Protoss Photon Cannon",3776,1920,2360,11418,51
+1349079989,Eunji[AoV] vs Laszlo.rep,641,0,"Protoss",8525,"Protoss Pylon",64,2240,2528,9794,37
+1349079989,Eunji[AoV] vs Laszlo.rep,646,1,"Protoss",8750,"Protoss Pylon",4032,2272,2408,11602,51
+1349079989,Eunji[AoV] vs Laszlo.rep,653,1,"Protoss",9000,"Protoss Pylon",1920,2432,2480,11794,51
+1349079989,Eunji[AoV] vs Laszlo.rep,672,1,"Protoss",9400,"Protoss Pylon",3712,832,2680,12378,51
+1349079989,Eunji[AoV] vs Laszlo.rep,684,1,"Protoss",9775,"Protoss Pylon",3008,96,2784,12750,51
+1349079989,Eunji[AoV] vs Laszlo.rep,689,1,"Protoss",9775,"Protoss Pylon",3648,1472,2832,12894,51
+1349079989,Eunji[AoV] vs Laszlo.rep,691,0,"Protoss",10425,"Protoss Templar Archives",48,1408,3016,11138,38
+1349079989,Eunji[AoV] vs Laszlo.rep,692,1,"Protoss",9975,"Protoss Pylon",3712,96,2864,13030,51
+1349079989,Eunji[AoV] vs Laszlo.rep,699,0,"Protoss",10950,"Protoss Pylon",256,992,3096,11354,38
+1349079989,Eunji[AoV] vs Laszlo.rep,703,0,"Protoss",11050,"Protoss Pylon",320,992,3128,11426,38
+1349079989,Eunji[AoV] vs Laszlo.rep,707,1,"Protoss",10400,"Protoss Pylon",3712,1472,3016,13542,53
+1349079989,Eunji[AoV] vs Laszlo.rep,717,1,"Protoss",10500,"Protoss Templar Archives",3600,2240,3120,13862,53
+1349079989,Eunji[AoV] vs Laszlo.rep,724,1,"Protoss",10500,"Protoss Gateway",3552,1584,3176,14046,53
+1349079989,Eunji[AoV] vs Laszlo.rep,725,0,"Protoss",11750,"Protoss Nexus",672,2832,3336,12010,38
+1349079989,Eunji[AoV] vs Laszlo.rep,726,0,"Protoss",11750,"Protoss Pylon",672,2752,3352,12026,38
+1349079989,Eunji[AoV] vs Laszlo.rep,729,1,"Protoss",10725,"Protoss Gateway",3552,1456,3240,14238,53
+1349079989,Eunji[AoV] vs Laszlo.rep,748,1,"Protoss",11125,"Protoss Nexus",3424,240,3432,14870,53
+1349079989,Eunji[AoV] vs Laszlo.rep,757,1,"Protoss",11425,"Protoss Pylon",3424,160,3512,15134,53
+1349079989,Eunji[AoV] vs Laszlo.rep,762,0,"Protoss",12175,"Protoss Forge",176,1024,3680,12946,41
+1349079989,Eunji[AoV] vs Laszlo.rep,763,0,"Protoss",12175,"Protoss Pylon",160,960,3712,12986,41
+1349079989,Eunji[AoV] vs Laszlo.rep,764,1,"Protoss",11525,"Protoss Pylon",3392,320,3584,15366,53
+1349079989,Eunji[AoV] vs Laszlo.rep,764,1,"Protoss",11525,"Protoss Gateway",3808,1456,3592,15398,53
+1349079989,Eunji[AoV] vs Laszlo.rep,767,0,"Protoss",12550,"Protoss Pylon",256,928,3744,13098,41
+1349079989,Eunji[AoV] vs Laszlo.rep,774,1,"Protoss",11525,"Protoss Photon Cannon",3200,160,3680,15718,53
+1349079989,Eunji[AoV] vs Laszlo.rep,777,0,"Protoss",13600,"Protoss Gateway",640,1456,3840,13362,41
+1349079989,Eunji[AoV] vs Laszlo.rep,782,1,"Protoss",11525,"Protoss Photon Cannon",3328,256,3760,15966,53
+1349079989,Eunji[AoV] vs Laszlo.rep,782,0,"Protoss",13825,"Protoss Gateway",576,1232,3896,13506,42
+1349079989,Eunji[AoV] vs Laszlo.rep,787,0,"Protoss",14075,"Protoss Gateway",576,1136,3944,13642,42
+1349079989,Eunji[AoV] vs Laszlo.rep,793,0,"Protoss",14075,"Protoss Photon Cannon",736,2752,4000,13818,42
+1349079989,Eunji[AoV] vs Laszlo.rep,819,1,"Protoss",13325,"Protoss Assimilator",3648,256,4128,17158,53
+1349079989,Eunji[AoV] vs Laszlo.rep,861,0,"Protoss",15025,"Protoss Photon Cannon",576,2816,4640,15526,42
+1349079989,Eunji[AoV] vs Laszlo.rep,864,0,"Protoss",15025,"Protoss Photon Cannon",576,2880,4664,15598,42
+1349079989,Eunji[AoV] vs Laszlo.rep,864,0,"Protoss",15025,"Protoss Pylon",768,2816,4664,15598,42
+1349079989,Eunji[AoV] vs Laszlo.rep,864,1,"Protoss",13725,"Protoss Photon Cannon",3488,160,4576,18558,54
+1349079989,Eunji[AoV] vs Laszlo.rep,876,1,"Protoss",14875,"Protoss Gateway",3968,1584,4752,19006,54
+1349079989,Eunji[AoV] vs Laszlo.rep,876,0,"Protoss",15325,"Protoss Photon Cannon",832,2848,4784,16022,42
+1349079989,Eunji[AoV] vs Laszlo.rep,886,1,"Protoss",14875,"Protoss Forge",4016,2016,4880,19342,54
+1349079989,Eunji[AoV] vs Laszlo.rep,886,1,"Protoss",14875,"Protoss Nexus",2080,208,4880,19342,54
+1349079989,Eunji[AoV] vs Laszlo.rep,889,1,"Protoss",14875,"Protoss Pylon",2080,288,4928,19470,54
+1349079989,Eunji[AoV] vs Laszlo.rep,903,0,"Protoss",16675,"Protoss Photon Cannon",768,2880,5048,16830,43
+1349079989,Eunji[AoV] vs Laszlo.rep,904,0,"Protoss",16675,"Protoss Photon Cannon",768,2944,5056,16854,43
+1349079989,Eunji[AoV] vs Laszlo.rep,924,0,"Protoss",17975,"Protoss Photon Cannon",96,2176,5248,17366,41
+1349079989,Eunji[AoV] vs Laszlo.rep,928,0,"Protoss",18025,"Protoss Photon Cannon",32,2176,5288,17438,41
+1349079989,Eunji[AoV] vs Laszlo.rep,955,1,"Protoss",18825,"Protoss Photon Cannon",2176,160,5848,21774,54
+1349079989,Eunji[AoV] vs Laszlo.rep,957,1,"Protoss",19875,"Protoss Gateway",3296,1872,5896,21846,54
+1349079989,Eunji[AoV] vs Laszlo.rep,970,1,"Protoss",21375,"Protoss Gateway",3296,1968,6072,22330,54
+1349079989,Eunji[AoV] vs Laszlo.rep,972,1,"Protoss",21475,"Protoss Photon Cannon",1984,160,6096,22362,54
+1349079989,Eunji[AoV] vs Laszlo.rep,977,1,"Protoss",21475,"Protoss Photon Cannon",1984,224,6176,22514,54
+1349079989,Eunji[AoV] vs Laszlo.rep,981,1,"Protoss",21475,"Protoss Pylon",2048,128,6232,22634,54
+1349079989,Eunji[AoV] vs Laszlo.rep,1003,1,"Protoss",23775,"Protoss Pylon",224,192,6560,23290,54
+1349079989,Eunji[AoV] vs Laszlo.rep,1004,0,"Protoss",20550,"Protoss Gateway",704,1136,6024,19634,46
+1349079989,Eunji[AoV] vs Laszlo.rep,1012,0,"Protoss",20550,"Protoss Gateway",704,1232,6104,19946,46
+1349079989,Eunji[AoV] vs Laszlo.rep,1017,1,"Protoss",24325,"Protoss Nexus",320,208,6752,23814,54
+1349079989,Eunji[AoV] vs Laszlo.rep,1078,1,"Protoss",27225,"Protoss Photon Cannon",224,128,7600,26134,54
+1349079989,Eunji[AoV] vs Laszlo.rep,1079,1,"Protoss",27225,"Protoss Photon Cannon",288,128,7616,26150,54
+1349080110,Favian[PaiN] vs Mann.rep,46,0,"Protoss",350,"Protoss Pylon",3776,192,0,314,8
+1349080110,Favian[PaiN] vs Mann.rep,47,1,"Protoss",350,"Protoss Pylon",3904,3392,0,322,8
+1349080110,Favian[PaiN] vs Mann.rep,75,1,"Protoss",450,"Protoss Gateway",3808,3312,0,570,10
+1349080110,Favian[PaiN] vs Mann.rep,78,0,"Protoss",450,"Protoss Gateway",3680,304,0,562,10
+1349080110,Favian[PaiN] vs Mann.rep,91,1,"Protoss",500,"Protoss Assimilator",3808,3616,0,714,11
+1349080110,Favian[PaiN] vs Mann.rep,99,0,"Protoss",550,"Protoss Assimilator",3808,96,0,770,12
+1349080110,Favian[PaiN] vs Mann.rep,114,0,"Protoss",600,"Protoss Pylon",3808,384,0,954,13
+1349080110,Favian[PaiN] vs Mann.rep,119,1,"Protoss",600,"Protoss Cybernetics Core",3824,3520,0,1034,13
+1349080110,Favian[PaiN] vs Mann.rep,132,1,"Protoss",650,"Protoss Pylon",4064,3648,40,1170,14
+1349080110,Favian[PaiN] vs Mann.rep,147,0,"Protoss",800,"Protoss Cybernetics Core",3984,128,80,1322,15
+1349080110,Favian[PaiN] vs Mann.rep,172,1,"Protoss",800,"Protoss Citadel of Adun",3984,3648,240,1610,17
+1349080110,Favian[PaiN] vs Mann.rep,179,0,"Protoss",950,"Protoss Pylon",3808,768,248,1706,18
+1349080110,Favian[PaiN] vs Mann.rep,200,1,"Protoss",1150,"Protoss Pylon",3776,3680,384,1946,19
+1349080110,Favian[PaiN] vs Mann.rep,216,1,"Protoss",1250,"Protoss Gateway",4032,3312,472,2178,20
+1349080110,Favian[PaiN] vs Mann.rep,233,0,"Protoss",1450,"Protoss Robotics Facility",3568,352,520,2402,19
+1349080110,Favian[PaiN] vs Mann.rep,258,1,"Protoss",1600,"Protoss Pylon",3840,3936,680,2786,22
+1349080110,Favian[PaiN] vs Mann.rep,272,0,"Protoss",1700,"Protoss Pylon",3808,448,712,2994,20
+1349080110,Favian[PaiN] vs Mann.rep,276,1,"Protoss",1900,"Protoss Robotics Facility",3984,3648,768,3058,23
+1349080110,Favian[PaiN] vs Mann.rep,277,0,"Protoss",1700,"Protoss Gateway",3680,208,736,3074,20
+1349080110,Favian[PaiN] vs Mann.rep,289,1,"Protoss",1950,"Protoss Pylon",3296,3872,832,3250,24
+1349080110,Favian[PaiN] vs Mann.rep,298,0,"Protoss",2050,"Protoss Robotics Support Bay",3984,480,840,3378,22
+1349080110,Favian[PaiN] vs Mann.rep,311,0,"Protoss",2100,"Protoss Observatory",3984,544,912,3570,23
+1349080110,Favian[PaiN] vs Mann.rep,335,0,"Protoss",2400,"Protoss Pylon",2880,576,1024,3930,23
+1349080110,Favian[PaiN] vs Mann.rep,342,1,"Protoss",3150,"Protoss Pylon",3776,3872,1096,4186,27
+1349080110,Favian[PaiN] vs Mann.rep,351,1,"Protoss",3150,"Protoss Observatory",3376,3968,1136,4338,27
+1349080110,Favian[PaiN] vs Mann.rep,380,0,"Protoss",3550,"Protoss Pylon",3872,448,1256,4634,23
+1349080110,Favian[PaiN] vs Mann.rep,381,0,"Protoss",3550,"Protoss Pylon",3872,384,1256,4642,23
+1349080110,Favian[PaiN] vs Mann.rep,381,1,"Protoss",3900,"Protoss Robotics Support Bay",3376,3904,1288,4874,29
+1349080110,Favian[PaiN] vs Mann.rep,395,1,"Protoss",3950,"Protoss Pylon",3232,3616,1360,5122,30
+1349080110,Favian[PaiN] vs Mann.rep,411,1,"Protoss",4725,"Protoss Nexus",3584,2864,1440,5386,30
+1349080110,Favian[PaiN] vs Mann.rep,433,0,"Protoss",4375,"Protoss Nexus",2880,464,1520,5474,24
+1349080110,Favian[PaiN] vs Mann.rep,439,1,"Protoss",4725,"Protoss Pylon",3072,2880,1584,5962,31
+1349080110,Favian[PaiN] vs Mann.rep,459,1,"Protoss",5425,"Protoss Pylon",4064,2016,1688,6290,32
+1349080110,Favian[PaiN] vs Mann.rep,478,0,"Protoss",5600,"Protoss Pylon",3744,448,1752,6242,25
+1349080110,Favian[PaiN] vs Mann.rep,485,0,"Protoss",5600,"Protoss Pylon",3040,480,1784,6330,25
+1349080110,Favian[PaiN] vs Mann.rep,535,1,"Protoss",6775,"Protoss Gateway",4032,3408,2080,7554,36
+1349080110,Favian[PaiN] vs Mann.rep,545,0,"Protoss",6800,"Protoss Gateway",3552,208,2088,7186,27
+1349080110,Favian[PaiN] vs Mann.rep,550,1,"Protoss",7375,"Protoss Gateway",3808,3408,2160,7898,37
+1349080110,Favian[PaiN] vs Mann.rep,552,0,"Protoss",7050,"Protoss Pylon",2912,768,2128,7338,27
+1349080110,Favian[PaiN] vs Mann.rep,558,1,"Protoss",7375,"Protoss Citadel of Adun",3376,3840,2200,8106,38
+1349080110,Favian[PaiN] vs Mann.rep,575,0,"Protoss",7575,"Protoss Gateway",3552,432,2240,7818,27
+1349080110,Favian[PaiN] vs Mann.rep,613,1,"Protoss",8475,"Protoss Pylon",3904,3328,2480,9538,39
+1349080110,Favian[PaiN] vs Mann.rep,622,1,"Protoss",8525,"Protoss Forge",3472,3840,2528,9778,41
+1349080166,gairbear(OD) vs reps (1).rep,51,1,"Protoss",350,"Protoss Pylon",3200,3648,0,346,8
+1349080166,gairbear(OD) vs reps (1).rep,80,1,"Protoss",450,"Protoss Forge",3120,3648,0,586,10
+1349080166,gairbear(OD) vs reps (1).rep,92,0,"Zerg",650,"Zerg Spawning Pool",272,2592,0,730,8
+1349080166,gairbear(OD) vs reps (1).rep,112,1,"Protoss",600,"Protoss Photon Cannon",3136,3712,0,874,13
+1349080166,gairbear(OD) vs reps (1).rep,127,0,"Zerg",850,"Zerg Hatchery",256,1840,0,1106,11
+1349080166,gairbear(OD) vs reps (1).rep,145,1,"Protoss",650,"Protoss Nexus",3200,3856,0,1258,13
+1349080166,gairbear(OD) vs reps (1).rep,160,0,"Zerg",850,"Zerg Extractor",288,2528,0,1458,10
+1349080166,gairbear(OD) vs reps (1).rep,163,1,"Protoss",700,"Protoss Gateway",3168,3568,0,1466,14
+1349080166,gairbear(OD) vs reps (1).rep,179,1,"Protoss",700,"Protoss Pylon",3776,3168,0,1658,14
+1349080166,gairbear(OD) vs reps (1).rep,188,1,"Protoss",750,"Protoss Assimilator",3808,3072,0,1778,15
+1349080166,gairbear(OD) vs reps (1).rep,189,0,"Zerg",1050,"Zerg Hatchery",256,1936,0,1746,9
+1349080166,gairbear(OD) vs reps (1).rep,216,1,"Protoss",850,"Protoss Photon Cannon",3072,3712,0,2130,17
+1349080166,gairbear(OD) vs reps (1).rep,232,1,"Protoss",1000,"Protoss Cybernetics Core",3952,3040,0,2370,18
+1349080166,gairbear(OD) vs reps (1).rep,237,0,"Zerg",1300,"Zerg Hydralisk Den",240,2880,232,2178,13
+1349080166,gairbear(OD) vs reps (1).rep,259,1,"Protoss",1150,"Protoss Pylon",3840,3392,144,2786,22
+1349080166,gairbear(OD) vs reps (1).rep,283,1,"Protoss",1450,"Protoss Stargate",4032,3440,264,3242,24
+1349080166,gairbear(OD) vs reps (1).rep,299,1,"Protoss",1550,"Protoss Assimilator",2976,3872,344,3554,26
+1349080166,gairbear(OD) vs reps (1).rep,304,1,"Protoss",1650,"Protoss Citadel of Adun",3920,3520,368,3682,26
+1349080166,gairbear(OD) vs reps (1).rep,316,1,"Protoss",1650,"Protoss Photon Cannon",3840,3328,432,3930,28
+1349080166,gairbear(OD) vs reps (1).rep,343,1,"Protoss",1950,"Protoss Photon Cannon",3200,3712,616,4514,32
+1349080166,gairbear(OD) vs reps (1).rep,351,1,"Protoss",2050,"Protoss Photon Cannon",3264,3712,672,4690,32
+1349080166,gairbear(OD) vs reps (1).rep,352,1,"Protoss",2050,"Protoss Photon Cannon",3296,3648,680,4730,32
+1349080166,gairbear(OD) vs reps (1).rep,364,1,"Protoss",2400,"Protoss Pylon",3104,3808,760,4954,32
+1349080166,gairbear(OD) vs reps (1).rep,370,1,"Protoss",2650,"Protoss Photon Cannon",3008,3712,784,5074,32
+1349080166,gairbear(OD) vs reps (1).rep,377,1,"Protoss",2650,"Protoss Templar Archives",3920,3456,824,5218,32
+1349080200,IFU.R8Lazania vs dra.rep,49,0,"Protoss",350,"Protoss Pylon",352,736,0,322,8
+1349080200,IFU.R8Lazania vs dra.rep,64,1,"Zerg",550,"Zerg Extractor",288,3584,0,426,8
+1349080200,IFU.R8Lazania vs dra.rep,80,0,"Protoss",450,"Protoss Gateway",224,656,0,570,10
+1349080200,IFU.R8Lazania vs dra.rep,94,1,"Zerg",600,"Zerg Spawning Pool",496,3872,0,706,8
+1349080200,IFU.R8Lazania vs dra.rep,112,0,"Protoss",600,"Protoss Assimilator",288,64,0,890,13
+1349080200,IFU.R8Lazania vs dra.rep,122,0,"Protoss",600,"Protoss Pylon",352,672,0,1002,13
+1349080200,IFU.R8Lazania vs dra.rep,157,0,"Protoss",850,"Protoss Cybernetics Core",336,576,56,1410,15
+1349080200,IFU.R8Lazania vs dra.rep,172,1,"Zerg",950,"Zerg Hatchery",704,3888,368,1362,12
+1349080200,IFU.R8Lazania vs dra.rep,179,0,"Protoss",1000,"Protoss Pylon",288,320,168,1658,17
+1349080200,IFU.R8Lazania vs dra.rep,201,0,"Protoss",1100,"Protoss Stargate",448,240,280,1930,19
+1349080200,IFU.R8Lazania vs dra.rep,216,1,"Zerg",1100,"Zerg Hatchery",512,3952,584,1842,13
+1349080200,IFU.R8Lazania vs dra.rep,231,0,"Protoss",1250,"Protoss Citadel of Adun",432,320,440,2314,20
+1349080200,IFU.R8Lazania vs dra.rep,234,0,"Protoss",1300,"Protoss Forge",432,384,456,2362,21
+1349080200,IFU.R8Lazania vs dra.rep,257,0,"Protoss",1350,"Protoss Pylon",224,160,568,2658,22
+1349080200,IFU.R8Lazania vs dra.rep,268,0,"Protoss",1400,"Protoss Photon Cannon",416,832,624,2818,22
+1349080200,IFU.R8Lazania vs dra.rep,283,1,"Zerg",1450,"Zerg Hatchery",1216,3632,592,2714,16
+1349080200,IFU.R8Lazania vs dra.rep,287,0,"Protoss",1750,"Protoss Templar Archives",144,64,728,3106,21
+1349080200,IFU.R8Lazania vs dra.rep,289,1,"Zerg",1450,"Zerg Creep Colony",800,3808,592,2810,15
+1349080200,IFU.R8Lazania vs dra.rep,300,1,"Zerg",1450,"Zerg Evolution Chamber",400,3968,592,2954,14
+1349080200,IFU.R8Lazania vs dra.rep,303,0,"Protoss",1750,"Protoss Gateway",224,560,808,3354,22
+1349080200,IFU.R8Lazania vs dra.rep,303,1,"Zerg",1550,"Zerg Creep Colony",736,3776,592,2978,13
+1349080200,IFU.R8Lazania vs dra.rep,307,1,"Zerg",1550,"Zerg Sunken Colony",800,3808,592,3026,13
+1349080200,IFU.R8Lazania vs dra.rep,314,1,"Zerg",1600,"Zerg Creep Colony",416,3744,592,3130,13
+1349080200,IFU.R8Lazania vs dra.rep,328,1,"Zerg",1600,"Zerg Spore Colony",736,3776,640,3290,13
+1349080200,IFU.R8Lazania vs dra.rep,329,1,"Zerg",1600,"Zerg Spore Colony",416,3744,648,3298,13
+1349080200,IFU.R8Lazania vs dra.rep,365,0,"Protoss",2875,"Protoss Pylon",672,1184,1128,4298,23
+1349080200,IFU.R8Lazania vs dra.rep,382,0,"Protoss",3200,"Protoss Nexus",512,1264,1216,4546,23
+1349080200,IFU.R8Lazania vs dra.rep,386,1,"Zerg",1900,"Zerg Creep Colony",1120,3648,864,3810,12
+1349080200,IFU.R8Lazania vs dra.rep,401,1,"Zerg",2050,"Zerg Sunken Colony",1120,3648,864,4002,13
+1349080200,IFU.R8Lazania vs dra.rep,410,1,"Zerg",2250,"Zerg Creep Colony",1120,3648,864,4106,13
+1349080200,IFU.R8Lazania vs dra.rep,442,1,"Zerg",2550,"Zerg Creep Colony",896,3904,864,4458,15
+1349080200,IFU.R8Lazania vs dra.rep,443,0,"Protoss",3950,"Protoss Photon Cannon",640,1280,1536,5474,24
+1349080200,IFU.R8Lazania vs dra.rep,456,0,"Protoss",4275,"Protoss Photon Cannon",608,1216,1608,5674,24
+1349080200,IFU.R8Lazania vs dra.rep,460,1,"Zerg",2550,"Zerg Sunken Colony",896,3904,864,4610,13
+1349080200,IFU.R8Lazania vs dra.rep,460,0,"Protoss",4275,"Protoss Photon Cannon",608,1152,1624,5746,24
+1349080200,IFU.R8Lazania vs dra.rep,469,1,"Zerg",2650,"Zerg Creep Colony",544,3776,864,4618,10
+1349080200,IFU.R8Lazania vs dra.rep,485,1,"Zerg",2850,"Zerg Spore Colony",544,3776,864,4682,10
+1349080200,IFU.R8Lazania vs dra.rep,506,0,"Protoss",4575,"Protoss Gateway",224,464,1864,6418,27
+1349080200,IFU.R8Lazania vs dra.rep,509,0,"Protoss",4575,"Protoss Gateway",448,560,1872,6466,27
+1349080200,IFU.R8Lazania vs dra.rep,551,0,"Protoss",5025,"Protoss Gateway",448,656,2096,7226,31
+1349080200,IFU.R8Lazania vs dra.rep,554,0,"Protoss",5025,"Protoss Gateway",480,752,2112,7282,31
+1349080200,IFU.R8Lazania vs dra.rep,557,0,"Protoss",5025,"Protoss Pylon",320,800,2128,7370,31
+1349080200,IFU.R8Lazania vs dra.rep,558,0,"Protoss",5025,"Protoss Pylon",256,800,2136,7394,31
+1349080200,IFU.R8Lazania vs dra.rep,561,0,"Protoss",5025,"Protoss Pylon",192,960,2152,7466,31
