@@ -20,12 +20,12 @@ namespace StarcraftParser
         [STAThread]
         static void Main()
         {
-            Console.WriteLine("Would you like to remove game dublicates from the input file? (1) yes (2) no");
+            Console.WriteLine("Would you like to remove game dublicates from the input data? (1) yes (2) no");
             int removeDub = int.Parse(Console.ReadLine());
 
             Console.WriteLine("Choose processor:\nTime Slice Preprocessor (1)\nFirst Time Build Preprocessor (2)");
             int processor = int.Parse(Console.ReadLine());
-            Console.WriteLine("Choose CSV format:\nExcel csv (1)\nWeka csv (2)");
+            Console.WriteLine("Choose CSV output format:\nExcel csv (1)\nWeka csv (2)");
             int csv = int.Parse(Console.ReadLine());
 
             Parser p = new Parser();
@@ -41,7 +41,7 @@ namespace StarcraftParser
             FirstTimeBuildProcessor ftbp = new FirstTimeBuildProcessor();
             ftbp.BuildUnitList(games);
 
-            Console.WriteLine("\n\n");
+            Console.WriteLine("\n");
 
             Console.WriteLine(games.Count + " games in the input file");
 
