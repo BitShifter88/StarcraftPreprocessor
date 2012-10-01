@@ -107,7 +107,7 @@ namespace StarcraftParser
 
         private void WriteGameToCsv(UnitTimeVector game, int gameId, StreamWriter sw)
         {
-            sw.Write(gameId + SEPERATION_SYMBOL + game.Replay);
+            sw.Write(gameId + SEPERATION_SYMBOL + game.Replay + SEPERATION_SYMBOL);
 
             int counter = 0;
             foreach (KeyValuePair<string, int> unit in game.Vector)

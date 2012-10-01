@@ -123,7 +123,7 @@ namespace StarcraftParser
                 if (onlyWriteLastVector)
                     if (i != game.GameStateVectors.Count - 1)
                         continue;
-                sw.Write(gameId + SEPERATION_SYMBOL + i + SEPERATION_SYMBOL + game.Replay);
+                sw.Write(gameId + SEPERATION_SYMBOL + i + SEPERATION_SYMBOL + game.Replay + SEPERATION_SYMBOL);
 
                 int counter = 0;
                 foreach (KeyValuePair<string, float> unit in game.GameStateVectors[i].UnitCounter)

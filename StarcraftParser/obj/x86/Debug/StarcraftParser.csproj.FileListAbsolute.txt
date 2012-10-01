@@ -18,6 +18,6 @@ C:\Users\Steffan\Desktop\StarcraftPreprocessor\StarcraftParser\obj\x86\Debug\Sta
 C:\Users\Steffan\Desktop\StarcraftPreprocessor\StarcraftParser\obj\x86\Debug\StarcraftParser.pdb
 C:\Users\Steffan\Desktop\StarcraftPreprocessor\StarcraftParser\bin\Debug\StarcraftParser.exe
 C:\Users\Steffan\Desktop\StarcraftPreprocessor\StarcraftParser\bin\Debug\StarcraftParser.pdb
-C:\Users\Steffan\Desktop\StarcraftPreprocessor\StarcraftParser\obj\x86\Debug\StarcraftParser.csprojResolveAssemblyReference.cache
 C:\Users\Steffan\Desktop\StarcraftPreprocessor\StarcraftParser\obj\x86\Debug\StarcraftParser.Properties.Resources.resources
 C:\Users\Steffan\Desktop\StarcraftPreprocessor\StarcraftParser\obj\x86\Debug\StarcraftParser.csproj.GenerateResource.Cache
+C:\Users\Steffan\Desktop\StarcraftPreprocessor\StarcraftParser\obj\x86\Debug\StarcraftParser.csprojResolveAssemblyReference.cache

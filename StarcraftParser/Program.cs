@@ -20,7 +20,7 @@ namespace StarcraftParser
         [STAThread]
         static void Main()
         {
-            Console.WriteLine("Would you like to remove game dublicates from the input data? (1) yes (2) no");
+            Console.WriteLine("How would you like to handle dublicates?\n(1) Do nothing\n(2) Remove game dublicates\n(3) Remove replay dublicates\n(4) Remove all dublicates");
             int removeDub = int.Parse(Console.ReadLine());
 
             Console.WriteLine("Choose processor:\nTime Slice Preprocessor (1)\nFirst Time Build Preprocessor (2)");
@@ -45,15 +45,19 @@ namespace StarcraftParser
 
             Console.WriteLine(games.Count + " games in the input file");
 
-            if (removeDub == 1)
+
+            int prevCount = games.Count;
+            if (removeDub == 2)
+                p.RemoveGameDublicates(games);
+            else if (removeDub == 3)
+                p.RemoveReplayDublicates(games);
+            else if (removeDub == 4)
             {
-                int prevCount = games.Count;
-
-                p.RemoveDublicates(games);
-
-                Console.WriteLine(prevCount - games.Count + " game dublicates removed");
+                p.RemoveGameDublicates(games);
+                p.RemoveReplayDublicates(games);
             }
-
+            Console.WriteLine(prevCount - games.Count + " game dublicates removed");
+            Console.WriteLine(games.Count + " total left");
 
             if (processor == 1)
             {

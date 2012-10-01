@@ -111,9 +111,35 @@ namespace StarcraftParser
             return gamesList;
         }
 
-        public void RemoveDublicates(List<ScGame> games)
+        public void RemoveReplayDublicates(List<ScGame> games)
         {
-            for (int j = 0; j < 10; j++)
+            for (int j = 0; j < 100; j++)
+            {
+                List<ScGame> toRemove = new List<ScGame>();
+
+                foreach (ScGame game1 in games)
+                {
+                    foreach (ScGame game2 in games)
+                    {
+                        if (game1 == game2)
+                            continue;
+
+                        if (game1.ReplayFile == game2.ReplayFile &&
+                            toRemove.Contains(game1) == false)
+                            toRemove.Add(game2);
+                    }
+                }
+
+                foreach (ScGame game in toRemove)
+                {
+                    games.Remove(game);
+                }
+            }
+        }
+
+        public void RemoveGameDublicates(List<ScGame> games)
+        {
+            for (int j = 0; j < 100; j++)
             {
                 List<string> toRemove = new List<string>();
 
