@@ -27,3 +27,5 @@ C:\Users\mgj\Desktop\ReplayPreprosessor\StarcraftParser\obj\x86\Debug\ResolveAss
 C:\Users\mgj\Desktop\ReplayPreprosessor\StarcraftParser\obj\x86\Debug\StarcraftParser.Properties.Resources.resources
 C:\Users\mgj\Desktop\ReplayPreprosessor\StarcraftParser\obj\x86\Debug\GenerateResource.read.1.tlog
 C:\Users\mgj\Desktop\ReplayPreprosessor\StarcraftParser\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\mgj\Desktop\ReplayPreprosessor\StarcraftParser\bin\Debug\StarcraftParser.exe
+C:\Users\mgj\Desktop\ReplayPreprosessor\StarcraftParser\bin\Debug\StarcraftParser.pdb
