@@ -25,7 +25,9 @@ namespace StarcraftParser
         {
             ScEvent e = (ScEvent)obj;
 
-            if (Race == e.Race &&
+            if (Filename == e.Filename &&
+                Playerid == e.Playerid &&
+                Race == e.Race &&
                 Score == e.Score &&
                 Unit == e.Unit &&
                 X == e.X &&

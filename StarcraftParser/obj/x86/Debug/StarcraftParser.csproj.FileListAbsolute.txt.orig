@@ -20,10 +20,15 @@ C:\Users\Steffan\Desktop\StarcraftPreprocessor\StarcraftParser\bin\Debug\Starcra
 C:\Users\Steffan\Desktop\StarcraftPreprocessor\StarcraftParser\bin\Debug\StarcraftParser.pdb
 C:\Users\Steffan\Desktop\StarcraftPreprocessor\StarcraftParser\obj\x86\Debug\StarcraftParser.Properties.Resources.resources
 C:\Users\Steffan\Desktop\StarcraftPreprocessor\StarcraftParser\obj\x86\Debug\StarcraftParser.csproj.GenerateResource.Cache
+<<<<<<< HEAD
 C:\Users\Steffan\Desktop\StarcraftPreprocessor\StarcraftParser\obj\x86\Debug\StarcraftParser.csprojResolveAssemblyReference.cache
-C:\Users\mgj\Desktop\ReplayPreprosessor\StarcraftParser\obj\x86\Debug\StarcraftParser.exe
-C:\Users\mgj\Desktop\ReplayPreprosessor\StarcraftParser\obj\x86\Debug\StarcraftParser.pdb
+=======
 C:\Users\mgj\Desktop\ReplayPreprosessor\StarcraftParser\obj\x86\Debug\ResolveAssemblyReference.cache
 C:\Users\mgj\Desktop\ReplayPreprosessor\StarcraftParser\obj\x86\Debug\StarcraftParser.Properties.Resources.resources
 C:\Users\mgj\Desktop\ReplayPreprosessor\StarcraftParser\obj\x86\Debug\GenerateResource.read.1.tlog
 C:\Users\mgj\Desktop\ReplayPreprosessor\StarcraftParser\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\mgj\Desktop\ReplayPreprosessor\StarcraftParser\bin\Debug\StarcraftParser.exe
+C:\Users\mgj\Desktop\ReplayPreprosessor\StarcraftParser\bin\Debug\StarcraftParser.pdb
+C:\Users\mgj\Desktop\ReplayPreprosessor\StarcraftParser\obj\x86\Debug\StarcraftParser.exe
+C:\Users\mgj\Desktop\ReplayPreprosessor\StarcraftParser\obj\x86\Debug\StarcraftParser.pdb
+>>>>>>> devMikkel

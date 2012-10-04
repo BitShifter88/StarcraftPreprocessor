@@ -28,6 +28,33 @@ namespace StarcraftParser
                 string[] split = line.Split(',');
 
                 // Rå strings fra dette event, splittet op i de forskellige elementer
+<<<<<<< HEAD
+                string idStr = split[0];
+                string replayStr = split[1];
+                string timeStr = split[2];
+                string playerStr = split[3]; //player id
+                string raceStr = split[4];
+                string scoreStr = split[5];
+                string unitStr = split[6];
+                string xStr = split[7];
+                string yStr = split[8];
+                string gasStr = split[9];
+                string mineralsStr = split[10];
+                string workerCountStr = split[11];
+
+                // De forskellige ting et event består af.
+                long id;
+                string replay;
+                int time;
+                Race race = Race.Protoss;
+                int score;
+                string unit;
+                int x;
+                int y;
+                int minerals;
+                int gas;
+                int workerCount;
+=======
                 string filenameStr = split[0];
                 //string mapnameStr = split[1];
                 string timeStr = split[1];
@@ -56,8 +83,11 @@ namespace StarcraftParser
                 int gas = int.Parse(gasStr);
                 int minerals = int.Parse(mineralsStr);
                 int workerCount = int.Parse(workerCountStr);
+>>>>>>> devMikkel
 
                 //id = long.Parse(idStr) * 2 + long.Parse(playerStr);
+
+                replay = replayStr;
 
                 switch (raceStr)
                 {
@@ -90,14 +120,19 @@ namespace StarcraftParser
                     WorkerCount = workerCount
                 };
 
+<<<<<<< HEAD
+                ScEvent ev = new ScEvent() { Gas = gas, Minerals = minerals, Race = race, Score = score, Time = time, Unit = unit, WorkerCount = workerCount, X = x, Y = y};
+=======
                 string id = filename + playerid;
+>>>>>>> devMikkel
+
                 if (games.ContainsKey(id) == true)
                 {
                     games[id].Events.Add(ev);
                 }
                 else
                 {
-                    games.Add(id, new ScGame() { Race = race });
+                    games.Add(id, new ScGame() { Race = race, ReplayFile = replay});
                     games[id].Events.Add(ev);
                 }
             }
