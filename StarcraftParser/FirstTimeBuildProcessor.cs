@@ -11,6 +11,7 @@ namespace StarcraftParser
     {
         public Dictionary<string, int> Vector { get; set; }
         public Race Race { get; set; }
+        public string Replay { get; set; }
 
         public UnitTimeVector()
         {
@@ -27,6 +28,7 @@ namespace StarcraftParser
         {
             UnitTimeVector v = new UnitTimeVector();
             v.Race = game.Race;
+            v.Replay = game.ReplayFile;
 
             IniVector(v.Vector, game.Race);
 
@@ -66,6 +68,9 @@ namespace StarcraftParser
 
         public void WriteGamesToCsv(List<UnitTimeVector> games, string file, CsvType csvType)
         {
+            if (games.Count == 0)
+                return;
+
             if (csvType == CsvType.Excel)
             {
                 CULTURE = "da-DK";
@@ -80,7 +85,7 @@ namespace StarcraftParser
             using (StreamWriter sw = new StreamWriter(new FileStream(file, FileMode.Create)))
             {
                 // Writes the CSV Header
-                sw.Write("id" + SEPERATION_SYMBOL);
+                sw.Write("id" + SEPERATION_SYMBOL + "replay" + SEPERATION_SYMBOL);
 
                 int counter = 0;
                 foreach (KeyValuePair<string, int> unit in games[0].Vector)
@@ -102,7 +107,7 @@ namespace StarcraftParser
 
         private void WriteGameToCsv(UnitTimeVector game, int gameId, StreamWriter sw)
         {
-            sw.Write(gameId + SEPERATION_SYMBOL);
+            sw.Write(gameId + SEPERATION_SYMBOL + game.Replay + SEPERATION_SYMBOL);
 
             int counter = 0;
             foreach (KeyValuePair<string, int> unit in game.Vector)

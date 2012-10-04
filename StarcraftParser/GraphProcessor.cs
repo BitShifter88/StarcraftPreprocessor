@@ -62,6 +62,7 @@ namespace StarcraftParser
                     result += ExportToGraphvizAlt(result, roots[i].Neighbors);
                 }
             }
+
             return result;
         }
 

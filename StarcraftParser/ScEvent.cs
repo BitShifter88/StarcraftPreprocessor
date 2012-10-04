@@ -20,5 +20,25 @@ namespace StarcraftParser
         public int Gas { get; set; }
         public int Minerals { get; set; }
         public int WorkerCount { get; set; }
+
+        public override bool Equals(object obj)
+        {
+            ScEvent e = (ScEvent)obj;
+
+            if (Filename == e.Filename &&
+                Playerid == e.Playerid &&
+                Race == e.Race &&
+                Score == e.Score &&
+                Unit == e.Unit &&
+                X == e.X &&
+                Y == e.Y &&
+                Minerals == e.Minerals &&
+                Gas == e.Gas &&
+                WorkerCount == e.WorkerCount &&
+                Time == e.Time)
+                return true;
+            else
+                return false;
+        }
     }
 }

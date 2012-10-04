@@ -39,7 +39,7 @@ namespace StarcraftParser
                 gameStateVectors.Add(gsv);
             }
 
-            return new TimeSliceGame() { GameStateVectors = gameStateVectors, Race = game.Race };
+            return new TimeSliceGame() { GameStateVectors = gameStateVectors, Race = game.Race , Replay = game.ReplayFile};
         }
 
         /// <summary>
@@ -79,6 +79,9 @@ namespace StarcraftParser
         /// <param name="file"></param>
         public void WriteGamesToCsv(List<TimeSliceGame> games, string file, bool onlyWriteLastVector, CsvType csvType)
         {
+            if (games.Count == 0)
+                return;
+
             if (csvType == CsvType.Excel)
             {
                 CULTURE = "da-DK";
@@ -93,7 +96,7 @@ namespace StarcraftParser
             using (StreamWriter sw = new StreamWriter(new FileStream(file, FileMode.Create)))
             {
                 // Writes the CSV Header
-                sw.Write("id" + SEPERATION_SYMBOL + "time_slice" + SEPERATION_SYMBOL);
+                sw.Write("id" + SEPERATION_SYMBOL + "time_slice" + SEPERATION_SYMBOL + "replay" + SEPERATION_SYMBOL);
 
                 int counter = 0;
                 foreach (KeyValuePair<string, float> unit in games[0].GameStateVectors[0].UnitCounter)
@@ -120,7 +123,7 @@ namespace StarcraftParser
                 if (onlyWriteLastVector)
                     if (i != game.GameStateVectors.Count - 1)
                         continue;
-                sw.Write(gameId + SEPERATION_SYMBOL + i + SEPERATION_SYMBOL);
+                sw.Write(gameId + SEPERATION_SYMBOL + i + SEPERATION_SYMBOL + game.Replay + SEPERATION_SYMBOL);
 
                 int counter = 0;
                 foreach (KeyValuePair<string, float> unit in game.GameStateVectors[i].UnitCounter)

@@ -20,12 +20,13 @@ namespace StarcraftParser
         [STAThread]
         static void Main()
         {
-            //Console.WriteLine("Would you like to use the Time Slice Preprocessor (1), or the First Time Build Preprocessor (2)?");
-            //int processor = int.Parse(Console.ReadLine());
-            //Console.WriteLine("Should the result be saven in an Excel csv (1) or Weka csv (2)?");
-            //int csv = int.Parse(Console.ReadLine());
-            int processor = 1;
-            int csv = 1;
+            Console.WriteLine("How would you like to handle dublicates?\n(1) Do nothing\n(2) Remove game dublicates\n(3) Remove replay dublicates\n(4) Remove all dublicates");
+            int removeDub = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Choose processor:\nTime Slice Preprocessor (1)\nFirst Time Build Preprocessor (2)\nGraph Buildorder Preprocessor(3)");
+            int processor = int.Parse(Console.ReadLine());
+            Console.WriteLine("Choose CSV output format:\nExcel csv (1)\nWeka csv (2)");
+            int csv = int.Parse(Console.ReadLine());
 
             Parser p = new Parser();
             // Parses the raw log file from Mikkels replay parser. It returns a list of ScGames, which is simply a C# representation of a game event log.
@@ -46,21 +47,7 @@ namespace StarcraftParser
             GraphProcessor gp = new GraphProcessor();
             NodeList<ScEvent> roots = gp.ProcessGames(games);
             roots.Traverse(e => e.Occurances++);    // Debug example
-            string result = "";
-            //result = gp.ExportToGraphviz(result, roots);
-            result = gp.ExportToGraphvizAlt(result, roots);
-            using (StreamWriter sw = new StreamWriter(new FileStream("graphviz.txt", FileMode.Create)))
-            {
-                foreach (Node<ScEvent> r in roots) result += "start -> " + "\"" + r.Value.Unit + "\"" + "; \r\n";
-
-                    sw.Write("digraph G {" + " \r\n" +
-                        result + 
-                        "start [shape=Mdiamond];" +
-                        "}\r\n");
-                
-            }
-
-
+            
             // Because ScGame is just a C# representation of a game event log, we need to convert it to a more appropriate format in order to do data analysis.
             // In this instance, the VectorProcessor class is used. It converts the game event log of a ScGame game, into a list of game state vectors.
             // A game state vector will contain a list of all units produced within a timeperiod. If timeGranularity is set to 30, and timeSlice is set to 4
@@ -69,6 +56,24 @@ namespace StarcraftParser
             vp.BuildUnitList(games);
             FirstTimeBuildProcessor ftbp = new FirstTimeBuildProcessor();
             ftbp.BuildUnitList(games);
+
+            Console.WriteLine("\n");
+
+            Console.WriteLine(games.Count + " games in the input file");
+
+
+            int prevCount = games.Count;
+            if (removeDub == 2)
+                p.RemoveGameDublicates(games);
+            else if (removeDub == 3)
+                p.RemoveReplayDublicates(games);
+            else if (removeDub == 4)
+            {
+                p.RemoveGameDublicates(games);
+                p.RemoveReplayDublicates(games);
+            }
+            Console.WriteLine(prevCount - games.Count + " game dublicates removed");
+            Console.WriteLine(games.Count + " total left");
 
             if (processor == 1)
             {
@@ -97,6 +102,22 @@ namespace StarcraftParser
                 ftbp.WriteGamesToCsv(pGames.Where(i => i.Race == Race.Terran).ToList(), "output/terranGames.csv", (CsvType)csv);
                 ftbp.WriteGamesToCsv(pGames.Where(i => i.Race == Race.Protoss).ToList(), "output/protossGames.csv", (CsvType)csv);
                 ftbp.WriteGamesToCsv(pGames.Where(i => i.Race == Race.Zerg).ToList(), "output/zergGames.csv", (CsvType)csv);
+            }
+            else if (processor == 3)
+            {
+                string result = "";
+                result = gp.ExportToGraphviz(result, roots);
+                //result = gp.ExportToGraphvizAlt(result, roots);
+                using (StreamWriter sw = new StreamWriter(new FileStream("graphviz.txt", FileMode.Create)))
+                {
+                    foreach (Node<ScEvent> r in roots) result += "start -> " + "\"" + r.Value.Unit + "\"" + "; \r\n";
+
+                    sw.Write("digraph G {" + " \r\n" +
+                        result +
+                        "start [shape=Mdiamond];" +
+                        "}\r\n");
+
+                }
             }
 
             Console.WriteLine("Done!");

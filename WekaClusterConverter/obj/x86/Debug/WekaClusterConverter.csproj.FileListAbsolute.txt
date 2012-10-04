@@ -1,0 +1,4 @@
+C:\Users\Steffan\Desktop\StarcraftPreprocessor\WekaClusterConverter\bin\Debug\WekaClusterConverter.exe
+C:\Users\Steffan\Desktop\StarcraftPreprocessor\WekaClusterConverter\bin\Debug\WekaClusterConverter.pdb
+C:\Users\Steffan\Desktop\StarcraftPreprocessor\WekaClusterConverter\obj\x86\Debug\WekaClusterConverter.exe
+C:\Users\Steffan\Desktop\StarcraftPreprocessor\WekaClusterConverter\obj\x86\Debug\WekaClusterConverter.pdb
