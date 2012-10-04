@@ -18,7 +18,7 @@ namespace StarcraftParser
         public List<ScGame> Parse(string file)
         {
             string[] raw = File.ReadAllLines(file);
-            Dictionary<long, ScGame> games = new Dictionary<long, ScGame>();
+            Dictionary<string, ScGame> games = new Dictionary<string, ScGame>();
 
             Dictionary<string, int> terranUnits = new Dictionary<string, int>();
 
@@ -28,33 +28,36 @@ namespace StarcraftParser
                 string[] split = line.Split(',');
 
                 // Rå strings fra dette event, splittet op i de forskellige elementer
-                string idStr = split[0];
-                string replayStr = split[1];
-                string timeStr = split[2];
-                string playerStr = split[3]; //player id
-                string raceStr = split[4];
-                string scoreStr = split[5];
-                string unitStr = split[6];
-                string xStr = split[7];
-                string yStr = split[8];
-                string gasStr = split[9];
-                string mineralsStr = split[10];
-                string workerCountStr = split[11];
-
+                string filenameStr = split[0];
+                //string mapnameStr = split[1];
+                string timeStr = split[1];
+                string playeridStr = split[2];
+                //string playerStr = split[3];
+                string raceStr = split[3];
+                string scoreStr = split[4];
+                string unitStr = split[5];
+                string xStr = split[6];
+                string yStr = split[7];
+                string gasStr = split[8];
+                string mineralsStr = split[9];
+                string workerCountStr = split[10];
+			
                 // De forskellige ting et event består af.
-                long id;
-                string replay;
-                int time;
-                Race race = Race.Protoss;
-                int score;
-                string unit;
-                int x;
-                int y;
-                int minerals;
-                int gas;
-                int workerCount;
+                string filename = filenameStr;
+                //string mapname = mapnameStr;
+                int time = int.Parse(timeStr);
+                int playerid = int.Parse(playeridStr);
+                //string player = playerStr;
+                Race race;
+                int score = int.Parse(scoreStr);
+                string unit = unitStr;
+                int x = int.Parse(xStr);
+                int y = int.Parse(yStr);
+                int gas = int.Parse(gasStr);
+                int minerals = int.Parse(mineralsStr);
+                int workerCount = int.Parse(workerCountStr);
 
-                id = long.Parse(idStr) * 2 + long.Parse(playerStr);
+                //id = long.Parse(idStr) * 2 + long.Parse(playerStr);
 
                 replay = replayStr;
 
@@ -73,16 +76,23 @@ namespace StarcraftParser
                         throw new Exception(raceStr + "is not a race in Starcraft");
                 }
 
-                time = int.Parse(timeStr);
-                score = int.Parse(scoreStr);
-                unit = unitStr.Trim();
-                x = int.Parse(xStr);
-                y = int.Parse(yStr);
-                minerals = int.Parse(mineralsStr);
-                gas = int.Parse(gasStr);
-                workerCount = int.Parse(workerCountStr);
+                ScEvent ev = new ScEvent() {
+                    Filename = filename, 
+                    //Mapname = mapname,
+                    Time = time, 
+                    Playerid = playerid, 
+                    //Player = player, 
+                    Race = race, 
+                    Score = score, 
+                    Unit = unit,
+                    X = x, 
+                    Y = y,
+                    Gas = gas,
+                    Minerals = minerals,
+                    WorkerCount = workerCount
+                };
 
-                ScEvent ev = new ScEvent() { Gas = gas, Minerals = minerals, Race = race, Score = score, Time = time, Unit = unit, WorkerCount = workerCount, X = x, Y = y};
+                string id = filename + playerid;
 
                 if (games.ContainsKey(id) == true)
                 {
@@ -93,17 +103,11 @@ namespace StarcraftParser
                     games.Add(id, new ScGame() { Race = race, ReplayFile = replay});
                     games[id].Events.Add(ev);
                 }
-
-                if (race == Race.Terran)
-                {
-                    if (terranUnits.ContainsKey(unit) == false)
-                        terranUnits.Add(unit, 0);
-                }
             }
 
             List<ScGame> gamesList = new List<ScGame>();
 
-            foreach (KeyValuePair<long, ScGame> game in games)
+            foreach (KeyValuePair<string, ScGame> game in games)
             {
                 gamesList.Add(game.Value);
             }

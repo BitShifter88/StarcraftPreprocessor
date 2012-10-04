@@ -45,7 +45,7 @@ namespace StarcraftParser
         {
             if (race == Race.Terran)
             {
-                foreach (string unit in TerrainUnits)
+                foreach (string unit in TerranUnits)
                 {
                     vector.Add(unit, int.MaxValue);
                 }

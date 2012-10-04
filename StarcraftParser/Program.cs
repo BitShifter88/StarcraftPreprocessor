@@ -31,6 +31,36 @@ namespace StarcraftParser
             Parser p = new Parser();
             // Parses the raw log file from Mikkels replay parser. It returns a list of ScGames, which is simply a C# representation of a game event log.
             List<ScGame> games = p.Parse("input.csv");
+            games = games.Distinct().ToList();
+            
+            // Generates a "Strategy tree", in which the root node is the first
+            // building made, its children (or neighbors) are the second building made, and so forth
+            // Node data is of the type "ScEvent"
+            // The frequency of a path through the tree, is given by the node property "occurances"
+            // Example:
+            //        Protoss Pylon (450 occurances)             Protoss Nexus (3 occ)
+            //              |                                           |
+            //         /         \                                Protoss Pylon (3)
+            //  Forge (50)      Gateway (400)                          /|\
+            //    /|\               /|\
+            //
+            GraphProcessor gp = new GraphProcessor();
+            NodeList<ScEvent> roots = gp.ProcessGames(games);
+            roots.Traverse(e => e.Occurances++);    // Debug example
+            string result = "";
+            //result = gp.ExportToGraphviz(result, roots);
+            result = gp.ExportToGraphvizAlt(result, roots);
+            using (StreamWriter sw = new StreamWriter(new FileStream("graphviz.txt", FileMode.Create)))
+            {
+                foreach (Node<ScEvent> r in roots) result += "start -> " + "\"" + r.Value.Unit + "\"" + "; \r\n";
+
+                    sw.Write("digraph G {" + " \r\n" +
+                        result + 
+                        "start [shape=Mdiamond];" +
+                        "}\r\n");
+                
+            }
+
 
             // Because ScGame is just a C# representation of a game event log, we need to convert it to a more appropriate format in order to do data analysis.
             // In this instance, the VectorProcessor class is used. It converts the game event log of a ScGame game, into a list of game state vectors.
