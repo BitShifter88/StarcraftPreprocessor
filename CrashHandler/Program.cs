@@ -22,7 +22,9 @@ namespace CrashHandler
 
                 if (measures.Count == 20)
                 {
-                    //if (
+                    if (measures.OrderBy(i => i).ToList()[0] < 40)
+                    {
+                    }
                     measures.Dequeue();
                 }
                 Console.WriteLine(monitor.getCurrentCpuUsage());
