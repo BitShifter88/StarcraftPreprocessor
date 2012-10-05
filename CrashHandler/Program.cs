@@ -31,7 +31,7 @@ namespace CrashHandler
                 if (measures.Count == 20)
                 {
                     List<float> l = measures.OrderByDescending(i => i).ToList();
-                    if (measures.OrderBy(i => i).ToList()[0] < 25)
+                    if (l[0] < 25)
                     {
                         Console.WriteLine("Crash detected!");
                         string[] data = File.ReadAllLines(@"C:\Users\admin\Desktop\StarCraft\StarCraft\Starcraft\output.txt");
