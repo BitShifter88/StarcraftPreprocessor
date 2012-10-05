@@ -62,7 +62,11 @@ namespace CrashHandler
                         Thread.Sleep(5000);
                         SimulateEnter();
                         Console.WriteLine("Simulated enter click!");
+                        Thread.Sleep(60000);
+                        SimulateEnter();
+                        Console.WriteLine("Simulated enter click!");
                         Thread.Sleep(60000 * 2);
+                        Console.Write("Trying to detect StarCraft crash...");
                     }
                     measures.Clear();
                 }
