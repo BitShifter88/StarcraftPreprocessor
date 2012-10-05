@@ -2,3 +2,7 @@ C:\Users\Steffan\Desktop\Dropbox\Programming\C#\Projects\CsvConverter\CsvConvert
 C:\Users\Steffan\Desktop\Dropbox\Programming\C#\Projects\CsvConverter\CsvConverter\bin\Debug\CsvConverter.pdb
 C:\Users\Steffan\Desktop\Dropbox\Programming\C#\Projects\CsvConverter\CsvConverter\obj\x86\Debug\CsvConverter.exe
 C:\Users\Steffan\Desktop\Dropbox\Programming\C#\Projects\CsvConverter\CsvConverter\obj\x86\Debug\CsvConverter.pdb
+C:\Users\Steffan\Desktop\StarcraftPreprocessor\CsvConverter\CsvConverter\bin\Debug\CsvConverter.exe
+C:\Users\Steffan\Desktop\StarcraftPreprocessor\CsvConverter\CsvConverter\bin\Debug\CsvConverter.pdb
+C:\Users\Steffan\Desktop\StarcraftPreprocessor\CsvConverter\CsvConverter\obj\x86\Debug\CsvConverter.exe
+C:\Users\Steffan\Desktop\StarcraftPreprocessor\CsvConverter\CsvConverter\obj\x86\Debug\CsvConverter.pdb
