@@ -7,6 +7,8 @@ using System.Threading;
 using System.IO;
 using System.Runtime.InteropServices;
 using System.Windows.Forms;
+using System.Drawing;
+using System.Drawing.Imaging;
 
 namespace CrashHandler
 {
@@ -34,6 +36,9 @@ namespace CrashHandler
                     if (l[0] < 25)
                     {
                         Console.WriteLine("Crash detected!");
+                        Console.WriteLine("Taking screenshot of crash..");
+                        TakeScreenShot();
+
                         string[] data = File.ReadAllLines(@"C:\Users\admin\Desktop\StarCraft\StarCraft\Starcraft\output.txt");
 
                         Console.WriteLine("Reading output file..");
@@ -76,6 +81,17 @@ namespace CrashHandler
                 SendKeys.SendWait("{ENTER}");
             }
 
+        }
+
+        private static void TakeScreenShot()
+        {
+            Bitmap bmpScreenshot = new Bitmap(Screen.PrimaryScreen.Bounds.Width, Screen.PrimaryScreen.Bounds.Height, PixelFormat.Format32bppArgb);
+            // Create a graphics object from the bitmap
+            Graphics gfxScreenshot = Graphics.FromImage(bmpScreenshot);
+            // Take the screenshot from the upper left corner to the right bottom corner
+            gfxScreenshot.CopyFromScreen(Screen.PrimaryScreen.Bounds.X, Screen.PrimaryScreen.Bounds.Y, 0, 0, Screen.PrimaryScreen.Bounds.Size, CopyPixelOperation.SourceCopy);
+            // Save the screenshot to the specified path that the user has chosen
+            bmpScreenshot.Save(new Random().Next(0,100000000) + ".png", ImageFormat.Png);
         }
     }
 }
