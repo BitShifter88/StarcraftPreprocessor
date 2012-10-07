@@ -43,18 +43,13 @@ namespace CrashHandler
 
                         Console.WriteLine("Reading output file..");
                         string replay = data[data.Length - 1].Split(',')[1];
-
                         Console.WriteLine("Replay " + replay + " caused the crash!");
-                        Process.GetProcesses().First(i => i.ProcessName == "StarCraft").Kill();
 
-                        Console.WriteLine("Starcraft process killed!");
-                        Thread.Sleep(500);
+                        MoveGoodReplays(GetAllReplays(data));
 
-                        File.Delete(@"C:\Users\admin\Desktop\StarCraft\StarCraft\Starcraft\maps\replays\" + replay);
-                        Console.WriteLine("Bad Replay deleted");
+                        KillStarcraft(replay);
 
-                        File.Delete(@"C:\Users\admin\Desktop\StarCraft\StarCraft\Starcraft\output.txt");
-                        Console.WriteLine("output.txt deleted");
+                        HandleFiles(replay, data);
 
                         Process.Start(@"C:\Users\admin\Desktop\StarCraft\StarCraft\Chaoslauncher\Chaoslauncher.exe");
                         Console.WriteLine("Chaoslauncher started!");
@@ -63,9 +58,6 @@ namespace CrashHandler
                         SimulateEnter();
                         Console.WriteLine("Simulated enter click!");
                         Thread.Sleep(60000);
-                        SimulateEnter();
-                        Console.WriteLine("Simulated enter click!");
-                        Thread.Sleep(60000 * 2);
                         Console.Write("Trying to detect StarCraft crash...");
                     }
                     measures.Clear();
@@ -73,6 +65,55 @@ namespace CrashHandler
             }
 
             Console.ReadLine();
+        }
+
+        private static void MoveGoodReplays(List<string> replays)
+        {
+            foreach (string replay in replays)
+            {
+                File.Move(@"C:\Users\admin\Desktop\StarCraft\StarCraft\Starcraft\maps\replays\" + replay, @"goodReplays\" + replay);
+            }
+            Console.WriteLine("Good replays moved to safe place!");
+            File.Copy(@"C:\Users\admin\Desktop\StarCraft\StarCraft\Starcraft\output.txt", @"goodReplays\output.txt");
+        }
+
+        private static List<string> GetAllReplays(string[] data)
+        {
+            List<string> replays = new List<string>();
+            foreach (string line in data)
+            {
+                string replay = line.Split(',')[1];
+                if (replays.Contains(replay) == false)
+                    replays.Add(replay);
+            }
+            replays.Remove(replays[replays.Count - 1]);
+            return replays;
+        }
+
+        private static void HandleFiles(string badReplay, string[] outputFileData)
+        {
+            List<string> newOutputData = new List<string>();
+
+            foreach (string line in outputFileData)
+            {
+                if (line.Contains(badReplay) == false)
+                    newOutputData.Add(line);
+            }
+
+            File.Move(@"C:\Users\admin\Desktop\StarCraft\StarCraft\Starcraft\maps\replays\" + badReplay, @"badReplays\" + badReplay);
+            Console.WriteLine("Bad Replay moved");
+            File.Delete(@"C:\Users\admin\Desktop\StarCraft\StarCraft\Starcraft\output.txt");
+            Thread.Sleep(500);
+            File.WriteAllLines(@"C:\Users\admin\Desktop\StarCraft\StarCraft\Starcraft\output.txt", newOutputData.ToArray());
+            Console.WriteLine("output.txt updated");
+        }
+
+        private static void KillStarcraft(string replay)
+        {
+            
+            Process.GetProcesses().First(i => i.ProcessName == "StarCraft").Kill();
+            Console.WriteLine("Starcraft killed!");
+            Thread.Sleep(500);
         }
 
         private static void SimulateEnter()
