@@ -45,7 +45,7 @@ namespace CrashHandler
                         string replay = data[data.Length - 1].Split(',')[1];
                         Console.WriteLine("Replay " + replay + " caused the crash!");
 
-                        MoveGoodReplays(GetAllReplays(data));
+                        MoveGoodReplays(GetAllGoodReplays(data));
 
                         KillStarcraft(replay);
 
@@ -71,13 +71,14 @@ namespace CrashHandler
         {
             foreach (string replay in replays)
             {
-                File.Move(@"C:\Users\admin\Desktop\StarCraft\StarCraft\Starcraft\maps\replays\" + replay, @"goodReplays\" + replay);
+                if (File.Exists(@"C:\Users\admin\Desktop\StarCraft\StarCraft\Starcraft\maps\replays\" + replay))
+                    File.Move(@"C:\Users\admin\Desktop\StarCraft\StarCraft\Starcraft\maps\replays\" + replay, @"goodReplays\" + replay);
             }
             Console.WriteLine("Good replays moved to safe place!");
-            File.Copy(@"C:\Users\admin\Desktop\StarCraft\StarCraft\Starcraft\output.txt", @"goodReplays\output.txt");
+            File.Copy(@"C:\Users\admin\Desktop\StarCraft\StarCraft\Starcraft\output.txt", @"goodReplays\output.txt", true);
         }
 
-        private static List<string> GetAllReplays(string[] data)
+        private static List<string> GetAllGoodReplays(string[] data)
         {
             List<string> replays = new List<string>();
             foreach (string line in data)

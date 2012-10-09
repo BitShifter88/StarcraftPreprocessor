@@ -1,0 +1,4 @@
+C:\Users\Steffan\Desktop\StarcraftPreprocessor\CrashHandler\bin\Release\CrashHandler.exe
+C:\Users\Steffan\Desktop\StarcraftPreprocessor\CrashHandler\bin\Release\CrashHandler.pdb
+C:\Users\Steffan\Desktop\StarcraftPreprocessor\CrashHandler\obj\x86\Release\CrashHandler.exe
+C:\Users\Steffan\Desktop\StarcraftPreprocessor\CrashHandler\obj\x86\Release\CrashHandler.pdb
