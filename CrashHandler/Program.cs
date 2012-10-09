@@ -58,6 +58,7 @@ namespace CrashHandler
                         SimulateEnter();
                         Console.WriteLine("Simulated enter click!");
                         Thread.Sleep(60000);
+                        Console.WriteLine("=================================");
                         Console.Write("Trying to detect StarCraft crash...");
                     }
                     measures.Clear();
@@ -111,10 +112,19 @@ namespace CrashHandler
 
         private static void KillStarcraft(string replay)
         {
-            
-            Process.GetProcesses().First(i => i.ProcessName == "StarCraft").Kill();
-            Console.WriteLine("Starcraft killed!");
-            Thread.Sleep(500);
+            Process p = Process.GetProcesses().First(i => i.ProcessName == "StarCraft");
+
+            if (p != null)
+            {
+                p.Kill();
+                Console.WriteLine("Starcraft killed!");
+                Thread.Sleep(500);
+            }
+            if (p == null)
+            {
+                Console.WriteLine("What the fuck yo? Starcraft process is not running.. So i can't kill it.. Ehm.. Press enter to continue, or something");
+                Console.ReadLine();
+            }
         }
 
         private static void SimulateEnter()
